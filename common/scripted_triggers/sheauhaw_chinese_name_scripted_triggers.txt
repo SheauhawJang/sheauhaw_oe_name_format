@@ -1,0 +1,226 @@
+﻿using_oe_uiname_landed_trigger = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_chinese }
+
+		culture = { has_cultural_pillar = heritage_goryeo }
+		culture = { has_name_list = name_list_khitan }
+		culture = { has_name_list = name_list_jurchen }
+		culture = { has_name_list = name_list_balhae }
+		culture = { has_name_list = name_list_jiaozhi }
+		culture = { has_name_list = name_list_tuyuhun }
+		
+		AND = {
+			culture = { has_name_list = name_list_sogdian }
+			location ?= { geographical_region = world_asia_china }
+		}
+		AND = {
+			culture = { has_name_list = name_list_uyghur}
+			location ?= { geographical_region = world_asia_china }
+		}
+		culture = { has_name_list = name_list_bai }
+	}
+	is_lowborn = no
+	using_oe_uiname_landed_tenno_family_trigger = no
+}
+
+using_oe_uiname_landed_house_trigger = {
+	OR = {
+		#culture = { has_cultural_pillar = heritage_chinese }
+		culture = { has_cultural_pillar = heritage_yamato }
+		culture = { has_cultural_pillar = heritage_hunic }
+		culture = { has_cultural_pillar = heritage_qiangic }
+		culture = { has_name_list = name_list_shatuo }
+		culture = { has_name_list = name_list_tangut }
+		religion = religion:confucianism_religion
+
+		culture = { has_cultural_pillar = heritage_magyar }
+		culture = { has_cultural_pillar = heritage_tibetan }
+	}
+	is_lowborn = no
+	using_oe_uiname_landed_tenno_family_trigger = no
+}
+
+using_oe_uiname_landed_nanman_trigger = {
+	OR = {
+		culture = {
+			has_name_list = name_list_wuman
+		}
+		culture = {
+			has_name_list = name_list_qiang
+		}
+	}
+	exists = father
+	using_oe_uiname_landed_tenno_family_trigger = no
+}
+
+using_oe_uiname_landed_steppe_trigger = {
+	OR = {
+		culture = {
+			has_name_list = name_list_karluk
+		}
+		culture = {
+			has_name_list = name_list_cuman
+		}
+		culture = {
+			has_name_list = name_list_avar
+		}
+		culture = {
+			has_name_list = name_list_kimek
+		}
+		culture = {
+			has_name_list = name_list_khazar
+		}
+		culture = {
+			has_name_list = name_list_bolghar
+		}
+	}
+	exists = primary_title
+	using_oe_uiname_landed_tenno_family_trigger = no
+}
+
+using_oe_uiname_landed_tenno_family_trigger = {
+	culture = { has_cultural_pillar = heritage_yamato }
+	dynasty = dynasty:10000420
+}
+
+using_oe_uiname_landed_any_trigger = {
+	OR = {
+		using_oe_uiname_landed_trigger = yes
+		using_oe_uiname_landed_house_trigger = yes
+		using_oe_uiname_landed_nanman_trigger = yes
+		using_oe_uiname_landed_steppe_trigger = yes
+		using_oe_uiname_landed_tenno_family_trigger = yes
+	}
+}
+
+using_oe_uiname_mh_trigger = {
+	OR = {
+		has_shihao_trigger = yes
+		has_miaohao_trigger = yes
+	}
+}
+
+using_oe_uiname_tenno_yamato_trigger = {
+	using_oe_uiname_landed_tenno_family_trigger = yes
+	OR = {
+		has_title = title:d_gosho
+		has_trait = sheauhaw_tenno_name_trait
+		AND = {
+			exists = primary_title
+			primary_title = title:d_gosho
+		}
+	}
+}
+
+using_oe_uiname_daijo_tenno_yamato_trigger = {
+	using_oe_uiname_landed_tenno_family_trigger = yes
+	has_trait = joko
+	OR = {
+		is_alive = yes
+		AND = {
+			exists = primary_title
+			primary_title.tier >= tier_kingdom
+		}
+	}
+}
+
+using_oe_uiname_hoo_tenno_yamato_trigger = {
+	using_oe_uiname_landed_tenno_family_trigger = yes
+	has_trait = hoo
+	OR = {
+		is_alive = yes
+		AND = {
+			exists = primary_title
+			primary_title.tier >= tier_kingdom
+		}
+	}
+}
+
+using_oe_uiname_shanghuang_trigger = {
+	has_trait = shanghuang
+	AND = {
+		OR = {
+			NOT = {
+				exists = primary_title
+			}
+			primary_title.tier < tier_empire
+		}
+		OR = {
+			NOT = {
+				exists = primary_spouse
+			}
+			NOT = {
+				exists = primary_spouse.primary_title
+			}
+			primary_spouse.primary_title.tier < tier_empire
+		}
+	}
+	using_oe_uiname_landed_any_trigger = yes
+}
+
+using_oe_uiname_religious_trigger = {
+	exists = primary_title
+	OR = {
+		AND = {
+			exists = faith.religious_head_title
+			primary_title = faith.religious_head_title
+		}
+		primary_title = title:d_incho
+		primary_title = title:d_sekke
+	}
+	using_oe_uiname_landed_any_trigger = yes
+}
+
+using_oe_uiname_landed_religious_trigger = {
+	OR = {
+		AND = {
+			exists = faith.religious_head
+			this = faith.religious_head
+			NAND = {
+				exists = faith.religious_head_title
+				OR = {
+					AND = {
+						faith.religious_head_title = title:d_sunni
+						is_female = no
+					}
+					AND = {
+						faith.religious_head_title = title:d_shiite
+						is_female = no
+					}
+					faith.religious_head_title = title:d_gosho
+					faith.religious_head_title = title:k_orthodox
+				}
+			}
+			NAND = {
+				exists = primary_title
+				exists = faith.religious_head_title
+				primary_title = faith.religious_head_title
+			}
+		}
+		#AND = {
+		#exists = primary_title
+		#exists = faith.religious_head_title
+		#primary_title = faith.religious_head_title
+		#}
+		has_trait = sheauhaw_dead_religious_head_trait
+	}
+	using_oe_uiname_landed_any_trigger = yes
+}
+
+using_oe_uiname_shinno = {
+	OR = {
+		father = { has_trait = sheauhaw_tenno_name_trait }
+		father.father = { has_trait = sheauhaw_tenno_name_trait }
+	#	father.father.father = { has_trait = sheauhaw_tenno_name_trait }
+	#	father.father.father.father = { has_trait = sheauhaw_tenno_name_trait }
+	}
+}
+
+using_oe_uiname_self = {
+	exists = primary_title
+	#NAND = {
+	#	exists = primary_spouse 
+	#	primary_spouse = { exists = primary_title }
+	#	primary_title.tier < primary_spouse.primary_title.tier
+	#}
+}

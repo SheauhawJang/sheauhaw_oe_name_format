@@ -1,0 +1,17 @@
+﻿
+
+SheauhawXY = {
+	type = character
+	gender = male
+	special = holder
+	priority = 1
+	top_liege = no
+}
+
+SheauhawXX = {
+	type = character
+	gender = female
+	special = holder
+	priority = 1
+	top_liege = no
+}

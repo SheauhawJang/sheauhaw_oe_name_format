@@ -1,0 +1,1067 @@
+﻿
+Sheauhaw_GetPrincePrincess = {
+	type = character
+
+	text = {
+		localization_key = prince_father
+		trigger = {
+			exists = father
+			father = {
+				exists = primary_title
+				primary_title.tier = tier_kingdom
+			}
+		}
+	}
+
+	text = {
+		localization_key = princess_mother
+		trigger = {
+			exists = mother
+			mother = {
+				exists = primary_title
+				primary_title.tier = tier_kingdom
+			}
+		}
+	}
+}
+
+Sheauhaw_GetPrincePrincess_FatherChecker = {
+	type = character
+
+	# Priority 41
+	text = {
+		localization_key = prince_muslim_male_dravidian_group
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_muslim_female_dravidian_group
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	# Priority 40
+	text = {
+		localization_key = prince_male_roman
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_roman
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iberian_group
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iberian_group
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iranian_group
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iranian_group
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_dravidian_group
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_dravidian_group
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+	
+	# Priority 39
+	text = {
+		localization_key = prince_han_heir
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+			father = {
+				is_alive = yes
+				exists = primary_heir
+				primary_heir = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_han
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = princess_han
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+
+	# Priority 36
+	text = {
+		localization_key = prince_altaic_group_R
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_turkic
+						has_cultural_pillar = heritage_mongolic
+						has_cultural_pillar = heritage_qiangic
+						has_cultural_pillar = heritage_tunguse
+						has_cultural_pillar = heritage_iranian
+						has_cultural_pillar = heritage_tocharian
+						has_cultural_pillar = heritage_tibetan
+					}
+				}
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = princess_altaic_group_R
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_turkic
+						has_cultural_pillar = heritage_mongolic
+						has_cultural_pillar = heritage_qiangic
+						has_cultural_pillar = heritage_tunguse
+						has_cultural_pillar = heritage_iranian
+						has_cultural_pillar = heritage_tocharian
+						has_cultural_pillar = heritage_tibetan
+					}
+				}
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+				}
+			}
+		}
+	}
+	
+	# Priority 35
+	text = {
+		localization_key = prince
+		trigger = {
+			is_female = no
+		}
+	}
+
+	text = {
+		localization_key = princess
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+Sheauhaw_GetPrincePrincess_MotherChecker = {
+	type = character
+
+	# Priority 41
+	text = {
+		localization_key = prince_muslim_male_dravidian_group
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_muslim_female_dravidian_group
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	# Priority 40
+	text = {
+		localization_key = prince_male_roman
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_roman
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iberian_group
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iberian_group
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iranian_group
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iranian_group
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_dravidian_group
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_dravidian_group
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+	
+	# Priority 39
+	text = {
+		localization_key = prince_han_heir
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+			mother = {
+				is_alive = yes
+				exists = primary_heir
+				primary_heir = root
+			}
+		}
+	}
+	text = {
+		localization_key = prince_han
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = princess_han
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+
+	# Priority 36
+	text = {
+		localization_key = prince_altaic_group_R
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_turkic
+						has_cultural_pillar = heritage_mongolic
+						has_cultural_pillar = heritage_qiangic
+						has_cultural_pillar = heritage_tunguse
+						has_cultural_pillar = heritage_iranian
+						has_cultural_pillar = heritage_tocharian
+						has_cultural_pillar = heritage_tibetan
+					}
+				}
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = princess_altaic_group_R
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_turkic
+						has_cultural_pillar = heritage_mongolic
+						has_cultural_pillar = heritage_qiangic
+						has_cultural_pillar = heritage_tunguse
+						has_cultural_pillar = heritage_iranian
+						has_cultural_pillar = heritage_tocharian
+						has_cultural_pillar = heritage_tibetan
+					}
+				}
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+				}
+			}
+		}
+	}
+	
+	# Priority 35
+	text = {
+		localization_key = prince
+		trigger = {
+			is_female = no
+		}
+	}
+
+	text = {
+		localization_key = princess
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+Sheauhaw_GetPrincePrincess_Empire = {
+	type = character
+
+	text = {
+		localization_key = prince_empire_father
+		trigger = {
+			exists = father
+			father = {
+				exists = primary_title
+				primary_title.tier = tier_empire
+			}
+		}
+	}
+
+	text = {
+		localization_key = princess_empire_mother
+		trigger = {
+			exists = mother
+			mother = {
+				exists = primary_title
+				primary_title.tier = tier_empire
+			}
+		}
+	}
+}
+
+Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
+	type = character
+
+	# Priority 41
+	text = {
+		localization_key = prince_muslim_male_dravidian_group_empire
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_muslim_female_dravidian_group_empire
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	# Priority 40
+	text = {
+		localization_key = prince_male_roman_empire
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_roman_empire
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iberian_group_empire
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iberian_group_empire
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iranian_group_empire
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iranian_group_empire
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_dravidian_group_empire
+		trigger = {
+			is_female = no
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_dravidian_group_empire
+		trigger = {
+			is_female = yes
+			father = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+	
+	# Priority 39
+	text = {
+		localization_key = prince_empire_han_heir
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+			father = {
+				is_alive = yes
+				exists = primary_heir
+				primary_heir = root
+			}
+		}
+	}
+	text = {
+		localization_key = prince_empire_han
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = princess_empire_han
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+	
+	# Priority 35
+	text = {
+		localization_key = prince_empire
+		trigger = {
+			is_female = no
+		}
+	}
+
+	text = {
+		localization_key = princess_empire
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
+	type = character
+
+	# Priority 41
+	text = {
+		localization_key = prince_muslim_male_dravidian_group_empire
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_muslim_female_dravidian_group_empire
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	# Priority 40
+	text = {
+		localization_key = prince_male_roman_empire
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_roman_empire
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					has_name_list = name_list_roman
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iberian_group_empire
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iberian_group_empire
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iberian
+				}
+				has_government = feudal_government
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_iranian_group_empire
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_iranian_group_empire
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					has_cultural_pillar = heritage_iranian
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_male_dravidian_group_empire
+		trigger = {
+			is_female = no
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = prince_female_dravidian_group_empire
+		trigger = {
+			is_female = yes
+			mother = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_dravidian
+						has_cultural_pillar = heritage_indo_aryan
+					}
+				}
+			}
+		}
+	}
+	
+	# Priority 39
+	text = {
+		localization_key = prince_empire_han_heir
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+			mother = {
+				is_alive = yes
+				exists = primary_heir
+				primary_heir = root
+			}
+		}
+	}
+	text = {
+		localization_key = prince_empire_han
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = princess_empire_han
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = heritage_goryeo
+					}
+				}
+				OR = {
+					has_government = celestial_government
+					has_government = legion_government
+					has_government = bureau_government
+				}
+			}
+		}
+	}
+	
+	# Priority 35
+	text = {
+		localization_key = prince_empire
+		trigger = {
+			is_female = no
+		}
+	}
+
+	text = {
+		localization_key = princess_empire
+		trigger = {
+			is_female = yes
+		}
+	}
+}

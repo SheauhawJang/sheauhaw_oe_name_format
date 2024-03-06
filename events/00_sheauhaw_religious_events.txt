@@ -1,0 +1,52 @@
+﻿namespace = sheauhaw_religious
+
+sheauhaw_religious.0001 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				scope:title = title:d_gosho
+			}
+			add_trait = sheauhaw_tenno_name_trait
+		}
+	}
+}
+
+sheauhaw_religious.0002 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				exists = faith.religious_head
+				this = faith.religious_head
+				NAND = {
+					exists = faith.religious_head_title
+					OR = {
+						AND = {
+							faith.religious_head_title = title:d_sunni
+							is_female = no
+						}
+						AND = {
+							faith.religious_head_title = title:d_shiite
+							is_female = no
+						}
+						faith.religious_head_title = title:d_gosho
+						faith.religious_head_title = title:k_orthodox
+					}
+				}
+				NAND = {
+					exists = primary_title
+					exists = faith.religious_head_title
+					primary_title = faith.religious_head_title
+				}
+				using_oe_uiname_landed_any_trigger = yes
+			}
+			add_trait = sheauhaw_dead_religious_head_trait
+		}
+		else = {
+			remove_trait = sheauhaw_dead_religious_head_trait
+		}
+	}
+}

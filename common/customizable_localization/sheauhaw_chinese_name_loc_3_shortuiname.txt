@@ -1,0 +1,184 @@
+﻿OE_GetShortUINameNotMeNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_In
+		trigger = {
+			OR = {
+				using_oe_uiname_daijo_tenno_yamato_trigger = yes
+				using_oe_uiname_hoo_tenno_yamato_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_Tenno
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname_house
+		trigger = {
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname_steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetShortUINameNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINameNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINameNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetShortUINameNotMe = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINameNotMe_default
+		fallback = yes
+	}
+}
+OE_GetShortUIName = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINameNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUIName_default
+		fallback = yes
+	}
+}
+OE_GetShortUINamePossessiveNotMyNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_In
+		trigger = {
+			OR = {
+				using_oe_uiname_daijo_tenno_yamato_trigger = yes
+				using_oe_uiname_hoo_tenno_yamato_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_Tenno
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname_house
+		trigger = {
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname_steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetShortUINamePossessiveNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetShortUINamePossessiveNotMy = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMy_default
+		fallback = yes
+	}
+}
+OE_GetShortUINamePossessive = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessive_default
+		fallback = yes
+	}
+}

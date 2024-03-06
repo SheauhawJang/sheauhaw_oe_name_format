@@ -1,0 +1,11 @@
+﻿l_trad_chinese:
+	trait_sheauhaw_tenno_name_trait:0 "天皇"
+	trait_sheauhaw_tenno_name_trait_desc:0 "使用追號稱呼天皇。"
+	trait_sheauhaw_tenno_name_trait_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]天皇是[ROOT.GetCharacter.GetOriginalFirstName]的追號，使用追號稱呼[ROOT.GetCharacter.GetHerHim]。"
+	trait_sheauhaw_dead_religious_head_trait:0 "宗教領袖"
+	trait_sheauhaw_dead_religious_head_desc:0 "使用宗教頭銜稱呼宗教領袖。"
+	trait_sheauhaw_dead_religious_head_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]是[ROOT.GetCharacter.GetFaith.GetAdjective]的[ROOT.GetCharacter.GetFaith.ReligiousHeadName]，使用宗教頭銜稱呼[ROOT.GetCharacter.GetHerHim]。"
+	SheauhawXX:0 "$none$"
+	SheauhawXY:0 "$none$"
+	prince_han_heir:0 "世子"
+	prince_empire_han_heir:0 "皇太子"

@@ -1,0 +1,387 @@
+﻿OE_GetNameNicknamedNoTooltip = {
+	type = character	
+
+	text = {
+		localization_key = Loc_china_GetNameNicknamedNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+		}
+	}	
+	# Tenno
+	text = {
+		localization_key = Loc_OE_HooTennoGetNameNicknamedNoTooltip
+		trigger = {
+			using_oe_uiname_hoo_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_DaijoTennoGetNameNicknamedNoTooltip
+		trigger = {
+			using_oe_uiname_daijo_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_TennoGetNameNicknamedNoTooltip
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Shanghuang
+		trigger = {
+			using_oe_uiname_shanghuang_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_HooTenno
+		trigger = {
+			has_trait = hoo
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_DaijoTenno
+		trigger = {
+			has_trait = joko
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+
+
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_LandedReligious
+		trigger = {
+			using_oe_uiname_landed_religious_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Religious
+		trigger = {
+			using_oe_uiname_religious_trigger = yes
+		}
+	}
+
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Mothers
+		trigger = {
+			is_female = yes
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier < tier_empire
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier < tier_empire
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_NotMothers
+		fallback = yes
+	}
+}
+
+OE_GetNameNicknamedNoTooltip_Empress_GrandMother_Branch = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Empress_GrandMother
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedNoTooltip_King_GrandMother_Branch = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_King_GrandMother
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedNoTooltip_Empress_Mother_Branch = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Empress_Mother
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedNoTooltip_King_Mother_Branch = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_King_Mother
+		fallback = yes
+	}
+}
+
+OE_GetNameNicknamedNoTooltip_MothersFallback = {
+	type = character
+
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Prince_Emperor
+		trigger = {
+			exists = father
+			father = {
+				exists = primary_title
+				primary_title.tier = tier_empire
+			}
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier <= tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier <= tier_duchy
+			}
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Prince_Emperess
+		trigger = {
+			exists = mother
+			mother = {
+				exists = primary_title
+				primary_title.tier = tier_empire
+			}
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier <= tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier <= tier_duchy
+			}
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Prince_King
+		trigger = {
+			exists = father
+			father = {
+				exists = primary_title
+				primary_title.tier = tier_kingdom
+			}
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier <= tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier <= tier_duchy
+			}
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Prince_Queen
+		trigger = {
+			exists = mother
+			mother = {
+				exists = primary_title
+				primary_title.tier = tier_kingdom
+			}
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier <= tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier <= tier_duchy
+			}
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Landed_SpouseCheck
+		trigger = {
+			exists = primary_spouse 
+			primary_spouse = { exists = primary_title }
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier < primary_spouse.primary_title.tier
+			}
+			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Landed_SpouseFallback
+		fallback = yes
+	}
+}
+
+OE_GetNameNicknamedNoTooltip_SpouseBranch = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_ReligiousSpouse
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				using_oe_uiname_religious_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Spouse_Steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Landed_Spouse
+		fallback = yes
+	}
+}
+
+OE_GetNameNicknamedNoTooltip_SpouseFallback = {
+	type = character
+	# Steppe
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes	
+			using_oe_uiname_self = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Landed
+		trigger = {
+			using_oe_uiname_landed_any_trigger = yes
+			using_oe_uiname_self = yes
+		}
+	}
+	# Diarch, only alive
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Diarch
+		trigger = {
+			using_oe_uiname_landed_any_trigger = yes
+			using_oe_uiname_landed_steppe_trigger = no
+			OR = {
+				AND = {
+					exists = liege
+					is_diarch_of_target = liege
+				}		
+				AND = {
+					exists = liege.liege
+					is_diarch_of_target = liege.liege
+				}		
+				AND = {
+					exists = liege.liege.liege
+					is_diarch_of_target = liege.liege.liege
+				}		
+				AND = {
+					exists = liege.liege.liege.liege
+					is_diarch_of_target = liege.liege.liege.liege
+				}		
+				AND = {
+					exists = liege.liege.liege.liege.liege
+					is_diarch_of_target = liege.liege.liege.liege
+				}		
+			}
+		}
+	}
+	# is_councillor = yes, only alive
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Council
+		trigger = {
+			using_oe_uiname_landed_any_trigger = yes
+			using_oe_uiname_landed_steppe_trigger = no
+			is_councillor = yes
+		}
+	}
+	# Landless
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_firstname_house
+		trigger = {					
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedOrMeNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedOrMeNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedOrMeNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetNameNicknamed = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamed_tooltip
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedOrMe = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedOrMeNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedOrMe_tooltip
+		fallback = yes
+	}
+}
+
+OE_GetNameNicknamedNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedOrMeNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedOrMeNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedRegnal_default
+		fallback = yes
+	}
+}
+OE_GetNameNicknamedOrMeRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedOrMeRegnal_default
+		fallback = yes
+	}
+}

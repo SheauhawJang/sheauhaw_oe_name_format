@@ -1,0 +1,31 @@
+﻿sheauhaw_dead_religious_head_trait = {
+
+	shown_in_ruler_designer = no
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sheauhaw_dead_religious_head_desc
+			}
+			desc = trait_sheauhaw_dead_religious_head_character_desc
+		}
+	}
+}
+
+sheauhaw_tenno_name_trait = {
+
+	shown_in_ruler_designer = no
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sheauhaw_tenno_name_trait_desc
+			}
+			desc = trait_sheauhaw_tenno_name_trait_character_desc
+		}
+	}
+}

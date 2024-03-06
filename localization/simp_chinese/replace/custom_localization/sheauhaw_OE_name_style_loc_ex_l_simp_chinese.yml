@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+  prince_father:0 "[ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_FatherChecker')]"
+  princess_mother:0 "[ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_MotherChecker')]"
+  prince_empire_father:0 "[ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Empire_FatherChecker')]"
+  princess_empire_mother:0 "[ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Empire_MotherChecker')]"
+  prince_altaic_group_R:0 "[ROOT.Char.Custom('altaic_title_prince')]"
+  princess_altaic_group_R:0 "[ROOT.Char.Custom('altaic_title_princess')]"

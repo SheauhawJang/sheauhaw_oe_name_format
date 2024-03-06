@@ -1,0 +1,560 @@
+﻿OE_GetTitledFirstNameNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_In
+		trigger = {
+			OR = {
+				using_oe_uiname_daijo_tenno_yamato_trigger = yes
+				using_oe_uiname_hoo_tenno_yamato_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_Tenno
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname_house
+		trigger = {
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname_steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameOrMeNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstName = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstName_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameOrMe = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMe_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedOrMeNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamed = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamed_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedOrMe = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMe_default
+		fallback = yes
+	}
+}
+
+
+OE_GetTitledFirstNamePossessiveNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_In
+		trigger = {
+			OR = {
+				using_oe_uiname_daijo_tenno_yamato_trigger = yes
+				using_oe_uiname_hoo_tenno_yamato_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_Tenno
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname_house
+		trigger = {
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname_steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNamePossessiveOrMyNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNamePossessive = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessive_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNamePossessiveOrMy = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMy_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveNoTooltip_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltip_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessive = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessive_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveOrMy = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltip_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMy_default
+		fallback = yes
+	}
+}
+
+OE_GetTitledFirstNameNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_In
+		trigger = {
+			OR = {
+				using_oe_uiname_daijo_tenno_yamato_trigger = yes
+				using_oe_uiname_hoo_tenno_yamato_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_Tenno
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname_house
+		trigger = {
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname_steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameOrMeNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameOrMeRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameOrMeRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedNoTooltipRegnal_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedOrMeNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedOrMeRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedOrMeRegnal_default
+		fallback = yes
+	}
+}
+
+OE_GetTitledFirstNamePossessiveNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_In
+		trigger = {
+			OR = {
+				using_oe_uiname_daijo_tenno_yamato_trigger = yes
+				using_oe_uiname_hoo_tenno_yamato_trigger = yes
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_Tenno
+		trigger = {
+			using_oe_uiname_tenno_yamato_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname
+		trigger = {
+			using_oe_uiname_landed_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname_house
+		trigger = {
+			using_oe_uiname_landed_house_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname_nanman
+		trigger = {
+			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname_steppe
+		trigger = {
+			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname_tenno
+		trigger = {
+			using_oe_uiname_landed_tenno_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNamePossessiveOrMyNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNamePossessiveRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNamePossessiveOrMyRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveOrMyRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveNoTooltipRegnal_MH
+		trigger = {
+			using_oe_uiname_mh_trigger = yes
+			has_miaohao_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltipRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltipRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveRegnal_default
+		fallback = yes
+	}
+}
+OE_GetTitledFirstNameNicknamedPossessiveOrMyRegnal = {
+	type = character
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyNoTooltipRegnal_Me
+		trigger = {
+			is_local_player = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNicknamedPossessiveOrMyRegnal_default
+		fallback = yes
+	}
+}

@@ -1,0 +1,13 @@
+﻿
+on_title_gain = {
+	events = {
+		sheauhaw_religious.0001
+		#sheauhaw_religious.0004
+	}
+}
+ 
+on_death = {
+	events = {
+		sheauhaw_religious.0002
+	}
+}
