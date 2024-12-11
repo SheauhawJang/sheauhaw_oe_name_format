@@ -46,7 +46,8 @@
   Loc_OE_GetNamePossessiveNoTooltip_firstname:0 "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip]·[ROOT.Char.GetFirstNamePossessiveNoTooltip]" 
   Loc_OE_GetNamePossessiveNoTooltip_firstname_house:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]·[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
   Loc_OE_GetNamePossessiveNoTooltip_firstname_nanman:0 "[ROOT.Char.GetFather.GetFirstNameNoTooltip]·[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
-  Loc_OE_GetNamePossessiveNoTooltip_firstname_tenno:0 "[ROOT.Char.GetFirstNameNoTooltip]·[ROOT.Char.Custom('Sheauhaw_GetShinnoPossessive')]"
+  Loc_OE_GetNamePossessiveNoTooltip_firstname_miyake:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]宫·[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
+  Loc_OE_GetNamePossessiveNoTooltip_firstname_tenno:0 "#M [ROOT.Char.GetFirstNamePossessiveNoTooltip]#!"
 
   Loc_OE_GetNamePossessiveNoTooltip_default:0 "[ROOT.Char.GetNamePossessiveNoTooltip]"
   Loc_OE_GetNamePossessiveNoTooltip_otherlandeddefult:0 "[ROOT.Char.GetNamePossessiveNoTooltip]"

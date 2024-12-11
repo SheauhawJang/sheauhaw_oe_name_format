@@ -1,40 +1,4 @@
-﻿
-
-Sheauhaw_GetShinno = {
-	type = character
-
-	text = {
-		localization_key = sheauhaw_shinno
-		trigger = {
-			is_female = no
-			using_oe_uiname_shinno = yes
-		}
-	}
-
-	text = {
-		localization_key = sheauhaw_naishinno
-		trigger = {
-			is_female = yes
-			using_oe_uiname_shinno = yes
-		}
-	}
-
-	text = {
-		localization_key = sheauhaw_shinno_far
-		trigger = {
-			is_female = no
-		}
-	}
-
-	text = {
-		localization_key = sheauhaw_naishinno_far
-		trigger = {
-			is_female = yes
-		}
-	}
-}
-
-Sheauhaw_GetNicknameSpaced = {
+﻿Sheauhaw_GetNicknameSpaced = {
 	type = character 
 	text = {
 		localization_key = Loc_Sheauhaw_NicknameSpaced
@@ -199,9 +163,9 @@ Sheauhaw_GetUINameNotMeNoTooltip_Suffix = {
 		}
 	}
 	text = {
-		localization_key = Loc_Sheauhaw_GetUINameNotMeNoTooltip_Tenno_Suffix
+		localization_key = Loc_Sheauhaw_GetUINameNotMeNoTooltip_Miyake_Suffix
 		trigger = {
-			using_oe_uiname_landed_tenno_family_trigger = yes
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {
@@ -230,9 +194,9 @@ Sheauhaw_GetUINameNotMeNoTooltip_SuffixRegnal = {
 		}
 	}
 	text = {
-		localization_key = Loc_Sheauhaw_GetUINameNotMeNoTooltip_Tenno_SuffixRegnal
+		localization_key = Loc_Sheauhaw_GetUINameNotMeNoTooltip_Miyake_SuffixRegnal
 		trigger = {
-			using_oe_uiname_landed_tenno_family_trigger = yes
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {
@@ -552,6 +516,12 @@ OE_GetUINameNotMeNoTooltip_SpouseFallback = {
 		localization_key = Loc_OE_GetUINameNotMeNoTooltip_firstname_nanman
 		trigger = {
 			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetUINameNotMeNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {

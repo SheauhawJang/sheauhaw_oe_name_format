@@ -47,6 +47,12 @@
 		}
 	}
 	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
+		}
+	}
+	text = {
 		localization_key = Loc_OE_GetTitledFirstNameNoTooltip_firstname_tenno
 		trigger = {
 			using_oe_uiname_landed_tenno_family_trigger = yes
@@ -185,6 +191,12 @@ OE_GetTitledFirstNamePossessiveNoTooltip = {
 		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname_steppe
 		trigger = {
 			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {
@@ -328,6 +340,12 @@ OE_GetTitledFirstNameNoTooltipRegnal = {
 		}
 	}
 	text = {
+		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
+		}
+	}
+	text = {
 		localization_key = Loc_OE_GetTitledFirstNameNoTooltipRegnal_firstname_tenno
 		trigger = {
 			using_oe_uiname_landed_tenno_family_trigger = yes
@@ -465,6 +483,12 @@ OE_GetTitledFirstNamePossessiveNoTooltipRegnal = {
 		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname_steppe
 		trigger = {
 			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetTitledFirstNamePossessiveNoTooltipRegnal_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {

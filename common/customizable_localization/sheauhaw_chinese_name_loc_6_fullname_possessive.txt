@@ -19,6 +19,12 @@
 		}
 	}
 	text = {
+		localization_key = Loc_Sheauhaw_GetFullNamePossessiveNoTooltip_Miyake_Suffix
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
+		}
+	}
+	text = {
 		localization_key = Loc_Sheauhaw_GetFullNamePossessiveNoTooltip_Suffix_default
 		fallback = yes
 	}
@@ -41,6 +47,12 @@ Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal = {
 		localization_key = Loc_Sheauhaw_GetFullNamePossessiveNoTooltip_Nanman_SuffixRegnal
 		trigger = {
 			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_Sheauhaw_GetFullNamePossessiveNoTooltip_Miyake_SuffixRegnal
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {
@@ -360,6 +372,12 @@ OE_GetFullNamePossessiveNoTooltip_SpouseFallback = {
 		localization_key = Loc_OE_GetFullNamePossessiveNoTooltip_firstname_nanman
 		trigger = {
 			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetFullNamePossessiveNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {

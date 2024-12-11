@@ -1,4 +1,4 @@
-﻿using_oe_uiname_landed_trigger = {
+using_oe_uiname_landed_trigger = {
 	OR = {
 		culture = { has_cultural_pillar = heritage_chinese }
 
@@ -81,6 +81,15 @@ using_oe_uiname_landed_steppe_trigger = {
 using_oe_uiname_landed_tenno_family_trigger = {
 	culture = { has_cultural_pillar = heritage_yamato }
 	dynasty = dynasty:10000420
+}
+
+using_oe_uiname_landed_miyake_trigger = {
+	culture = { has_cultural_pillar = heritage_yamato }
+	dynasty = dynasty:10000420
+	NOR = {
+		house = dynasty.dynasty_founder.house
+		house.house_founder = { using_oe_uiname_tenno_yamato_trigger = yes }
+	}
 }
 
 using_oe_uiname_landed_any_trigger = {

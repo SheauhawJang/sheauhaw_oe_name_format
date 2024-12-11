@@ -311,6 +311,12 @@ OE_GetNameNicknamedPossessiveNoTooltip_SpouseFallback = {
 		}
 	}
 	text = {
+		localization_key = Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
+		}
+	}
+	text = {
 		localization_key = Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_tenno
 		trigger = {
 			using_oe_uiname_landed_tenno_family_trigger = yes
@@ -424,6 +430,12 @@ Sheauhaw_GetName_VassalContract = {
 		localization_key = Loc_Sheauhaw_GetName_VassalContract_firstname_steppe
 		trigger = {
 			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_Sheauhaw_GetName_VassalContract_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {

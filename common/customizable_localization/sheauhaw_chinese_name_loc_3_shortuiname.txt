@@ -47,6 +47,12 @@
 		}
 	}
 	text = {
+		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
+		}
+	}
+	text = {
 		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_firstname_tenno
 		trigger = {
 			using_oe_uiname_landed_tenno_family_trigger = yes
@@ -136,6 +142,12 @@ OE_GetShortUINamePossessiveNotMyNoTooltip = {
 		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname_steppe
 		trigger = {
 			using_oe_uiname_landed_steppe_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetShortUINamePossessiveNotMyNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {

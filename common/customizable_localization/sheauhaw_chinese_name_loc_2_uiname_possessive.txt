@@ -1,41 +1,6 @@
 ﻿
 # Possessive 版本
 
-Sheauhaw_GetShinnoPossessive = {
-	type = character
-
-	text = {
-		localization_key = sheauhaw_shinno_possessive
-		trigger = {
-			is_female = no
-			using_oe_uiname_shinno = yes
-		}
-	}
-
-	text = {
-		localization_key = sheauhaw_naishinno_possessive
-		trigger = {
-			is_female = yes
-			using_oe_uiname_shinno = yes
-		}
-	}
-
-	text = {
-		localization_key = sheauhaw_shinno_far_possessive
-		trigger = {
-			is_female = no
-		}
-	}
-
-	text = {
-		localization_key = sheauhaw_naishinno_far_possessive
-		trigger = {
-			is_female = yes
-		}
-	}
-}
-
-
 Sheauhaw_GetPrimaryTitlePossessive_CheckCelestia = {
 	type = character
 	text = {
@@ -90,9 +55,9 @@ Sheauhaw_GetUINamePossessiveNotMyNoTooltip_Suffix = {
 		}
 	}
 	text = {
-		localization_key = Loc_Sheauhaw_GetUINamePossessiveNotMyNoTooltip_Tenno_Suffix
+		localization_key = Loc_Sheauhaw_GetUINamePossessiveNotMyNoTooltip_Miyake_Suffix
 		trigger = {
-			using_oe_uiname_landed_tenno_family_trigger = yes
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {
@@ -121,9 +86,9 @@ Sheauhaw_GetUINamePossessiveNotMyNoTooltip_SuffixRegnal = {
 		}
 	}
 	text = {
-		localization_key = Loc_Sheauhaw_GetUINamePossessiveNotMyNoTooltip_Tenno_SuffixRegnal
+		localization_key = Loc_Sheauhaw_GetUINamePossessiveNotMyNoTooltip_Miyake_SuffixRegnal
 		trigger = {
-			using_oe_uiname_landed_tenno_family_trigger = yes
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {
@@ -443,6 +408,12 @@ OE_GetUINamePossessiveNotMyNoTooltip_SpouseFallback = {
 		localization_key = Loc_OE_GetUINamePossessiveNotMyNoTooltip_firstname_nanman
 		trigger = {
 			using_oe_uiname_landed_nanman_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetUINamePossessiveNotMyNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
 		}
 	}
 	text = {

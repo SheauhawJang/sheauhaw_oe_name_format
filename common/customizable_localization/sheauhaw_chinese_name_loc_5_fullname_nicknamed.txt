@@ -342,6 +342,12 @@ OE_GetFullNameNicknamedNoTooltip_SpouseFallback = {
 		}
 	}
 	text = {
+		localization_key = Loc_OE_GetFullNameNicknamedNoTooltip_firstname_miyake
+		trigger = {
+			using_oe_uiname_landed_miyake_trigger = yes
+		}
+	}
+	text = {
 		localization_key = Loc_OE_GetFullNameNicknamedNoTooltip_firstname_tenno
 		trigger = {
 			using_oe_uiname_landed_tenno_family_trigger = yes

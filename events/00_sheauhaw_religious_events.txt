@@ -9,6 +9,19 @@ sheauhaw_religious.0001 = {
 				scope:title = title:d_gosho
 			}
 			add_trait = sheauhaw_tenno_name_trait
+			if = {
+				limit = {
+					using_oe_uiname_landed_miyake_trigger = yes
+				}
+				found_cadet_house_decision_effect = {
+					CHARACTER = root
+					PRESTIGE = 0
+				}
+				house = {
+					set_house_name_from_dynasty = root.dynasty
+					set_coa = root.dynasty
+				}
+			}
 		}
 	}
 }

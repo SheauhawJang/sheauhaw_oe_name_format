@@ -46,7 +46,8 @@
   Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')][ROOT.Char.GetDynasty.GetBaseNameNoTooltip]·[ROOT.Char.GetFirstNamePossessiveNoTooltip]" 
   Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_house:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')][ROOT.Char.GetHouse.GetBaseNameNoTooltip]·[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
   Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_nanman:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')][ROOT.Char.GetFather.GetFirstNameNoTooltip]·[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
-  Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_tenno:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')][ROOT.Char.GetFirstNameNoTooltip]·[ROOT.Char.Custom('Sheauhaw_GetShinnoPossessive')]"
+  Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_miyake:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')][ROOT.Char.GetHouse.GetBaseNameNoTooltip]宫·[ROOT.Char.GetFirstNamePossessiveNoTooltip]"
+  Loc_OE_GetNameNicknamedPossessiveNoTooltip_firstname_tenno:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')]#M [ROOT.Char.GetFirstNamePossessiveNoTooltip]#!"
 
   Loc_OE_GetNameNicknamedPossessiveNoTooltip_default:0 "[ROOT.Char.GetNameNicknamedPossessiveNoTooltip]"
   Loc_OE_GetNameNicknamedPossessiveNoTooltip_otherlandeddefult:0 "[ROOT.Char.GetNameNicknamedPossessiveNoTooltip]"
@@ -63,5 +64,6 @@
   Loc_Sheauhaw_GetName_VassalContract_firstname_house:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]·[ROOT.Char.GetFirstNameNoTooltip]"
   Loc_Sheauhaw_GetName_VassalContract_firstname_nanman:0 "[ROOT.Char.GetFather.GetFirstNameNoTooltip]·[ROOT.Char.GetFirstNameNoTooltip]"
   Loc_Sheauhaw_GetName_VassalContract_firstname_steppe:0 "[ROOT.Char.GetFirstNameNoTooltip]-[ROOT.Char.Custom('Sheauhaw_GetReligiousHeadTitleTier')]"
-  Loc_Sheauhaw_GetName_VassalContract_firstname_tenno:0 "[ROOT.Char.GetFirstNameNoTooltip]·[ROOT.Char.Custom('Sheauhaw_GetShinno')]"
+  Loc_Sheauhaw_GetName_VassalContract_firstname_miyake:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]宫·[ROOT.Char.GetFirstNameNoTooltip]"
+  Loc_Sheauhaw_GetName_VassalContract_firstname_tenno:0 "#M [ROOT.Char.GetFirstNameNoTooltip]#!"
   Loc_Sheauhaw_GetName_VassalContract_default:0 "[ROOT.Char.GetFirstNameNoTooltip]·[ROOT.Char.GetHouse.GetNameNoTooltip]"
