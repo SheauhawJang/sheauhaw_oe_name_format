@@ -8,7 +8,7 @@
 	intrigue=6
 	stewardship=7
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_3"
 	prowess=11
 	450.1.1={
@@ -29,7 +29,7 @@
 	name=character_name_10041002 # Magari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041001
 	466.1.1={
@@ -50,7 +50,7 @@
 	name=character_name_10041003 # Takata
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041001
 	467.1.1={
@@ -75,7 +75,7 @@
 	intrigue=5
 	stewardship=6
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_2"
 	father=10041001
 	mother=10041211
@@ -110,7 +110,7 @@
 	name=character_name_10041005 # Futotamashiki
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10041253
@@ -132,7 +132,7 @@
 	name=character_name_10041006 # Ikebe
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240258
@@ -157,7 +157,7 @@
 	name=character_name_10041007 # Hatsusebe
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240259
@@ -185,7 +185,7 @@
 	intrigue=7
 	stewardship=6
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_2"
 	father=10041004
 	mother=10240258
@@ -205,7 +205,7 @@
 	name=character_name_10041009 # Hikohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	565.1.1={
@@ -222,7 +222,7 @@
 	name=character_name_10041010 # Tamura
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041009
 	593.1.1={
@@ -250,7 +250,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041009
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	580.1.1={
 		birth=yes
@@ -268,7 +268,7 @@
 	intrigue=6
 	stewardship=6
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_2"
 	father=10041011
 	prowess=11
@@ -290,7 +290,7 @@
 	name=character_name_10041013 # Karu
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041011
 	596.1.1={
@@ -312,7 +312,7 @@
 	intrigue=8
 	stewardship=7
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_3"
 	father=10041010
 	mother=10041012
@@ -332,7 +332,7 @@
 	name=character_name_10041015 # Otomo
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041014
 	648.1.1={
@@ -354,7 +354,7 @@
 	intrigue=7
 	stewardship=9
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_4"
 	father=10041010
 	mother=10041012
@@ -385,7 +385,7 @@
 	intrigue=8
 	stewardship=8
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_3"
 	father=10041014
 	prowess=9
@@ -404,7 +404,7 @@
 	name=character_name_10041018 # Kusakabe
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041016
 	mother=10041017
@@ -422,7 +422,7 @@
 	name=character_name_10041019 # Karu
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041018
 	mother=10041020
@@ -442,7 +442,7 @@
 	female = yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041014
 	661.1.1={
@@ -461,7 +461,7 @@
 	female = yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041018
 	mother=10041020
@@ -480,7 +480,7 @@
 	name=character_name_10041022 # Obito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_2"
 	father=10041019
 	mother=11000009
@@ -500,7 +500,7 @@
 	female = yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041022
 	mother=11000012
@@ -522,7 +522,7 @@
 	name=character_name_10041024 # Toneri
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041016
 	676.1.1={
@@ -536,7 +536,7 @@
 	name=character_name_10041025 # Oi
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041024
 	733.1.1={
@@ -554,7 +554,7 @@
 	name=character_name_10041026 # Shiki
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041014
 	668.1.1={
@@ -568,7 +568,7 @@
 	name=character_name_10041027 # Shirakabe
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041026
 	709.1.1={
@@ -583,23 +583,29 @@
 	}
 }
 10041028 = {
-	name = character_name_10041028_b # Yamanobe
+	name=character_name_10041028 # Yamanobe
 	dynasty=10000420 # Yamato (Imperial Family)
 	martial=4
 	diplomacy=7
 	intrigue=7
 	stewardship=6
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_2"
 	father=10041027
 	prowess=8
 	737.1.1={
 		birth=yes
 	}
+	773.1.1={
+		add_spouse=11009808
+	}
 	781.4.30={
 		name = character_name_10041028_1 # Kanmu
 		trait = sheauhaw_tenno_name_trait
+	}
+	786.1.1={
+		add_concubine=11009818
 	}
 	806.4.9={
 		death=yes
@@ -609,11 +615,15 @@
 	name=character_name_10041029 # Ote
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041028
+	mother=11009808
 	774.9.25={
 		birth=yes
+	}
+	790.1.1={
+		add_spouse=11009819
 	}
 	806.4.9={
 		name = character_name_10041029_1 # Heizei
@@ -627,9 +637,11 @@
 	name=character_name_10041030 # Kamino
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041028
+	mother=11009808
 	786.10.3={
 		birth=yes
 	}
@@ -648,9 +660,11 @@
 	name=character_name_10041031 # Otomo
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041028
+	mother=11009819
 	786.12.1={
 		birth=yes
 	}
@@ -666,8 +680,9 @@
 	name=character_name_10041032 # Masara
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041030
 	mother=11040103
 	810.12.1={
@@ -688,10 +703,10 @@
 	name=character_name_10041033 # Michiyasu
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041032
-	mother=11000044
 	827.1.1={
 		birth=yes
 	}
@@ -707,13 +722,13 @@
 	name=character_name_10041034 # Korehito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041033
-	mother=11000044_1
+	mother=11000044
 	850.5.10={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	858.10.7={
 		name = character_name_10041034_1 # Seiwa
@@ -727,13 +742,12 @@
 	name=character_name_10041035 # Sadaakira
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041034
 	mother=11000057
 	869.1.2={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	876.12.18={
 		name = character_name_10041035_1 # Yozei
@@ -747,13 +761,13 @@
 	name=character_name_10041036 # Tokiyasu
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041032 # Emperor Ninmyo
 	mother=11006669 # Fujiwara Sawako
 	830.1.1={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	884.3.23={
 		name = character_name_10041036_1 # Koko
@@ -771,13 +785,13 @@
 	intrigue=8
 	stewardship=6
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_3"
+	trait="musician"
 	father=10041036
 	prowess=8
 	867.6.10={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	887.9.17={
 		name = character_name_10041037_1 # Uda
@@ -791,13 +805,13 @@
 	name=character_name_10041038 # Atsuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_2"
+	trait="musician"
 	father=10041037
 	mother=11003308
 	885.2.6={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	897.8.14={
 		name = character_name_10041038_1 # Daigo
@@ -811,13 +825,12 @@
 	name=character_name_10041039 # Yutaakira
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041038
 	mother=11000070
 	923.9.7={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	930.12.14={
 		name = character_name_10041039_1 # Suzaku
@@ -831,13 +844,13 @@
 	name=character_name_10041040 # Ariakira
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041038
 	mother=11000070
 	926.7.14={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	946.5.31={
 		name = character_name_10041040_1 # Murakami
@@ -851,13 +864,12 @@
 	name=character_name_10041041 # Norihira
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041040
 	mother=11000081
 	950.6.12={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	967.7.5={
 		name = character_name_10041041_1 # Reizei
@@ -871,13 +883,13 @@
 	name=character_name_10041042 # Morihira
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041040
 	mother=11000081
 	959.4.12={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	969.11.5={
 		name = character_name_10041042_1 # Enyu
@@ -891,12 +903,11 @@
 	name=character_name_10041043 # Morosada
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041041
 	968.11.29={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	984.11.5={
 		name = character_name_10041043_1 # Kazan
@@ -910,13 +921,13 @@
 	name=character_name_10041044 # Yasuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041042
 	mother=11000100
 	980.7.15={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	986.7.31={
 		name = character_name_10041044_1 # Ichijo
@@ -933,12 +944,11 @@
 	name=character_name_10041045 # Okisada
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041041
 	976.2.5={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	0995.1.1={
 		add_spouse=11006235 # Fujiwara Genshi/Motoko
@@ -955,13 +965,12 @@
 	name=character_name_10041046 # Atsuhira
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041044
 	mother=11000104
 	1008.10.12={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1016.3.24={
 		name = character_name_10041046_1 # Go-Ichijo
@@ -975,13 +984,12 @@
 	name=character_name_10041047 # Atsunaga
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041044
 	mother=11000104
 	1009.12.14={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1036.5.15={
 		name = character_name_10041047_1 # Go-Suzaku
@@ -995,13 +1003,12 @@
 	name=character_name_10041048 # Chikahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041047
 	mother=11000115
 	1025.8.28={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1045.2.5={
 		name = character_name_10041048_1 # Go-Reizei
@@ -1015,18 +1022,16 @@
 	name=character_name_10041049 # Takahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041047
 	1034.9.3={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1068.5.22={
 		name = character_name_10041049_1 # Go-Sanjo
 		trait = sheauhaw_tenno_name_trait
 	}
-	1073.1.18={ trait = joko }
 	1073.6.15={
 		death=yes
 	}
@@ -1039,24 +1044,17 @@
 	intrigue=7
 	stewardship=6
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_4"
 	father=10041049
 	mother=11001012 # Fujiwara Shigeko
 	prowess=7
 	1053.7.7={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1073.1.18={
 		name = character_name_10041050_1 # Shirakawa
 		trait = sheauhaw_tenno_name_trait
-		trait = joko
-	}
-	1086.12.16={
-		religion = tiantai
-		trait = hoo
-		trait = devoted
 	}
 	1129.7.24={
 		death=yes
@@ -1066,13 +1064,13 @@
 	name=character_name_10041051 # Yoshihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="poet"
+	trait="musician"
 	father=10041050
 	1079.8.8={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1086.12.16={
 		name = character_name_10041051_1 # Horikawa
@@ -1086,21 +1084,19 @@
 	name=character_name_10041052 # Munehito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_2"
 	trait="poet"
+	trait="musician"
 	father=10041051
 	mother=11001016
 	1103.2.24={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1107.8.9={
 		name = character_name_10041052_1 # Toba
 		trait = sheauhaw_tenno_name_trait
 	}
-	1129.7.24={ trait = joko }
-	1136.6.10 = { add_concubine = 11006717 }
 	1156.7.20={
 		death=yes
 	}
@@ -1109,7 +1105,7 @@
 	name=character_name_10041053 # Akihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	trait="poet"
 	trait="callous"
@@ -1117,22 +1113,21 @@
 	mother=11001025
 	1119.7.7={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1123.2.19={
 		name = character_name_10041053_1 # Sutoku
 		trait = sheauhaw_tenno_name_trait
 	}
-	1156.7.20={ trait = joko }
 	1164.9.14={
 		death=yes
 	}
 }
 10041054 = {
 	name=character_name_10041054 # Masahito
+	dna=10041054_yamato_masahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=4
 	diplomacy=9
 	intrigue=8
@@ -1140,11 +1135,13 @@
 	health=7
 	trait="education_intrigue_4"
 	trait="intellect_good_2"
+#	trait="mikkyo_buddhist"
 	father=10041052
 	prowess=8
 	1127.8.23={
 		birth=yes
-		add_pressed_claim = title:k_yamato
+		effect = { add_pressed_claim = title:k_yamato }
+		#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1150.1.1={
 		add_concubine=10115021
@@ -1166,7 +1163,17 @@
 		}
 	}
 	1180.5.18={
-		employer=10041059 # Emperor Antoku
+		effect = {
+			set_employer = character:10041059
+			return_to_court = yes
+		}
+	}
+	1183.9.8 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1192.4.26={
 		death=yes
@@ -1176,13 +1183,12 @@
 	name=character_name_10041055 # Narihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041052 # Empeor Toba
 	mother=11006717 # Fujiwara Nariko
 	1139.6.16={
 		birth=yes
-		add_pressed_claim = title:k_yamato
 	}
 	1142.1.5={
 		name = character_name_10041055_1 # Konoe
@@ -1196,9 +1202,10 @@
 	name=character_name_10041056 # Morihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	trait="beauty_good_3"
+	trait="musician"
 	father=10041054
 	1143.7.31={
 		birth=yes
@@ -1218,7 +1225,7 @@
 	name=character_name_10041057 # Nobuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	trait="beauty_good_3"
 	father=10041056
@@ -1237,9 +1244,12 @@
 	name=character_name_10041058 # Norihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="beauty_good_3"
+	trait="weak"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041054
 	mother=10110652
 	1161.9.23={
@@ -1257,7 +1267,6 @@
 	}
 	1180.5.18={
 		effect = {
-			add_trait = joko
 			add_trait = "stressed"
 			add_trait = "ill"
 		}
@@ -1270,7 +1279,7 @@
 	name=character_name_10041059 # Tokihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041058
 	mother=10110044
@@ -1287,18 +1296,27 @@
 }
 10041060 = {
 	name=character_name_10041060 # Takanari
+	dna=10041060_yamato_takanari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	martial=4
+	diplomacy=9
+	intrigue=8
+	stewardship=7
+	learning=12
 	trait="education_intrigue_3"
 	trait="poet"
 	trait="arbitrary"
 	trait="ambitious"
 	trait="impatient"
+	trait="musician"
 	father=10041058
 	mother=11006346
+	prowess=8
 	1180.8.6={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1183.9.8={
 		name = character_name_10041060_1 # Go-Toba
@@ -1308,6 +1326,19 @@
 		add_spouse=10125066
 		add_concubine=11006901
 	}
+	1199.1.1={
+		effect = {
+			#set_realm_capital = title:c_nmih_mishima
+		}
+	}
+	1206.1.1={
+		add_concubine=12531500
+	}
+	1221.6.6={
+		effect = {
+			#set_realm_capital = title:c_nmih_otagi
+		}
+	}
 	1239.3.28={
 		death=yes
 	}
@@ -1316,7 +1347,7 @@
 	name=character_name_10041061 # Tamehito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="content"
 	trait="compassionate"
@@ -1340,7 +1371,7 @@
 	name=character_name_10041062 # Morinari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	trait="impatient"
 	trait="scholar"
@@ -1360,7 +1391,7 @@
 	name=character_name_10041063 # Kanenari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041062
 	mother=11000611
@@ -1378,7 +1409,7 @@
 	name=character_name_10041064 # Morisada #Go-Takakura
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_learning_1"
 	father=10041058
 	mother=11006346
@@ -1386,7 +1417,17 @@
 		birth=yes
 	}
 	1180.5.18={
-		employer=10041059 # Emperor Antoku
+		effect = {
+			set_employer = character:10041059
+			return_to_court = yes
+		}
+	}
+	1183.9.8 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1223.6.14={
 		death=yes
@@ -1396,7 +1437,7 @@
 	name=character_name_10041065 # Toyohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041064
 	1212.3.22={
@@ -1413,7 +1454,7 @@
 	name=character_name_10041066 # Mitsuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041065
 	mother=11000617
@@ -1431,8 +1472,9 @@
 	name=character_name_10041067 # Kunihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
+	trait="musician"
 	father=10041061
 	1220.2.26={
 		birth=yes
@@ -1448,8 +1490,9 @@
 	name=character_name_10041068 # Hisahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041067
 	mother=11001226
 	1243.6.10={
@@ -1466,8 +1509,9 @@
 	name=character_name_10041069 # Tsunehito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041067
 	1249.7.9={
 		birth=yes
@@ -1483,8 +1527,9 @@
 	name=character_name_10041070 # Yohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041069
 	1267.12.17={
 		birth=yes
@@ -1500,9 +1545,10 @@
 	name=character_name_10041071 # Hirohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="poet"
+	trait="musician"
 	father=10041068
 	1265.5.10={
 		birth=yes
@@ -1518,8 +1564,9 @@
 	name=character_name_10041072 # Tanehito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+	trait="musician"
 	father=10041071
 	1288.4.5={
 		birth=yes
@@ -1535,7 +1582,7 @@
 	name=character_name_10041073 # Kuniharu
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041070
 	1285.3.9={
@@ -1555,7 +1602,7 @@
 	name=character_name_10041074 # Tomihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041071
 	1297.8.14={
@@ -1570,28 +1617,67 @@
 }
 10041075 = {
 	name=character_name_10041075 # Takaharu
+	dna=10041075_yamato_takaharu
 	dynasty=10000420 # Yamato (Imperial Family)
-	martial=6
-	diplomacy=7
-	intrigue=10
+	martial=4
+	diplomacy=12
+	intrigue=5
 	stewardship=10
-	learning=7
+	learning=10
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_3"
+	trait="intellect_good_2"
 	trait="ambitious"
 	trait="arbitrary"
 	trait="diligent"
 	trait="arrogant"
 	trait="gregarious"
-	trait="reveler_2"
+	trait="lustful"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041070
-	prowess=10
+	prowess=8
 	1288.11.26={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
+	}
+	1308.1.1={
+		add_spouse=11001721 # Nijo Tameko
+	}
+	1314.1.1={
+		add_spouse=11001264 # Saionji Sachiko
 	}
 	1318.4.30={
 		name = character_name_10041075_1 # Go-Daigo
+	}
+	1319.1.1={
+		add_concubine=11007814
+	}
+	1325.1.1={
+		add_concubine=11001723
+	}
+	1333.1.1={
+		add_concubine=11000721
+	}
+	1333.7.4={
+		effect = {
+			#set_realm_capital = title:c_nmih_otagi
+		}
+	}
+	1333.11.19={
+		add_spouse=10041881 # Tamako
+	}
+	1335.12.31 = { 
+		add_pressed_claim = title:k_yamato
+	}
+	1336.7.22={
+		effect = {
+			#set_realm_capital = title:c_nmih_yoshino
+		}
+	}
+	1337.6.11={
+		add_spouse=11007814 # Ano Renshi
 	}
 	1339.9.19={
 		death=yes
@@ -1601,9 +1687,11 @@
 	name=character_name_10041076 # Kazuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	trait="poet"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041072
 	mother=11001270
 	1313.8.1={
@@ -1612,22 +1700,40 @@
 	1331.10.22={
 		name = character_name_10041076_1 # Kogon
 	}
+	1333.1.1={
+		add_spouse=11001657
+	}
 	1364.8.5={
 		death=yes
 	}
 }
 10041077 = {
 	name=character_name_10041077 # Noriyoshi
+	dna=10041077_yamato_noriyoshi
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	diplomacy=15
+	learning=12
 	trait="education_intrigue_1"
+	trait="poet"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041075
+	mother=11007814 # Ano Renshi
 	1328.1.1={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1339.11.6={
 		name = character_name_10041077_1 # Go-Murakami
+		add_pressed_claim = title:c_nmih_otagi
+	}
+	1341.1.1={
+		add_spouse=11000885
+	}
+	1344.1.1={
+		add_concubine=10125130
 	}
 	1368.3.29={
 		death=yes
@@ -1637,15 +1743,20 @@
 	name=character_name_10041078 # Yutanari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="zen_buddhist"
 	father=10041077
+	mother=11000885
 	1343.1.1={
 		birth=yes
 	}
 	1368.3.29={
 		name = character_name_10041078_1 # Chokei
-		add_pressed_claim=title:e_nippon
+		add_pressed_claim = title:k_yamato
+	}
+	1370.1.1={
+		add_spouse=11001488
 	}
 	1383.3.29={
 		death=yes
@@ -1655,15 +1766,20 @@
 	name=character_name_10041079 # Hironari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041077
+	mother=11000885
 	1350.1.1={
 		birth=yes
 	}
+	1370.1.1={
+		add_spouse=10125128
+	}
 	1383.3.29={
 		name = character_name_10041079_1 # Go-Kameyama
-		add_pressed_claim=title:e_nippon
+		add_pressed_claim = title:k_yamato
 	}
 	1424.5.10={
 		death=yes
@@ -1673,8 +1789,9 @@
 	name=character_name_10041080 # Yutahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041072
 	1322.1.11={
 		birth=yes
@@ -1690,14 +1807,20 @@
 	name=character_name_10041081 # Masuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041076
+	mother=11001657
 	1334.5.25={
 		birth=yes
 	}
 	1348.11.18={
 		name = character_name_10041081_1 # Suko
+	}
+	1350.1.1={
+		add_spouse=10127230
 	}
 	1398.1.31={
 		death=yes
@@ -1707,14 +1830,20 @@
 	name=character_name_10041082 # Iyahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041076
+	mother=11001657
 	1338.3.23={
 		birth=yes
 	}
 	1352.9.25={
 		name = character_name_10041082_1 # Go-Kogon
+	}
+	1358.1.1={
+		add_spouse=11004376
 	}
 	1374.3.12={
 		death=yes
@@ -1724,14 +1853,20 @@
 	name=character_name_10041083 # Ohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041082
+	mother=11004376
 	1359.1.11={
 		birth=yes
 	}
 	1371.4.9={
 		name = character_name_10041083_1 # Go-Enyu
+	}
+	1375.1.11={
+		add_spouse=11001463
 	}
 	1393.6.6={
 		death=yes
@@ -1741,8 +1876,9 @@
 	name=character_name_10041084 # Motohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041083
 	mother=11001463
 	1377.8.1={
@@ -1750,6 +1886,9 @@
 	}
 	1382.5.24={
 		name = character_name_10041084_1 # Go-Komatsu
+	}
+	1400.1.1={
+		add_spouse=11004448
 	}
 	1433.12.1={
 		death=yes
@@ -1759,11 +1898,15 @@
 	name=character_name_10041085 # Yoshihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041081
+	mother=10127230
 	1351.1.1={
 		birth=yes
+	}
+	1368.1.1={
+		add_spouse=11001656
 	}
 	1416.12.9={
 		death=yes
@@ -1773,11 +1916,15 @@
 	name=character_name_10041086 # Sadafusa
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
 	father=10041085
+	mother=11001656
 	1372.4.9={
 		birth=yes
+	}
+	1410.1.1={
+		add_spouse=10127234
 	}
 	1456.9.28={
 		death=yes
@@ -1787,9 +1934,11 @@
 	name=character_name_10041087 # Mihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041084
+	mother=11004448
 	1401.5.12={
 		birth=yes
 	}
@@ -1804,14 +1953,19 @@
 	name=character_name_10041088 # Hikohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041086
+	mother=10127234
 	1419.7.10={
 		birth=yes
 	}
 	1428.9.7={
 		name = character_name_10041088_1 # Go-Hanazono
+	}
+	1435.7.10={
+		add_spouse=11007428
 	}
 	1471.1.18={
 		death=yes
@@ -1821,17 +1975,25 @@
 	name=character_name_10041089 # Fusahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041088
+	mother=11007428
 	1442.7.3={
 		birth=yes
+	}
+	1460.1.1={
+		add_spouse=10127241
 	}
 	1464.8.21={
 		name = character_name_10041089_1 # Go-Tsuchimikado
 	}
 	1470.1.1={
 		add_concubine=11007349
+	}
+	1480.1.1={
+		add_concubine=11007722
 	}
 	1500.10.21={
 		death=yes
@@ -1841,11 +2003,16 @@
 	name=character_name_10041090 # Katsuhito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_1"
+#	trait="mikkyo_buddhist"
 	father=10041089
+	mother=10127241
 	1464.11.19={
 		birth=yes
+	}
+	1480.11.19={
+		add_spouse=11007724
 	}
 	1500.11.16={
 		name = character_name_10041090_1 # Go-Kashiwabara
@@ -1856,9 +2023,10 @@
 }
 10041091 = {
 	name=character_name_10041091 # Mochihito
+	dna=10041091_yamato_mochihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	diplomacy=9
 	martial=3
 	stewardship=6
@@ -1868,17 +2036,24 @@
 	trait="intellect_good_2"
 	trait="poet"
 	trait="ambitious"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	father=10041054 # Go-Shirakawa
 	mother=11001088
 	prowess=7
 	1151.1.1={
 		birth=yes
+		#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1174.1.1={
 		add_concubine=10243045
+		add_pressed_claim = title:k_yamato
+	}
+	1180.1.1={
+		give_nickname="nick_takakura_no_miya"
 	}
 	1180.6.15 = {
-		add_pressed_claim=title:e_nippon
+		#add_pressed_claim = title:k_yamato
 	}
 	1180.6.19={
 		effect = {
@@ -1893,10 +2068,14 @@
 	name=character_name_10041092 # Sadatsune
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	father=10041086
+	mother=10127234
 	1426.1.7={
 		birth=yes
+	}
+	1450.1.1={
+		add_spouse=10127238
 	}
 	1474.8.15={
 		death=yes
@@ -1906,17 +2085,19 @@
 	name=character_name_10041096 # Tomohito
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041090
+	mother=11007724
 	martial=3
 	diplomacy=9
 	intrigue=9
 	stewardship=7
 	learning=12
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_2"
 	trait="scholar"
 	trait="generous"
 	trait="just"
+#	trait="mikkyo_buddhist"
 	prowess=7
 	1497.1.26={
 		birth=yes
@@ -1933,25 +2114,28 @@
 }
 10041097={
 	name=character_name_10041097 # Michihito
+	dna=10041097_yamato_michihito
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041096 # Go-Nara Emperor
 	mother=11005935 # Madenokoji Eiko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=2
 	diplomacy=8
 	intrigue=8
 	stewardship=6
 	learning=13
+#	trait="mikkyo_buddhist"
 	prowess=6
 	1517.6.18={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1536.1.1={
 		add_concubine=11005936
 	}
 	1539.1.1={
-		add_concubine=11005950
+		add_spouse=11005950 # Madenokoji Fusako
 	}
 	1557.9.27={
 		name = character_name_10041097_1 # Oogimachi
@@ -1964,15 +2148,20 @@
 	name=character_name_10041098 # Katahito
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041718 # Prince Sanehito(Son of Ohgimachi Emperor)
+	mother=11007741
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
+#	trait="mikkyo_buddhist"
 	prowess=5
 	1571.12.31={
 		birth=yes
 	}
 	1586.12.17={
 		name = character_name_10041098_1 # Go-Yozei
+	}
+	1590.1.1={
+		add_spouse=11000315
 	}
 	1617.9.25={
 		death=yes
@@ -1983,7 +2172,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041098 # Go-Yozei Emperor
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1596.6.29={
@@ -1991,6 +2180,9 @@
 	}
 	1611.3.27={
 		name = character_name_10041099_1 # Go-Mizunoh
+	}
+	1614.4.1={
+		add_spouse=10024056 # Tokugawa Masako (Tofukumon-in)
 	}
 	1680.9.11={
 		death=yes
@@ -2005,7 +2197,7 @@
 	stewardship=7
 	learning=10
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_4"
 	trait="arrogant"
 	trait="brave"
@@ -2031,7 +2223,7 @@
 	intrigue=3
 	learning=2
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	prowess=13
 	17.1.1={
@@ -2046,7 +2238,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041101
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_learning_4"
 	trait="scholar"
 	trait="generous"
@@ -2063,7 +2255,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041101
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_4"
 	trait="sadistic"
 	trait="brave"
@@ -2084,7 +2276,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041104
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	35.1.1={
 		birth=yes
@@ -2102,7 +2294,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041105
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	51.1.1={
 		birth=yes
@@ -2116,7 +2308,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041105
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	53.1.1={
 		birth=yes
@@ -2137,7 +2329,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041105
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	63.1.1={
 		birth=yes
@@ -2152,7 +2344,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041106
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	67.1.1={
 		birth=yes
@@ -2167,7 +2359,7 @@
 	father=10041107
 	mother=10041109
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	83.1.1={
 		birth=yes
@@ -2186,7 +2378,7 @@
 	father=10041107
 	mother=10041109
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	85.1.1={
 		birth=yes
@@ -2200,7 +2392,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041110
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	99.1.1={
 		birth=yes
@@ -2214,7 +2406,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041110
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	100.1.1={
 		birth=yes
@@ -2236,7 +2428,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041112
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	115.1.1={
 		birth=yes
@@ -2251,7 +2443,7 @@
 	father=10041113
 	mother=10041114
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	132.1.1={
 		birth=yes
@@ -2275,7 +2467,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041108
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	93.1.1={
 		birth=yes
@@ -2290,7 +2482,7 @@
 	female=yes
 	father=10041116
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	125.1.1={
 		birth=yes
@@ -2305,7 +2497,7 @@
 	female=yes
 	father=10041116
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	127.1.1={
 		birth=yes
@@ -2319,7 +2511,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041115
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	150.1.1={
 		birth=yes
@@ -2348,7 +2540,7 @@
 	father=10041115
 	mother=10041117
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	learning=22
 	trait="education_learning_4"
 	trait="zealous"
@@ -2366,7 +2558,7 @@
 	father=10041115
 	mother=10041117
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	165.1.1={
 		birth=yes
@@ -2384,7 +2576,7 @@
 	father=10041115
 	mother=10041118
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	170.1.1={
 		birth=yes
@@ -2399,7 +2591,7 @@
 	father=10041119
 	mother=10230009
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_4"
 	178.1.1={
 		birth=yes
@@ -2414,7 +2606,7 @@
 	father=10041119
 	mother=10230009
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	180.1.1={
 		birth=yes
@@ -2439,7 +2631,7 @@
 	father=10041119
 	mother=10230033
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	195.1.1={
 		birth=yes
@@ -2453,7 +2645,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041119
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_2"
 	200.1.1={
 		birth=yes
@@ -2473,7 +2665,7 @@
 	stewardship=12
 	learning=11
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_4"
 	trait="diligent"
 	trait="ambitious"
@@ -2498,7 +2690,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041124 #mother is wani clan
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	201.1.1={
 		birth=yes
@@ -2516,7 +2708,7 @@
 	female=yes
 	father=10041123
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	203.1.1={
 		birth=yes
@@ -2530,7 +2722,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041123
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	205.1.1={
 		birth=yes
@@ -2544,7 +2736,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041127
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	218.1.1={
 		birth=yes
@@ -2559,7 +2751,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041127 #mother is wowari clan
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	learning=12
 	trait="education_learning_4"
 	trait="zealous"
@@ -2576,7 +2768,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041127 #mother is wowari clan
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	220.1.1={
 		birth=yes
@@ -2596,7 +2788,7 @@
 	stewardship=11
 	learning=9
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	trait="generous"
 	trait="compassionate"
@@ -2631,7 +2823,7 @@
 	father=10041127
 	mother=10041129
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	232.1.1={
 		birth=yes
@@ -2646,7 +2838,7 @@
 	father=10041127
 	mother=10041129
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	235.1.1={
 		birth=yes
@@ -2661,7 +2853,7 @@
 	father=10041134
 	mother=10041139
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_2"
 	268.1.1={
 		birth=yes
@@ -2676,7 +2868,7 @@
 	father=10041128 
 	mother=10225019
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	218.1.1={
 		birth=yes
@@ -2694,7 +2886,7 @@
 	female=yes
 	father=10041138
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	243.1.1={
 		birth=yes
@@ -2709,7 +2901,7 @@
 	female=yes
 	father=10041138
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	245.1.1={
 		birth=yes
@@ -2723,7 +2915,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041128
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	trait="ambitious"
 	230.1.1={
@@ -2739,7 +2931,7 @@
 	female=yes
 	father=10041128
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	235.1.1={
 		birth=yes
@@ -2753,7 +2945,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041138
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	235.1.1={
 		birth=yes
@@ -2768,7 +2960,7 @@
 	female=yes
 	father=10041143
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	trait="beauty_good_3"
 	255.1.1={
@@ -2783,7 +2975,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041143
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	275.1.1={
 		birth=yes
@@ -2797,7 +2989,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041145
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	295.1.1={
 		birth=yes
@@ -2817,7 +3009,7 @@
 	stewardship=6
 	learning=5
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_4"
 	trait="ambitious"
 	trait="arrogant"
@@ -2853,7 +3045,7 @@
 	mother=10041139
 	learning=12
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_learning_4"
 	trait="zealous"
 	trait="devoted"
@@ -2870,7 +3062,7 @@
 	father=10041134
 	mother=10041140
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	285.1.1={
 		birth=yes
@@ -2884,7 +3076,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041134
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	280.1.1={
 		birth=yes
@@ -2899,7 +3091,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041134
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	290.1.1={
 		birth=yes
@@ -2914,7 +3106,7 @@
 	father=10041134
 	mother=10041144
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	286.1.1={
 		birth=yes
@@ -2928,7 +3120,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041122
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	215.1.1={
 		birth=yes
@@ -2943,7 +3135,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041153
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	260.1.1={
 		birth=yes
@@ -2958,7 +3150,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041153
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	265.1.1={
 		birth=yes
@@ -2972,7 +3164,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041153
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	270.1.1={
 		birth=yes
@@ -2987,7 +3179,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041153
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	285.1.1={
 		birth=yes
@@ -3002,7 +3194,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041133
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	270.1.1={
 		birth=yes
@@ -3017,7 +3209,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041150
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	300.1.1={
 		birth=yes
@@ -3032,7 +3224,7 @@
 	father=10041147
 	mother=10041154
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="twin"
 	trait="lustful"
@@ -3051,7 +3243,7 @@
 	father=10041147
 	mother=10041154
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=15
 	diplomacy=5
 	intrigue=14
@@ -3087,7 +3279,7 @@
 	father=10041147
 	mother=10041158
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=6
 	diplomacy=12
 	intrigue=7
@@ -3118,7 +3310,7 @@
 	father=10041147
 	mother=10041155
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	300.1.1={
 		birth=yes
@@ -3134,7 +3326,7 @@
 	father=10041147
 	mother=10041159
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_learning_4"
 	trait="zealous"
 	trait="devoted"
@@ -3151,7 +3343,7 @@
 	father=10041161
 	mother=10041151
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	307.1.1={
 		birth=yes
@@ -3166,7 +3358,7 @@
 	father=10041161
 	mother=10041151
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=11
 	diplomacy=7
 	intrigue=2
@@ -3200,7 +3392,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041163
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	320.1.1={
 		birth=yes
@@ -3214,7 +3406,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041217 #mother is owari clan
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	320.1.1={
 		birth=yes
@@ -3228,7 +3420,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041161 #mother is ototachibana hime ?
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	310.1.1={
 		birth=yes
@@ -3242,7 +3434,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041169 
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	330.1.1={
 		birth=yes
@@ -3256,7 +3448,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041165
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	323.1.1={
 		birth=yes
@@ -3271,7 +3463,7 @@
 	father=10041166
 	mother=10041167
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	336.1.1={
 		birth=yes
@@ -3286,7 +3478,7 @@
 	father=10041166
 	mother=10041167
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	337.1.1={
 		birth=yes
@@ -3301,7 +3493,7 @@
 	father=10041166
 	mother=10041215
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=12
 	diplomacy=10
 	intrigue=11
@@ -3339,7 +3531,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041168
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	340.1.1={
 		birth=yes
@@ -3354,7 +3546,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041168
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	341.1.1={
 		birth=yes
@@ -3369,7 +3561,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041170
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	350.1.1={
 		birth=yes
@@ -3384,7 +3576,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041170
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	370.1.1={
 		birth=yes
@@ -3399,7 +3591,7 @@
 	father=10041174
 	mother=10041175
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	361.1.1={
 		birth=yes
@@ -3414,7 +3606,7 @@
 	father=10041174
 	mother=10041176
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=5
 	diplomacy=9
 	intrigue=6
@@ -3449,7 +3641,7 @@
 	father=10041174
 	mother=10041177
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	370.1.1={
 		birth=yes
@@ -3466,7 +3658,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041174
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	365.1.1={
 		birth=yes
@@ -3481,7 +3673,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041174
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	374.1.1={
 		birth=yes
@@ -3496,7 +3688,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041174
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	385.1.1={
 		birth=yes
@@ -3511,7 +3703,7 @@
 	father=10041180
 	mother=10240231
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="lustful"
 	trait="arrogant"
@@ -3538,7 +3730,7 @@
 	father=10041180
 	mother=10240231
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	390.1.1={
 		birth=yes
@@ -3553,7 +3745,7 @@
 	father=10041180
 	mother=10240231
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="honest"
 	trait="just"
@@ -3574,7 +3766,7 @@
 	father=10041180
 	mother=10240231
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="just"
 	trait="diligent"
@@ -3600,7 +3792,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041180
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	420.1.1={
 		birth=yes
@@ -3621,7 +3813,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041180
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	430.1.1={
 		birth=yes
@@ -3637,7 +3829,7 @@
 	father=10041181
 	mother=10041178
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="callous"
 	390.1.1={
@@ -3654,7 +3846,7 @@
 	father=10041181
 	mother=10041178
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	400.1.1={
 		birth=yes
@@ -3669,7 +3861,7 @@
 	father=10041181
 	mother=10041178
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	386.1.1={
 		birth=yes
@@ -3683,7 +3875,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041193
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_intrigue_4"
 	410.1.1={
 		birth=yes
@@ -3697,7 +3889,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041194
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	430.1.1={
 		birth=yes
@@ -3715,7 +3907,7 @@
 	father=10041185
 	mother=10240233
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	430.1.1={
 		birth=yes
@@ -3737,7 +3929,7 @@
 	father=10041185
 	mother=10041184
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	435.1.1={
 		birth=yes
@@ -3752,7 +3944,7 @@
 	father=10041188
 	mother=10041191
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	432.1.1={
 		birth=yes
@@ -3771,7 +3963,7 @@
 	father=10041188
 	mother=10041191
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="lustful"
 	433.1.1={
@@ -3787,7 +3979,7 @@
 	father=10041188
 	mother=10041191
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="greedy"
 	trait="honest"
@@ -3814,7 +4006,7 @@
 	father=10041188
 	mother=10041191
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=15
 	diplomacy=8
 	intrigue=14
@@ -3853,7 +4045,7 @@
 	father=10041189
 	mother=10041197
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	456.1.1={
 		birth=yes
@@ -3871,7 +4063,7 @@
 	father=10041201
 	mother=10240237
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="weak"
 	trait="compassionate"
@@ -3894,7 +4086,7 @@
 	father=10041201
 	mother=10240237
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="devoted"
 	468.1.1={
@@ -3910,7 +4102,7 @@
 	father=10041201
 	mother=10240236
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	465.1.1={
 		birth=yes
@@ -3925,7 +4117,7 @@
 	father=10041201
 	mother=10240236
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	468.1.1={
 		birth=yes
@@ -3941,7 +4133,7 @@
 	father=10041201
 	mother=10240236
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	470.1.1={
 		birth=yes
@@ -3957,7 +4149,7 @@
 	father=10041196
 	mother=10240234
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	463.1.1={
 		birth=yes
@@ -3975,7 +4167,7 @@
 	father=10041196
 	mother=10240234
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="patient"
 	trait="arrogant"
@@ -4000,7 +4192,7 @@
 	father=10041196
 	mother=10240234
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="brave"
 	trait="just"
@@ -4024,7 +4216,7 @@
 	father=10041209
 	mother=10041207
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	490.1.1={
 		birth=yes
@@ -4040,7 +4232,7 @@
 	father=10041209
 	mother=10041207
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	491.1.1={
 		birth=yes
@@ -4055,7 +4247,7 @@
 	father=10041209
 	mother=10041207
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="arbitrary"
 	trait="impatient"
@@ -4078,7 +4270,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041209
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	490.1.1={
 		birth=yes
@@ -4093,7 +4285,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041146 #okinaga no sukune
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=14
 	diplomacy=8
 	intrigue=12
@@ -4118,7 +4310,7 @@
 	father=10041134 #emperor suinin
 	mother=10041142
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_1"
 	trait="stuttering"
 	260.12.29={
@@ -4134,7 +4326,7 @@
 	father=10041147 #emperor keiko
 	mother=10041158
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_4"
 	trait="gregarious"
 	trait="diligent"
@@ -4151,7 +4343,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041150
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	300.1.1={
 		birth=yes
@@ -4165,7 +4357,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041218
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	320.1.1={
 		birth=yes
@@ -4179,7 +4371,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041219
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	340.1.1={
 		birth=yes
@@ -4193,7 +4385,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041220
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	370.1.1={
 		birth=yes
@@ -4207,7 +4399,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041221
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	400.1.1={
 		birth=yes
@@ -4221,7 +4413,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041222
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	425.1.1={
 		birth=yes
@@ -4236,7 +4428,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041222
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	430.1.1={
 		birth=yes
@@ -4250,7 +4442,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041125
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	245.1.1={
 		birth=yes
@@ -4264,7 +4456,7 @@
 	dynasty=10000420 # Yamato (Imperial Family)
 	father=10041225
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_4"
 	trait="strong"
 	trait="brave"
@@ -4285,7 +4477,7 @@
 	dynasty=10000420 # Yamato
 	father=10041134 # Yamato Suinin
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	0287.1.1={
 		birth=yes
 	}
@@ -4298,7 +4490,7 @@
 	dynasty=10000420 # Yamato
 	father=10041227 # Yamato Ikohayawake
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	0310.1.1={
 		birth=yes
 	}
@@ -4311,7 +4503,7 @@
 	dynasty=10000420 # Yamato
 	father=10041228 # Yamato Urehawake
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	0335.1.1={
 		birth=yes
 	}
@@ -4324,7 +4516,7 @@
 	dynasty=10000420 # Yamato
 	father=10041229 # Yamato Shiriowake
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	0360.1.1={
 		birth=yes
 	}
@@ -4337,7 +4529,7 @@
 	dynasty=10000420 # Yamato
 	father=10041229 # Yamato Shiriowake
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	0385.1.1={
 		birth=yes
 	}
@@ -4350,7 +4542,7 @@
 	dynasty=10000420 # Yamato
 	father=10041230 # Yamato Ahikfuru
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	0410.1.1={
 		birth=yes
 	}
@@ -4363,7 +4555,7 @@
 	dynasty=10000420 # Yamato
 	father=10041232 # Yamato Kiroko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="bastard"
 	0435.1.1={
 		birth=yes
@@ -4380,7 +4572,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041001
 	trait="devoted"
@@ -4395,7 +4587,7 @@
 	name=character_name_10041251 # Maroko
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041001
 	trait="devoted"
@@ -4410,7 +4602,7 @@
 	name=character_name_10041252 # Usagi
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041001
 	trait="devoted"
@@ -4426,7 +4618,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	mother=10041212
@@ -4442,7 +4634,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	mother=10041212
@@ -4457,7 +4649,7 @@
 	name=character_name_10041255 # Wakae
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	mother=10041212
@@ -4472,7 +4664,7 @@
 	name=character_name_10041256 # Kamieha
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	mother=10041212
@@ -4487,7 +4679,7 @@
 	name=character_name_10041257 # Honoo
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	520.1.1={
@@ -4502,7 +4694,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	517.1.1={
@@ -4516,7 +4708,7 @@
 	name=character_name_10041259 # Yakabe
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041003
 	525.1.1={
@@ -4530,7 +4722,7 @@
 	name=character_name_10041260 # Toichi
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041256
 	570.1.1={
@@ -4544,7 +4736,7 @@
 	name=character_name_10041261 # Tajihiko
 	dynasty=10005090 # Tajihi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="bastard"
 	father=10041256 # TODO : The father, ID 10041256, died 4026 days before this character was born, which is more than the limit of 300 days.
@@ -4559,7 +4751,7 @@
 	name=character_name_10041262 # Tamakatsu
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10041253
@@ -4575,7 +4767,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10041253
@@ -4590,7 +4782,7 @@
 	name=character_name_10041264 # Isonokami
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10041254
@@ -4605,7 +4797,7 @@
 	name=character_name_10041265 # Kura
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10041258
@@ -4621,7 +4813,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="devoted"
 	father=10041004
@@ -4637,7 +4829,7 @@
 	name=character_name_10041267 # Sakurai
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240258
@@ -4653,7 +4845,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240258
@@ -4668,7 +4860,7 @@
 	name=character_name_10041269 # Umaraki
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="seducer"
 	father=10041004
@@ -4684,7 +4876,7 @@
 	name=character_name_10041270 # Katsuraki
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240259
@@ -4700,7 +4892,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240259
@@ -4716,7 +4908,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041004
 	mother=10240259
@@ -4731,7 +4923,7 @@
 	name=character_name_10041273 # Sakanobori
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	568.1.1={
@@ -4746,7 +4938,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="devoted"
 	father=10041005
@@ -4762,7 +4954,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="devoted"
 	father=10041005
@@ -4778,7 +4970,7 @@
 	name=character_name_10041276 # Takeda
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	mother=10041008
@@ -4794,7 +4986,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	mother=10041008
@@ -4810,7 +5002,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	mother=10041008
@@ -4825,7 +5017,7 @@
 	name=character_name_10041279 # Owari
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	mother=10041008
@@ -4841,7 +5033,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	mother=10041008
@@ -4857,7 +5049,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041005
 	mother=10041008
@@ -4872,7 +5064,7 @@
 	name=character_name_10041282 # Tame
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041006
 	mother=10240260
@@ -4887,7 +5079,7 @@
 	name=character_name_10041283 # Kume
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041006
 	mother=10041271
@@ -4902,7 +5094,7 @@
 	name=character_name_10041284 # Eguri
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041006
 	mother=10041271
@@ -4917,7 +5109,7 @@
 	name=character_name_10041285 # Manda
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041006
 	mother=10041271
@@ -4934,7 +5126,7 @@
 	name=character_name_10041286 # Tagima
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041006
 	575.1.1={
@@ -4951,7 +5143,7 @@
 	name=character_name_10041289 # Sukate
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	trait="devoted"
 	father=10041006
@@ -4964,9 +5156,10 @@
 }
 10041290 = {
 	name=character_name_10041290 # Toyotomimi
+	dna=10041290_yamato_toyotomimi
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_learning_4"
 	trait="intellect_good_3"
 	trait="zealous"
@@ -4975,7 +5168,7 @@
 	trait="administrator"
 	trait="architect"
 	trait="scholar"
-	trait="mystic_2"
+	trait="lifestyle_mystic"
 	trait="diligent"
 	trait="generous"
 	trait="just"
@@ -4989,6 +5182,13 @@
 	prowess=24
 	574.2.7={
 		birth=yes
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_mystic
+				value = 100
+			}
+		}
+#effect = { add_character_flag = has_scripted_appearance }
 	}
 	590.1.1={
 		add_spouse=10041275
@@ -5005,7 +5205,7 @@
 	name=character_name_10041291 # Yamashiro
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	mother=10240266
@@ -5026,7 +5226,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	600.1.1={
@@ -5042,7 +5242,7 @@
 	name=character_name_10041293 # Takara
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	mother=10240266
@@ -5059,7 +5259,7 @@
 	name=character_name_10041294 # Heoki
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	mother=10240266
@@ -5077,7 +5277,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	mother=10240266
@@ -5094,7 +5294,7 @@
 	name=character_name_10041296 # Hatsuse
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	605.1.1={
@@ -5111,7 +5311,7 @@
 	female=yes
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041279 #Prince Owari
 	600.1.1={
@@ -5125,7 +5325,7 @@
 	name=character_name_10041298 # Shirakabe
 	dynasty=10000420 # Yamato (Imperial Family)
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	father=10041290
 	mother=10041297
@@ -5145,7 +5345,7 @@
 	mother=12750002
 	martial=8
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_martial_3"
 	prowess=18
 	654.1.1={
@@ -5164,7 +5364,7 @@
 	father=10041014
 	female=yes
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_diplomacy_1"
 	660.1.1={
 		birth=yes
@@ -5179,7 +5379,7 @@
 	father=10041600
 	mother=10041601
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="education_stewardship_4"
 	684.1.1={
 		birth=yes
@@ -5193,7 +5393,7 @@
 	dynasty=10000420 # Yamato
 	father=10041028 # Emperor Kanmu
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	783.1.1={
 		birth=yes
 	}
@@ -5206,7 +5406,7 @@
 	dynasty=10000420 # Yamato
 	father=10041610 # Yamato Iyo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	800.1.1={
 		birth=yes
 	}
@@ -5219,7 +5419,7 @@
 	dynasty=10000420 # Yamato
 	father=10041611 # Yamato Iyo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	802.1.1={
 		birth=yes
 	}
@@ -5232,7 +5432,7 @@
 	dynasty=10000420 # Yamato
 	father=10041612 # Yamato Tsugue
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	830.1.1={
 		birth=yes
 	}
@@ -5245,7 +5445,7 @@
 	dynasty=10000420 # Yamato
 	father=10041613 # Yamato Mikuma
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	860.1.1={
 		birth=yes
 	}
@@ -5258,8 +5458,8 @@
 	name=character_name_10041700 # Kakuchin
 	dynasty=10000420 # Yamato
 	father=10041090 # Go-Kashiwabara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	learning=9
 	prowess=5
@@ -5280,14 +5480,39 @@
 	name=character_name_10041702 # Kakudo
 	dynasty=10000420 # Yamato
 	father=10041090 # Go-Kashiwabara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
+#	trait="mikkyo_buddhist"
 	prowess=5
 	1500.8.11={
 		birth=yes
+	}
+	1503.1.1 = {
+		effect = {
+			set_employer = character:10040012
+			return_to_court = yes
+		}
+	}
+	1508.7.28 = {
+		effect = {
+			set_employer = character:10040011
+			return_to_court = yes
+		}
+	}
+	1522.1.22 = {
+		effect = {
+			set_employer = character:10040000
+			return_to_court = yes
+		}
+	}
+	1527.3.14 = {
+		effect = {
+			set_employer = character:10040500
+			return_to_court = yes
+		}
 	}
 	1527.10.23={
 		death=yes
@@ -5298,8 +5523,8 @@
 	name=character_name_10041703 # Kakuon
 	dynasty=10000420 # Yamato
 	father=10041090 # Go-Kashiwabara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5315,8 +5540,8 @@
 	name=character_name_10041704 # Hirotsune
 	dynasty=10000420 # Yamato
 	father=10041090 # Go-Kashiwabara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	intrigue=12
@@ -5334,8 +5559,8 @@
 	name=character_name_10041705 # Doki
 	dynasty=10000420 # Yamato
 	father=10041090 # Go-Kashiwabara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5353,8 +5578,8 @@
 	dynasty=10000420 # Yamato
 	father=10041096 # Go-Nara Emperor
 	mother=11005935 # Madenokoji Eiko
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5371,8 +5596,8 @@
 	name=character_name_10041710 # Fuko
 	dynasty=10000420 # Yamato
 	father=10041096 # Go-Nara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	prowess=5
@@ -5388,8 +5613,8 @@
 	name=character_name_10041711 # Shoshu
 	dynasty=10000420 # Yamato
 	father=10041096 # Go-Nara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	prowess=5
@@ -5404,22 +5629,29 @@
 	name=character_name_10041712 # Kakujo
 	dynasty=10000420 # Yamato
 	father=10041096 # Go-Nara Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
+#	trait="mikkyo_buddhist"
 	prowess=5
 	1521.1.1={
 		birth=yes
 	}
 	1525.1.1={
-		culture=yamato
-		employer=10041759 # Kakuin, 164th # d_enryakuji
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			set_employer = character:10041759
+			return_to_court = yes
+		}
 		effect = {
 			add_trait = "devoted"
 		}
 	}
 	1571.9.30={
-		employer=10020010 # Takeda Shingen
+		effect = {
+			set_employer = character:10020010
+			return_to_court = yes
+		}
 	}
 	1574.1.25={
 		death=yes
@@ -5431,8 +5663,8 @@
 	dynasty=10000420 # Yamato
 	father=10041097 # Ohgimachi Emperor
 	mother=11005950 # Madenokoji Fusako
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	prowess=5
@@ -5449,13 +5681,16 @@
 	father=10041097 # Ohgimachi Emperor
 	mother=11005950 # Madenokoji Fusako
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1552.5.16={
 		birth=yes
 	}
-	1593.2.6={
+	1569.1.1={
+		add_spouse=11007741
+	}
+	1586.9.7={
 		death=yes
 	}
 }
@@ -5464,8 +5699,8 @@
 	name=character_name_10041720 # Harutoshi
 	dynasty=10000420 # Yamato
 	father=10041097 # Ohgimachi Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	prowess=5
@@ -5481,8 +5716,8 @@
 	name=character_name_10041721 # Eison
 	dynasty=10000420 # Yamato
 	father=10041097 # Ohgimachi Emperor
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	prowess=5
@@ -5497,8 +5732,8 @@
 	name=character_name_10041723 # Kusho
 	dynasty=10000420 # Yamato
 	father=10041718 # Prince Sanehito
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5515,8 +5750,8 @@
 	name=character_name_10041724 # Eisho
 	dynasty=10000420 # Yamato
 	father=10041718 # Prince Sanehito
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	prowess=5
@@ -5531,8 +5766,8 @@
 	name=character_name_10041725 # Ryojo
 	dynasty=10000420 # Yamato
 	father=10041718 # Prince Sanehito
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5548,8 +5783,8 @@
 	name=character_name_10041727 # Koi
 	dynasty=10000420 # Yamato
 	father=10041718 # Prince Sanehito
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5565,8 +5800,9 @@
 	name=character_name_10041729 # Toshihito
 	dynasty=10000420 # Yamato
 	father=10041718 # Prince Sanehito
+	mother=11007741
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1579.2.3={
@@ -5581,8 +5817,8 @@
 	name=character_name_10041736 # Shingetsu
 	dynasty=10000420 # Yamato
 	father=10041718 # Prince Sanehito
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5600,7 +5836,7 @@
 	father=10041750 # Yamato Sadaatsu
 	mother=11001482 # Sanjo Koko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1513.4.25={
@@ -5618,15 +5854,15 @@
 	dynasty=10000420 # Yamato(Fushimi no Miya)
 	father=10041750 # Yamato Sadaatsu
 	mother=11001482 # Sanjo Koko
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	prowess=5
 	1514.1.1={
 		birth=yes
 	}
 	1532.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
 		}
@@ -5640,17 +5876,90 @@
 	dynasty=10000420 # Yamato(Fushimi no Miya)
 	father=10041750 # Yamato Sadaatsu
 	mother=11001482 # Sanjo Koko
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
+#	trait="mikkyo_buddhist"
 	prowess=5
 	1525.1.1={
 		birth=yes
 	}
 	1535.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
+		}
+	}
+	1535.1.21 = {
+		effect = {
+			set_employer = character:10040000
+			return_to_court = yes
+		}
+	}
+	1547.1.11 = {
+		effect = {
+			set_employer = character:10040040
+			return_to_court = yes
+		}
+	}
+	1549.7.18 = {
+		effect = {
+			set_employer = character:10059007
+			return_to_court = yes
+		}
+	}
+	1552.1.1 = {
+		effect = {
+			set_employer = character:10040040
+			return_to_court = yes
+		}
+	}
+	1553.9.8 = {
+		effect = {
+			set_employer = character:10059007
+			return_to_court = yes
+		}
+	}
+	1558.11.1 = {
+		effect = {
+			set_employer = character:10040040
+			return_to_court = yes
+		}
+	}
+	1565.6.17 = {
+		effect = {
+			set_employer = character:10059006
+			return_to_court = yes
+		}
+	}
+	1568.10.19 = {
+		effect = {
+			set_employer = character:10029120
+			return_to_court = yes
+		}
+	}
+	1568.11.7 = {
+		effect = {
+			set_employer = character:10040042
+			return_to_court = yes
+		}
+	}
+	1573.8.25 = {
+		effect = {
+			set_employer = character:10029120
+			return_to_court = yes
+		}
+	}
+	1582.6.21 = {
+		effect = {
+			set_employer = character:10025632
+			return_to_court = yes
+		}
+	}
+	1582.7.2 = {
+		effect = {
+			set_employer = character:10029400
+			return_to_court = yes
 		}
 	}
 	1584.1.1={
@@ -5664,7 +5973,7 @@
 	father=10041750 # Yamato Sadaatsu
 	mother=11001482 # Sanjo Koko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1530.12.16={
@@ -5679,8 +5988,8 @@
 	name=character_name_10041745 # Keiho
 	dynasty=10000420 # Yamato(Fushimi no Miya)
 	father=10041750 # Yamato Sadaatsu
-	religion="shinto"
-	culture=yamato
+	religion=tiantai
+	culture=yamato #"kinai_buddhist"
 	trait="legitimized_bastard"
 	martial=1
 	prowess=5
@@ -5701,8 +6010,8 @@
 	name=character_name_10041746 # Sonchi
 	dynasty=10000420 # Yamato(Fushimi no Miya)
 	father=10041750 # Yamato Sadaatsu
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="legitimized_bastard"
 	martial=1
 	prowess=5
@@ -5718,8 +6027,8 @@
 	name=character_name_10041747 # Shukyo
 	dynasty=10000420 # Yamato(Fushimi no Miya)
 	father=10041750 # Yamato Sadaatsu
-	religion="shinto"
-	culture=yamato
+	religion=tiantai
+	culture=yamato #"kinai_buddhist"
 	trait="legitimized_bastard"
 	martial=1
 	prowess=5
@@ -5740,7 +6049,7 @@
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041755 # Yamato (Fushimi no miya) Kunitaka
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1488.3.1={
@@ -5757,15 +6066,15 @@
 	name=character_name_10041751 # Kaikaku
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041755 # Yamato (Fushimi no miya) Kunitaka
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	prowess=5
 	1499.1.1={
 		birth=yes
 	}
 	1509.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
 		}
@@ -5778,15 +6087,15 @@
 	name=character_name_10041752 # Bunzantosho
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041755 # Yamato (Fushimi no miya) Kunitaka
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	prowess=5
 	1490.1.1={
 		birth=yes
 	}
 	1500.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
 		}
@@ -5801,7 +6110,7 @@
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041755 # Yamato (Fushimi no miya) Kunitaka
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1511.1.1={
@@ -5815,8 +6124,9 @@
 	name=character_name_10041755 # Kunitaka # 5th Fusimi no Miya
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041092 # Yamato Sadatsune
+	mother=10127238
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1456.3.8={
 		birth=yes
 	}
@@ -5828,18 +6138,31 @@
 	name=character_name_10041757 # Doei
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041092 # Yamato Sadatsune
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	learning=9
+#	trait="mikkyo_buddhist"
 	prowess=5
 	1460.1.1={
 		birth=yes
 	}
 	1470.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
+		}
+	}
+	1527.10.23 = {
+		effect = {
+			set_employer = character:10040500
+			return_to_court = yes
+		}
+	}
+	1534.1.1 = {
+		effect = {
+			set_employer = character:10040000
+			return_to_court = yes
 		}
 	}
 	1535.1.21={
@@ -5850,8 +6173,8 @@
 	name=character_name_10041758 # Kakuen
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041092 # Yamato Sadatsune
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	learning=9
 	prowess=5
@@ -5859,7 +6182,7 @@
 		birth=yes
 	}
 	1471.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
 		}
@@ -5872,8 +6195,8 @@
 	name=character_name_10041760 # Jiun
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041092 # Yamato Sadatsune
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	learning=9
 	prowess=5
@@ -5893,8 +6216,8 @@
 	name=character_name_10041761 # Doho
 	dynasty=10000420 # Yamato (Fushimi no miya)
 	father=10041092 # Yamato Sadatsune
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=1
 	learning=9
 	prowess=5
@@ -5903,7 +6226,7 @@
 	}
 	1477.1.1={
 		name = character_name_10041761_1 # Doho
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
 		}
@@ -5918,7 +6241,7 @@
 	father=10041740 # Yamato Kunisuke
 	mother=11001305 # Saionji KeifukuIn
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1547.2.1={
@@ -5933,8 +6256,8 @@
 	dynasty=10000420 # Yamato (Fushimi no Miya)
 	father=10041740 # Yamato Kunisuke
 	mother=11001305 # Saionji KeifukuIn
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5951,7 +6274,7 @@
 	dynasty=10000420 # Yamato (Fushimi no Miya)
 	father=10041740 # Yamato Kunisuke
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	martial=1
 	prowess=5
 	1563.4.23={
@@ -5965,8 +6288,8 @@
 	name=character_name_10041771 # Join
 	dynasty=10000420 # Yamato (Fushimi no Miya)
 	father=10041740 # Yamato Kunisuke
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
 	martial=1
 	learning=9
@@ -5985,7 +6308,7 @@
 	father=10041049 # Emperor Go-Sanjo
 	mother=11001012 # Fujiwara Shigeko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1050.1.1={
 		birth=yes
 	}
@@ -6000,7 +6323,7 @@
 	father=10041049 # Emperor Go-Sanjo
 	mother=11001012 # Fujiwara Shigeko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1056.1.1={
 		birth=yes
 	}
@@ -6015,7 +6338,7 @@
 	father=10041049 # Emperor Go-Sanjo
 	mother=11001012 # Fujiwara Shigeko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1057.1.1={
 		birth=yes
 	}
@@ -6030,7 +6353,7 @@
 	father=10041049 # Emperor Go-Sanjo
 	mother=11001012 # Fujiwara Shigeko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1060.1.1={
 		birth=yes
 	}
@@ -6043,7 +6366,7 @@
 	dynasty=10000420 # Yamato
 	father=10041049 # Emperor Go-Sanjo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1071.3.14={
 		birth=yes
 	}
@@ -6064,7 +6387,7 @@
 	dynasty=10000420 # Yamato
 	father=10041049 # Emperor Go-Sanjo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1073.2.28={
 		birth=yes
 	}
@@ -6077,7 +6400,7 @@
 	dynasty=10000420 # Yamato
 	father=10041777 # Prince Sukehito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1098.1.1={
 		birth=yes
 	}
@@ -6096,7 +6419,7 @@
 	dynasty=10000420 # Yamato
 	father=10041777 # Prince Sukehito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1103.1.1={
 		birth=yes
 	}
@@ -6110,7 +6433,7 @@
 	dynasty=10000420 # Yamato
 	father=10041777 # Prince Sukehito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1111.1.1={
 		birth=yes
 	}
@@ -6124,7 +6447,7 @@
 	dynasty=10000420 # Yamato
 	father=10041777 # Prince Sukehito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1107.1.1={
 		birth=yes
 	}
@@ -6138,7 +6461,7 @@
 	dynasty=10000420 # Yamato
 	father=10041777 # Prince Sukehito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1115.1.1={
 		birth=yes
 	}
@@ -6151,7 +6474,7 @@
 	dynasty=10000420 # Yamato
 	father=10041777 # Prince Sukehito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1105.1.1={
 		birth=yes
 	}
@@ -6170,15 +6493,21 @@
 	dynasty=10000420 # Yamato
 	father=10041091 # Yamato Mochihito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1165.1.1={
 		birth=yes
 	}
 	1180.6.15={
-		employer=10041091 # Yamato Mochihito
+		effect = {
+			set_employer = character:10041091
+			return_to_court = yes
+		}
 	}
 	1180.6.20={
-		employer=10041091 # Yamato Mochihito
+		effect = {
+			set_employer = character:10041091
+			return_to_court = yes
+		}
 	}
 	1230.8.17={
 		name = character_name_10041234_1 # Hoen
@@ -6190,12 +6519,15 @@
 	dynasty=10000420 # Yamato
 	father=10041091 # Yamato Mochihito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1167.1.1={
 		birth=yes
 	}
 	1180.6.20={
-		employer=12570100 # Myoun, Enryaku-ji
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
 		effect = {
 			add_trait = "devoted"
 		}
@@ -6209,14 +6541,47 @@
 	dynasty=10000420 # Yamato
 	father=10041091 # Yamato Mochihito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1176.1.1={
 		birth=yes
 	}
 	1180.6.20={
-		employer=10041243 # Shukaku, Ninna-ji
 		effect = {
 			add_trait = "devoted"
+		}
+		effect = {
+			set_employer = character:10110025
+			return_to_court = yes
+		}
+	}
+	1181.3.20 = {
+		effect = {
+			set_employer = character:10110042
+			return_to_court = yes
+		}
+	}
+	1183.8.17 = {
+		effect = {
+			set_employer = character:10120084
+			return_to_court = yes
+		}
+	}
+	1184.3.4 = {
+		effect = {
+			set_employer = character:10120081
+			return_to_court = yes
+		}
+	}
+	1185.11.26 = {
+		effect = {
+			set_employer = character:10131650
+			return_to_court = yes
+		}
+	}
+	1186.4.1 = {
+		effect = {
+			set_employer = character:11006480
+			return_to_court = yes
 		}
 	}
 	1187.3.21={
@@ -6229,14 +6594,66 @@
 	father=10041091 # Yamato Mochihito
 	mother=10243045 # Takashina Sanmi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1175.1.1={
 		birth=yes
 	}
 	1180.6.20={
-		employer=10041243 # Shukaku, Ninna-ji
 		effect = {
 			add_trait = "devoted"
+		}
+		effect = {
+			set_employer = character:10110025
+			return_to_court = yes
+		}
+	}
+	1181.3.20 = {
+		effect = {
+			set_employer = character:10110042
+			return_to_court = yes
+		}
+	}
+	1183.8.17 = {
+		effect = {
+			set_employer = character:10120084
+			return_to_court = yes
+		}
+	}
+	1184.3.4 = {
+		effect = {
+			set_employer = character:10120081
+			return_to_court = yes
+		}
+	}
+	1185.11.26 = {
+		effect = {
+			set_employer = character:10131650
+			return_to_court = yes
+		}
+	}
+	1186.4.1 = {
+		effect = {
+			set_employer = character:11006480
+			return_to_court = yes
+		}
+	}
+	1197.11.23 = {
+		effect = {
+			set_employer = character:11006483
+			return_to_court = yes
+		}
+	}
+	1198.10.19 = {
+		effect = {
+			set_employer = character:10230555
+			return_to_court = yes
+		}
+	}
+	1202.9.13 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
 		}
 	}
 	1228.9.4={
@@ -6248,14 +6665,24 @@
 	dynasty=10000420 # Yamato
 	father=10041091 # Yamato Mochihito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1178.1.1={
 		birth=yes
 	}
 	1180.6.20={
-		employer=10041245 # Ene, Onjo-ji
 		effect = {
 			add_trait = "devoted"
+		}
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
+	}
+	1184.1.3 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
 		}
 	}
 	1238.1.1={
@@ -6269,12 +6696,22 @@
 	father=10041091 # Yamato Mochihito
 	mother=10243045 # Takashina Sanmi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1180.1.1={
 		birth=yes
 	}
 	1180.6.20={
-		employer = 10041059 # Emperor Antoku
+		effect = {
+			set_employer = character:10041059
+			return_to_court = yes
+		}
+	}
+	1183.9.8 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1204.1.1={
 		death=yes
@@ -6287,12 +6724,22 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother=11001088 # Fujiwara Nariko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1147.1.1={
 		birth=yes
 	}
 	1180.5.18={
-		employer = 10041059 # Emperor Antoku
+		effect = {
+			set_employer = character:10041059
+			return_to_court = yes
+		}
+	}
+	1183.9.8 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1216.4.27={
 		death=yes
@@ -6305,12 +6752,22 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother=11001088 # Fujiwara Nariko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1148.1.1={
 		birth=yes
 	}
 	1180.5.18={
-		employer=10041059 # Emperor Antoku
+		effect = {
+			set_employer = character:10041059
+			return_to_court = yes
+		}
+	}
+	1183.9.8 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1192.8.12={
 		death=yes
@@ -6323,12 +6780,22 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother=11001088 # Fujiwara Nariko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1149.1.1={
 		birth=yes
 	}
 	1180.5.18={
-		employer=10041059 # Emperor Antoku
+		effect = {
+			set_employer = character:10041059
+			return_to_court = yes
+		}
+	}
+	1183.9.8 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1201.3.1={
 		death=yes
@@ -6339,11 +6806,60 @@
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	mother=11001088 # Fujiwara Nariko
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="devoted"
+#	trait="mikkyo_buddhist"
 	1150.4.3={
 		birth=yes
+	}
+	1179.12.18 = {
+		effect = {
+			set_employer = character:10110025
+			return_to_court = yes
+		}
+	}
+	1181.3.20 = {
+		effect = {
+			set_employer = character:10110042
+			return_to_court = yes
+		}
+	}
+	1183.8.17 = {
+		effect = {
+			set_employer = character:10120084
+			return_to_court = yes
+		}
+	}
+	1184.3.4 = {
+		effect = {
+			set_employer = character:10120081
+			return_to_court = yes
+		}
+	}
+	1185.11.26 = {
+		effect = {
+			set_employer = character:10131650
+			return_to_court = yes
+		}
+	}
+	1186.4.1 = {
+		effect = {
+			set_employer = character:11006480
+			return_to_court = yes
+		}
+	}
+	1197.11.23 = {
+		effect = {
+			set_employer = character:11006483
+			return_to_court = yes
+		}
+	}
+	1198.10.19 = {
+		effect = {
+			set_employer = character:10230555
+			return_to_court = yes
+		}
 	}
 	1202.9.13={
 		death=yes
@@ -6356,7 +6872,7 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother=11001088 # Fujiwara Nariko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1157.1.1={
 		birth=yes
 	}
@@ -6370,10 +6886,16 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother = 10115021 # Taira Bomon
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="devoted"
 	1152.1.1={
 		birth=yes
+	}
+	1180.1.1 = {
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
 	}
 	1184.1.3={
 		death=yes
@@ -6385,7 +6907,7 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother = 10115021 # Taira Bomon
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1156.1.1={
 		birth=yes
 	}
@@ -6395,7 +6917,17 @@
 		}
 	}
 	1180.1.1={
-		employer=10041245 # Ene, Onjo-ji
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
+	}
+	1184.1.3 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1196.4.18={
 		death=yes
@@ -6407,7 +6939,7 @@
 	father=10041054 # Emperor Go-Shirakawa
 	mother = 10115021 # Taira Bomon
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1159.1.1={
 		birth=yes
 	}
@@ -6417,7 +6949,17 @@
 		}
 	}
 	1180.1.1={
-		employer=10041245 # Ene, Onjo-ji
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
+	}
+	1184.1.3 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1206.4.29={
 		death=yes
@@ -6429,7 +6971,7 @@
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1158.1.1={
 		birth=yes
 	}
@@ -6442,44 +6984,189 @@
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="devoted"
+#	trait="mikkyo_buddhist"
 	1166.12.7={
 		birth=yes
 	}
 	1169.12.30={
-		employer=10041243 # Shukaku, Ninna-ji
+	}
+	1179.12.18 = {
+		effect = {
+			set_employer = character:10110025
+			return_to_court = yes
+		}
+	}
+	1181.3.20 = {
+		effect = {
+			set_employer = character:10110042
+			return_to_court = yes
+		}
+	}
+	1183.8.17 = {
+		effect = {
+			set_employer = character:10120084
+			return_to_court = yes
+		}
+	}
+	1184.3.4 = {
+		effect = {
+			set_employer = character:10120081
+			return_to_court = yes
+		}
+	}
+	1185.11.26 = {
+		effect = {
+			set_employer = character:10131650
+			return_to_court = yes
+		}
+	}
+	1186.4.1 = {
+		effect = {
+			set_employer = character:11006480
+			return_to_court = yes
+		}
+	}
+	1197.11.23 = {
+		effect = {
+			set_employer = character:11006483
+			return_to_court = yes
+		}
+	}
+	1198.10.19 = {
+		effect = {
+			set_employer = character:10230555
+			return_to_court = yes
+		}
+	}
+	1202.9.13 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
 	}
 	1214.12.23={
 		death=yes
 	}
 }
-10041481={
-	name=character_name_10041481 # Shintei
+10041680={
+	name=character_name_10041680 # Muneko
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041052 # Emperor Toba
+	trait="education_diplomacy_1"
+	trait="celibate"
+	trait="chaste"
+	trait="beauty_good_3"
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1126.8.13={
+		birth=yes
+	}
+	1189.9.2={
+		death=yes
+	}
+}
+10041681={
+	name=character_name_10041681 # Akiko
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041052 # Emperor Toba
+	trait="education_diplomacy_1"
+	trait="celibate"
+	trait="chaste"
+	trait="arbitrary"
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1137.4.29={
+		birth=yes
+	}
+	1211.8.6={
+		death=yes
+	}
+}
+10041691={
+	name=character_name_10041691 # Shintei
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1169.1.1={
 		birth=yes
 	}
 	1179.1.1={
-		employer=10041243 # Shukaku, Ninna-ji
 		effect = {
 			add_trait = "devoted"
+		}
+	}
+	1179.12.18 = {
+		effect = {
+			set_employer = character:10110025
+			return_to_court = yes
+		}
+	}
+	1181.3.20 = {
+		effect = {
+			set_employer = character:10110042
+			return_to_court = yes
+		}
+	}
+	1183.8.17 = {
+		effect = {
+			set_employer = character:10120084
+			return_to_court = yes
+		}
+	}
+	1184.3.4 = {
+		effect = {
+			set_employer = character:10120081
+			return_to_court = yes
+		}
+	}
+	1185.11.26 = {
+		effect = {
+			set_employer = character:10131650
+			return_to_court = yes
+		}
+	}
+	1186.4.1 = {
+		effect = {
+			set_employer = character:11006480
+			return_to_court = yes
+		}
+	}
+	1197.11.23 = {
+		effect = {
+			set_employer = character:11006483
+			return_to_court = yes
+		}
+	}
+	1198.10.19 = {
+		effect = {
+			set_employer = character:10230555
+			return_to_court = yes
+		}
+	}
+	1202.9.13 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
 		}
 	}
 	1229.1.1={
 		death=yes
 	}
 }
-10041482={
-	name=character_name_10041482 # Joe
+10041692={
+	name=character_name_10041692 # Joe
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	mother = 10115021 # Taira Bomon
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1164.1.1={
 		birth=yes
 	}
@@ -6489,36 +7176,42 @@
 		}
 	}
 	1179.12.23={
-		employer=12570100 # Myoun, Enryaku-ji
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
 	}
 	1203.4.26={
 		death=yes
 	}
 }
-10041483={
-	name=character_name_10041483 # Shonin
+10041693={
+	name=character_name_10041693 # Shonin
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	trait="devoted"
 	1169.2.1={
 		birth=yes
 	}
 	1179.12.23={
-		employer=12570100 # Myoun, Enryaku-ji
+		effect = {
+			set_employer = character:12570100
+			return_to_court = yes
+		}
 	}
 	1197.4.27={
 		death=yes
 	}
 }
-10041484={
+10041694={
 	female=yes
-	name=character_name_10041484 # Kinko
+	name=character_name_10041694 # Kinko
 	dynasty=10000420 # Yamato
 	father=10041054 # Emperor Go-Shirakawa
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1181.11.13={
 		birth=yes
 	}
@@ -6531,7 +7224,7 @@
 	dynasty=10000420 # Yamato
 	father=10041073 # Emperor Go-Nijo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1300.1.1={
 		birth=yes
 	}
@@ -6544,7 +7237,7 @@
 	dynasty=10000420 # Yamato
 	father=10041800 # Yamato Kuniyosi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1320.1.1={
 		birth=yes
 	}
@@ -6557,7 +7250,7 @@
 	dynasty=10000420 # Yamato
 	father=10041801 # Yamato Yasuhito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1350.1.1={
 		birth=yes
 	}
@@ -6570,7 +7263,7 @@
 	dynasty=10000420 # Yamato
 	father=10041802 # Yamato Kunitsune
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1380.1.1={
 		birth=yes
 	}
@@ -6582,17 +7275,54 @@
 	name=character_name_10041804 # Shodo
 	dynasty=10000420 # Yamato
 	father=10041803 # Yamato Yohira
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
 	1408.1.1={
 		birth=yes
 	}
 	1418.1.1={
 		name = character_name_10041804_1 # Shodo
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
+		}
+	}
+	1418.3.22 = {
+		effect = {
+			set_employer = character:10040004
+			return_to_court = yes
+		}
+	}
+	1423.3.18 = {
+		effect = {
+			set_employer = character:10040005
+			return_to_court = yes
+		}
+	}
+	1425.3.17 = {
+		effect = {
+			set_employer = character:10040004
+			return_to_court = yes
+		}
+	}
+	1429.3.15 = {
+		effect = {
+			set_employer = character:10040006
+			return_to_court = yes
+		}
+	}
+	1441.7.12 = {
+		effect = {
+			set_employer = character:10040007
+			return_to_court = yes
+		}
+	}
+	1443.8.16 = {
+		effect = {
+			set_employer = character:10040008
+			return_to_court = yes
 		}
 	}
 	1453.1.1={
@@ -6604,7 +7334,7 @@
 	dynasty=10000420 # Yamato
 	father=10041803 # Yamato Yohira
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1416.1.1={
 		birth=yes
 	}
@@ -6616,16 +7346,48 @@
 	name=character_name_10041806 # Jokaku
 	dynasty=10000420 # Yamato
 	father=10041805 # Yamato Kuniyasu
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
 	1439.1.1={
 		birth=yes
 	}
 	1449.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
+		}
+	}
+	1453.1.1 = {
+		effect = {
+			set_employer = character:10040008
+			return_to_court = yes
+		}
+	}
+	1479.11.1 = {
+		effect = {
+			set_employer = character:10040009
+			return_to_court = yes
+		}
+	}
+	1489.4.26 = {
+		effect = {
+			set_employer = character:10040011
+			return_to_court = yes
+		}
+	}
+	1493.5.8 = {
+		effect = {
+			set_employer = character:10040012
+			return_to_court = yes
+		}
+	}
+	1503.1.1 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
 		}
 	}
 	1503.8.24={
@@ -6634,10 +7396,11 @@
 }
 10041820={
 	name=character_name_10041820 # IkkyuSojun
+	dna=10041820_yamato_ikkyusojun
 	dynasty=10000420 # Yamato
 	father=10041084 # Emperor Go-Komatsu
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	martial=0
 	diplomacy=10
 	intrigue=18
@@ -6645,11 +7408,14 @@
 	health=8
 	trait="intellect_good_3"
 	trait="bastard"
+#	trait="zen_buddhist"
+	trait="musician"
 	1394.2.1={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1404.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		name = character_name_10041820_1 # IkkyuSojun
 		effect = {
 			add_trait = "devoted"
@@ -6660,15 +7426,57 @@
 		}
 	}
 	1418.3.22={
-		employer=10041804 # Ninna-ji: Shodo
+		effect = {
+			set_employer = character:10040004
+			return_to_court = yes
+		}
+	}
+	1423.3.18 = {
+		effect = {
+			set_employer = character:10040005
+			return_to_court = yes
+		}
+	}
+	1425.3.17 = {
+		effect = {
+			set_employer = character:10040004
+			return_to_court = yes
+		}
+	}
+	1429.3.15 = {
+		effect = {
+			set_employer = character:10040006
+			return_to_court = yes
+		}
 	}
 	1440.1.1={
 		effect = {
 			set_relation_friend = character:10042201
 		}
 	}
+	1441.7.12 = {
+		effect = {
+			set_employer = character:10040007
+			return_to_court = yes
+		}
+	}
+	1443.8.16 = {
+		effect = {
+			set_employer = character:10040008
+			return_to_court = yes
+		}
+	}
 	1453.1.1={
-		employer=10041806 # Ninna-ji: Jokaku
+		effect = {
+			set_employer = character:10040008
+			return_to_court = yes
+		}
+	}
+	1479.11.1 = {
+		effect = {
+			set_employer = character:10040009
+			return_to_court = yes
+		}
 	}
 	1481.12.12={
 		death=yes
@@ -6678,20 +7486,24 @@
 	name=character_name_10041821 # GioShotei
 	dynasty=10000420 # Yamato
 	father=10041820 # Yamato Ikkyu
-	religion="shinto"
-	culture=yamato
+	religion=tiantai #"shinto"
+	culture=yamato #"kinai_buddhist"
 	trait="bastard"
+#	trait="zen_buddhist"
 	1427.1.1={
 		birth=yes
 	}
 	1437.1.1={
-		culture=yamato
+		religion=tiantai #"kinai_buddhist"
 		effect = {
 			add_trait = "devoted"
 		}
 	}
 	1493.1.1={
-		employer=10042861 # Yukawa Shinbee (Sakai)
+		effect = {
+			set_employer = character:10042861
+			return_to_court = yes
+		}
 	}
 	1498.1.1={
 		death=yes
@@ -6702,7 +7514,7 @@
 	dynasty=10000420 # Yamato
 	father=10041069 # Emperor Kameyama
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1303.6.24={
 		birth=yes
 	}
@@ -6715,7 +7527,7 @@
 	dynasty=10000420 # Yamato
 	father=10041830 # Yamato Tsuneakira
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1321.1.1={
 		birth=yes
 	}
@@ -6728,7 +7540,7 @@
 	dynasty=10000420 # Yamato
 	father=10041831 # Yamato Matahito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1354.1.1={
 		birth=yes
 	}
@@ -6741,7 +7553,7 @@
 	dynasty=10000420 # Yamato
 	father=10041832 # Yamato Mitsuhito
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1400.1.1={
 		birth=yes
 	}
@@ -6754,7 +7566,7 @@
 	dynasty=10000420 # Yamato
 	father=10041833 # Yamato Naoakira
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1439.1.1={
 		birth=yes
 	}
@@ -6767,11 +7579,1143 @@
 	dynasty=10000420 # Yamato
 	father=10041834 # Yamato Mataakira
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1490.1.1={
 		birth=yes
 	}
 	1552.8.1={
+		death=yes
+	}
+}
+10041840={
+	name=character_name_10041840 # Munetaka
+	dynasty=10000420 # Yamato
+	father=10041067 # Emperor Go-Saga
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1242.12.15={
+		birth=yes
+	}
+	1252.1.8={
+		add_pressed_claim = title:k_yamato
+	}
+	1274.9.2={
+		death=yes
+	}
+}
+10041841={
+	name=character_name_10041841 # Koreyasu
+	dynasty=10000420 # Yamato
+	father=10041840 # Yamato Munetaka
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1264.5.26={
+		birth=yes
+	}
+	1266.7.24={
+		add_pressed_claim = title:k_yamato
+	}
+	1326.11.25={
+		death=yes
+	}
+}
+10041842={
+	name=character_name_10041842 # Shingaku
+	dynasty=10000420 # Yamato
+	father=10041840 # Yamato Munetaka
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1270.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+10041843={
+	name=character_name_10041843 # Miyako
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041841 # Yamato Koreyasu
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1280.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+10041844={
+	name=character_name_10041844 # Jincho
+	dynasty=10000420 # Yamato
+	father=10041841 # Yamato Koreyasu
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1282.1.1={
+		birth=yes
+	}
+	1292.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1318.1.1={
+		death=yes
+	}
+}
+10041845={
+	name=character_name_10041845 # Seie
+	dynasty=10000420 # Yamato
+	father=10041841 # Yamato Koreyasu
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1300.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1339.11.27={
+		death=yes
+	}
+}
+10041846={
+	name=character_name_10041846 # Nishinodai
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041842 # Yamato Shingaku
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1320.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+10041850={
+	name=character_name_10041850 # Hisaakira
+	dynasty=10000420 # Yamato
+	father=10041068 # Emperor Go-Fukakusa
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1276.10.19={
+		birth=yes
+	}
+	1289.10.9={
+		add_pressed_claim = title:k_yamato
+	}
+	1292.10.19={
+		add_spouse=10041843
+	}
+	1328.11.16={
+		death=yes
+	}
+}
+10041851={
+	name=character_name_10041851 # Morikuni
+	dynasty=10000420 # Yamato
+	father=10041850 # Yamato Hisaakira
+	mother=10041843 # Yamato Miyako
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1301.6.19={
+		birth=yes
+	}
+	1308.8.10={
+		add_pressed_claim = title:k_yamato
+	}
+	1333.9.25={
+		death=yes
+	}
+}
+10041852={
+	name=character_name_10041852 # Hisanaga
+	dynasty=10000420 # Yamato
+	father=10041850 # Yamato Hisaakira
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1310.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+10041853={
+	name=character_name_10041853 # Shue
+	dynasty=10000420 # Yamato
+	father=10041851 # Yamato Morikuni
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1330.1.1={
+		birth=yes
+	}
+	1339.11.27={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1378.1.1={
+		death=yes
+	}
+}
+10041854={
+	name=character_name_10041854 # Muneakira
+	dynasty=10000420 # Yamato
+	father=10041852 # Yamato Hisanaga
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1330.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+10041860={
+	name=character_name_10041860 # Dojo
+	dynasty=10000420 # Yamato
+	father=10041060 # Emperor Go-Toba
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1196.11.7={
+		birth=yes
+	}
+	1206.11.7={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1214.12.23 = {
+		effect = {
+			set_employer = character:10230556
+			return_to_court = yes
+		}
+	}
+	1219.2.13 = {
+		effect = {
+			set_employer = character:10130324
+			return_to_court = yes
+		}
+	}
+	1221.6.6 = {
+		effect = {
+			set_employer = character:10041060
+			return_to_court = yes
+		}
+	}
+	1221.7.6 = {
+		effect = {
+			set_employer = character:10131666
+			return_to_court = yes
+		}
+	}
+	1224.7.1 = {
+		effect = {
+			set_employer = character:10131688
+			return_to_court = yes
+		}
+	}
+	1230.7.29 = {
+		effect = {
+			set_employer = character:10131668
+			return_to_court = yes
+		}
+	}
+	1247.7.9 = {
+		effect = {
+			set_employer = character:10131711
+			return_to_court = yes
+		}
+	}
+	1249.3.1={
+		death=yes
+	}
+}
+10041861={
+	name=character_name_10041861 # Masanari
+	dynasty=10000420 # Yamato
+	father=10041060 # Emperor Go-Toba
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1200.10.20={
+		birth=yes
+	}
+	1255.3.19={
+		death=yes
+	}
+}
+10041862={
+	name=character_name_10041862 # Yorihito
+	dynasty=10000420 # Yamato
+	father=10041060 # Emperor Go-Toba
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1201.8.22={
+		birth=yes
+	}
+	1264.6.18={
+		death=yes
+	}
+}
+10041863={
+	name=character_name_10041863 # Dokaku
+	dynasty=10000420 # Yamato
+	father=10041060 # Emperor Go-Toba
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1204.1.1={
+		birth=yes
+	}
+	1214.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1250.2.13={
+		death=yes
+	}
+}
+10041864={
+	name=character_name_10041864 # Hironari
+	dynasty=10000420 # Yamato
+	father=10041060 # Emperor Go-Toba
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1204.4.3={
+		birth=yes
+	}
+	1214.4.3={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1246.4.19={
+		death=yes
+	}
+}
+10041865={
+	name=character_name_10041865 # Sonsho
+	dynasty=10000420 # Yamato
+	father=10041064 # Yamato Morisada
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1194.1.1={
+		birth=yes
+	}
+	1204.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1239.10.1={
+		death=yes
+	}
+}
+10041866={
+	name=character_name_10041866 # Doshin
+	dynasty=10000420 # Yamato
+	father=10041064 # Yamato Morisada
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1206.10.7={
+		birth=yes
+	}
+	1216.10.7={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1249.3.1 = {
+		effect = {
+			set_employer = character:10131711
+			return_to_court = yes
+		}
+	}
+	1249.9.6={
+		death=yes
+	}
+}
+10041867={
+	name=character_name_10041867 # Sonjo
+	dynasty=10000420 # Yamato
+	father=10041061 # Emperor Tsuchimikado
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1217.1.1={
+		birth=yes
+	}
+	1227.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1291.1.2={
+		death=yes
+	}
+}
+10041868={
+	name=character_name_10041868 # Saijin
+	dynasty=10000420 # Yamato
+	father=10041061 # Emperor Tsuchimikado
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1227.1.1={
+		birth=yes
+	}
+	1237.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1295.2.1={
+		death=yes
+	}
+}
+10041869={
+	name=character_name_10041869 # Sonkaku
+	dynasty=10000420 # Yamato
+	father=10041062 # Emperor Juntoku
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1215.1.1={
+		birth=yes
+	}
+	1225.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1264.11.17={
+		death=yes
+	}
+}
+10041870={
+	name=character_name_10041870 # Tadanari
+	dynasty=10000420 # Yamato
+	father=10041062 # Emperor Juntoku
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1222.1.1={
+		birth=yes
+	}
+	1281.1.5={
+		death=yes
+	}
+}
+10041871={
+	name=character_name_10041871 # Yoshimune
+	dynasty=10000420 # Yamato
+	father=10041062 # Emperor Juntoku
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1233.1.1={
+		birth=yes
+	}
+	1317.5.10={
+		death=yes
+	}
+}
+10041872={
+	name=character_name_10041872 # Chokaku
+	dynasty=10000420 # Yamato
+	father=10041861 # Yamato Masanari
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1218.1.1={
+		birth=yes
+	}
+	1228.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1289.5.9={
+		death=yes
+	}
+}
+10041873={
+	name=character_name_10041873 # Jine
+	dynasty=10000420 # Yamato
+	father=10041067 # Emperor Go-Saga
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1244.1.1={
+		birth=yes
+	}
+	1254.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1298.1.1={
+		death=yes
+	}
+}
+10041874={
+	name=character_name_10041874 # Shojo
+	dynasty=10000420 # Yamato
+	father=10041067 # Emperor Go-Saga
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1247.8.25={
+		birth=yes
+	}
+	1257.8.25={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1270.1.1 = {
+		effect = {
+			set_employer = character:10131712
+			return_to_court = yes
+		}
+	}
+	1270.2.18 = {
+		effect = {
+			set_employer = character:10131878
+			return_to_court = yes
+		}
+	}
+	1277.9.16 = {
+		effect = {
+			set_employer = character:10131747
+			return_to_court = yes
+		}
+	}
+	1283.1.19={
+		death=yes
+	}
+}
+10041875={
+	name=character_name_10041875 # Shojin
+	dynasty=10000420 # Yamato
+	father=10041068 # Emperor Go-Fukakusa
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1267.1.1={
+		birth=yes
+	}
+	1277.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1283.1.19 = {
+		effect = {
+			set_employer = character:10131747
+			return_to_court = yes
+		}
+	}
+	1287.9.22 = {
+		effect = {
+			set_employer = character:10132162
+			return_to_court = yes
+		}
+	}
+	1290.1.1 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
+	}
+	1304.9.10={
+		death=yes
+	}
+}
+10041876={
+	name=character_name_10041876 # Shinsho
+	dynasty=10000420 # Yamato
+	father=10041068 # Emperor Go-Fukakusa
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1275.1.1={
+		birth=yes
+	}
+	1285.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1290.1.1 = {
+		effect = {
+			set_employer = character:10132162
+			return_to_court = yes
+		}
+	}
+	1293.4.14 = {
+		effect = {
+			set_employer = character:10132044
+			return_to_court = yes
+		}
+	}
+	1297.7.8 = {
+		effect = {
+			set_employer = character:10132163
+			return_to_court = yes
+		}
+	}
+	1299.7.5={
+		death=yes
+	}
+}
+10041877={
+	name=character_name_10041877 # Kansho
+	dynasty=10000420 # Yamato
+	father=10041071 # Emperor Fushimi
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1289.1.1={
+		birth=yes
+	}
+	1299.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1299.7.5 = {
+		effect = {
+			set_employer = character:10132163
+			return_to_court = yes
+		}
+	}
+	1301.1.5 = {
+		effect = {
+			set_employer = character:10132050
+			return_to_court = yes
+		}
+	}
+	1303.11.29 = {
+		effect = {
+			set_employer = character:10131881
+			return_to_court = yes
+		}
+	}
+	1307.9.11 = {
+		effect = {
+			set_employer = character:10132093
+			return_to_court = yes
+		}
+	}
+	1315.8.11 = {
+		effect = {
+			set_employer = character:10131921
+			return_to_court = yes
+		}
+	}
+	1320.1.1 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
+	}
+	1346.10.15={
+		death=yes
+	}
+}
+10041878={
+	name=character_name_10041878 # Sonen
+	dynasty=10000420 # Yamato
+	father=10041071 # Emperor Fushimi
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1298.9.7={
+		birth=yes
+	}
+	1308.9.7={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1356.10.17={
+		death=yes
+	}
+}
+10041879={
+	name=character_name_10041879 # Sonin
+	dynasty=10000420 # Yamato
+	father=10041072 # Emperor Go-Fushimi
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1306.1.1={
+		birth=yes
+	}
+	1316.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1359.5.29={
+		death=yes
+	}
+}
+10041880={
+	name=character_name_10041880 # Hoshu
+	dynasty=10000420 # Yamato
+	father=10041072 # Emperor Go-Fushimi
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1308.10.28={
+		birth=yes
+	}
+	1318.10.28={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1320.1.1 = {
+		effect = {
+			set_employer = character:10131921
+			return_to_court = yes
+		}
+	}
+	1320.7.8 = {
+		effect = {
+			set_employer = character:10132047
+			return_to_court = yes
+		}
+	}
+	1331.2.4 = {
+		effect = {
+			set_employer = character:10132207
+			return_to_court = yes
+		}
+	}
+	1333.6.19 = {
+		effect = {
+			set_employer = character:10041075
+			return_to_court = yes
+		}
+	}
+	1333.7.4 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
+	}
+	1336.7.22 = {
+		effect = {
+			set_employer = character:12139028
+			return_to_court = yes
+		}
+	}
+	1340.1.1 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
+	}
+	1391.10.17={
+		death=yes
+	}
+}
+10041881={
+	name=character_name_10041881 # Tamako
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041072 # Emperor Go-Fushimi
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1311.3.13={
+		birth=yes
+	}
+	1337.6.11={
+		death=yes
+	}
+}
+10041882={
+	name=character_name_10041882 # Shoen
+	dynasty=10000420 # Yamato
+	father=10041072 # Emperor Go-Fushimi
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1317.1.1={
+		birth=yes
+	}
+	1327.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1377.5.16={
+		death=yes
+	}
+}
+10041883={
+	name=character_name_10041883 # Ryosei
+	dynasty=10000420 # Yamato
+	father=10041072 # Emperor Go-Fushimi
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1318.1.1={
+		birth=yes
+	}
+	1328.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1363.1.1={
+		death=yes
+	}
+}
+10041884={
+	name=character_name_10041884 # Sondo
+	dynasty=10000420 # Yamato
+	father=10041072 # Emperor Go-Fushimi
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1332.1.1={
+		birth=yes
+	}
+	1342.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1403.1.1={
+		death=yes
+	}
+}
+10041885={
+	name=character_name_10041885 # Gensho
+	dynasty=10000420 # Yamato
+	father=10041074 # Emperor Hanazono
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1327.1.1={
+		birth=yes
+	}
+	1337.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1340.1.1 = {
+		effect = {
+			set_employer = character:12139028
+			return_to_court = yes
+		}
+	}
+	1353.3.5={
+		death=yes
+	}
+}
+10041886={
+	name=character_name_10041886 # Naohito
+	dynasty=10000420 # Yamato
+	father=10041074 # Emperor Hanazono
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1335.1.1={
+		birth=yes
+	}
+	1398.6.2={
+		death=yes
+	}
+}
+10041887={
+	name=character_name_10041887 # Soncho
+	dynasty=10000420 # Yamato
+	father=10041076 # Emperor Hanazono
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1344.1.1={
+		birth=yes
+	}
+	1353.3.5 = {
+		effect = {
+			set_employer = character:12139028
+			return_to_court = yes
+		}
+	}
+	1354.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1358.6.7 = {
+		effect = {
+			set_employer = character:10040002
+			return_to_court = yes
+		}
+	}
+	1367.12.28 = {
+		effect = {
+			set_employer = character:10040003
+			return_to_court = yes
+		}
+	}
+	1378.9.8={
+		death=yes
+	}
+}
+10041888={
+	name=character_name_10041888 # Eijo
+	dynasty=10000420 # Yamato
+	father=10041082 # Emperor Go-Kogon
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1362.4.24={
+		birth=yes
+	}
+	1372.4.24={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1378.9.8 = {
+		effect = {
+			set_employer = character:10040003
+			return_to_court = yes
+		}
+	}
+	1399.1.1 = {
+		effect = {
+			host ?= {
+				remove_courtier_or_guest = root
+			}
+		}
+	}
+	1437.3.16={
+		death=yes
+	}
+}
+10041889={
+	name=character_name_10041889 # Seijo
+	dynasty=10000420 # Yamato
+	father=10041082 # Emperor Go-Kogon
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1371.1.1={
+		birth=yes
+	}
+	1381.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+10041890={
+	name=character_name_10041890 # Yujo
+	dynasty=10000420 # Yamato
+	father=10041073 # Emperor Go-Nijo
+	learning=8
+	trait="education_learning_3"
+#	trait="mikkyo_buddhist"
+	religion=tiantai #"shinto"
+	culture=yamato #"imperial_family"
+	1302.1.1={
+		birth=yes
+	}
+	1312.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1359.1.1={
+		death=yes
+	}
+}
+10041891={
+	name=character_name_10041891 # Takamasa
+	dynasty=10000420 # Yamato
+	father=10041871 # Yamato Yoshimune
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1300.1.1={
+		birth=yes
+	}
+	1330.1.1={
+		death=yes
+	}
+}
+10041892={
+	name=character_name_10041892 # Yoshinari
+	dynasty=10005130 # Yotsutsuji
+	father=10041890 # Yamato Takamasa
+	religion="shinto"
+	culture=yamato #"aristocrats"
+	1326.1.1={
+		birth=yes
+	}
+	1402.9.29={
+		death=yes
+	}
+}
+10041893={
+	name=character_name_10041893 # Jido
+	dynasty=10000420 # Yamato
+	father=10041069 # Emperor Kameyama
+	trait="education_learning_3"
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1282.1.1={
+		birth=yes
+	}
+	1292.1.1={
+		religion=tiantai #"kinai_buddhist"
+		effect = {
+			add_trait = "devoted"
+		}
+	}
+	1341.4.27={
+		death=yes
+	}
+}
+10041895={
+	name=character_name_10041895 # Koreaki
+	dynasty=10000420 # Yamato
+	father=10041058 # Emperor Takakura
+	trait="bastard"
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1179.1.1={
+		birth=yes
+	}
+	1221.5.25={
+		death=yes
+	}
+}
+10041896={
+	name=character_name_10041896 # Kunitaka
+	dynasty=10000420 # Yamato
+	father=10041895 # Yamato Koreaki
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1210.1.1={
+		birth=yes
+	}
+	1270.1.1={
+		death=yes
+	}
+}
+10041897={
+	name=character_name_10041897 # Otoyo
+	dynasty=10000420 # Yamato
+	father=10041896 # Yamato Kunitaka
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1260.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		death=yes
+	}
+}
+10041898={
+	name=character_name_10041898 # Sho
+	dynasty=10000420 # Yamato
+	father=10041897 # Yamato Otoyo
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1300.1.1={
+		birth=yes
+	}
+	1333.1.1={
+		effect = {
+			set_employer = character:10041075
+			return_to_court = yes
+		}
+	}
+	1333.7.4={
+		effect = {
+			add_trait = "jusanmi"
+		}
+	}
+	1333.8.1={
+		give_nickname="nick_the_jibu_kyo"
+	}
+	1335.1.1={
+		effect = {
+			remove_trait = "jusanmi"
+			add_trait = "shosanmi"
+		}
+	}
+	1338.6.1={
 		death=yes
 	}
 }
@@ -6780,7 +8724,7 @@
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1305.1.1={
 		birth=yes
 	}
@@ -6790,12 +8734,16 @@
 }
 10041901={
 	name=character_name_10041901 # Moriyoshi
+	dna=10041901_yamato_moriyoshi
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	trait="bastard"
+#	trait="mikkyo_buddhist"
 	1308.1.1={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
 	}
 	1335.8.12={
 		death=yes
@@ -6805,8 +8753,10 @@
 	name=character_name_10041902 # Takayoshi
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
+	mother=11001721
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	trait="musician"
 	1310.1.1={
 		birth=yes
 	}
@@ -6816,12 +8766,29 @@
 }
 10041903={
 	name=character_name_10041903 # Muneyoshi
+	dna=10041903_yamato_muneyoshi
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
+	mother=11001721
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	learning=11
+	trait="education_learning_4"
+	trait="poet"
+#	trait="mikkyo_buddhist"
+	trait="musician"
 	1311.1.1={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
+	}
+	1336.1.1={
+		give_nickname="nick_the_nakatsukasa_kyo"
+		effect = {
+			add_trait = "juichii"
+		}
+	}
+	1340.1.1={
+		add_spouse=12390515 # Ii Shigeko
 	}
 	1385.9.14={
 		death=yes
@@ -6832,7 +8799,7 @@
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1312.1.1={
 		birth=yes
 	}
@@ -6844,12 +8811,14 @@
 	name=character_name_10041905 # Tsuneyoshi
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
+	mother=11007814 # Ano Renshi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	trait="musician"
 	1324.1.1={
 		birth=yes
 	}
-	1385.5.3={
+	1346.1.1={
 		death=yes
 	}
 }
@@ -6858,7 +8827,7 @@
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1325.1.1={
 		birth=yes
 	}
@@ -6870,23 +8839,54 @@
 	name=character_name_10041907 # Nariyoshi
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
+	mother=11007814 # Ano Renshi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1326.1.1={
 		birth=yes
 	}
-	1385.5.14={
+	1344.1.21={
 		death=yes
 	}
 }
 10041908={
 	name=character_name_10041908 # Kaneyoshi
+	dna=10041908_yamato_kaneyoshi
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
+	mother=11001723
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
+	diplomacy=9
+	martial=10
+	learning=11
+	trait="education_diplomacy_4"
+	trait="poet"
+#	trait="mikkyo_buddhist"
+	prowess=14
 	1329.1.1={
 		birth=yes
+#effect = { add_character_flag = has_scripted_appearance }
+	}
+	1345.1.1={
+		give_nickname="nick_the_shikibu_kyo"
+		effect = {
+			add_trait = "juichii"
+		}
+	}
+	1346.1.1={
+		add_spouse=10066035 # Kikuchi Takeko
+	}
+	1348.1.1={
+		effect = {
+			set_relation_friend = character:10066022
+		}
+	}
+	1355.1.1={
+		add_pressed_claim = title:c_nmih_mikasa
+		effect = {
+			set_relation_rival = character:10068018
+		}
 	}
 	1383.4.30={
 		death=yes
@@ -6897,7 +8897,7 @@
 	dynasty=10000420 # Yamato
 	father=10041075 # Yamato Godaigo
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1330.1.1={
 		birth=yes
 	}
@@ -6910,7 +8910,7 @@
 	dynasty=10000420 # Yamato
 	father=10041901 # Yamato Moriyoshi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1326.1.1={
 		birth=yes
 	}
@@ -6923,7 +8923,7 @@
 	dynasty=10000420 # Yamato
 	father=10041902 # Yamato Takayoshi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1326.1.1={
 		birth=yes
 	}
@@ -6936,7 +8936,7 @@
 	dynasty=10000420 # Yamato
 	father=10041902 # Yamato Takayoshi
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1330.1.1={
 		birth=yes
 	}
@@ -6948,8 +8948,9 @@
 	name=character_name_10041913 # Yukiyoshi
 	dynasty=10000420 # Yamato
 	father=10041903 # Yamato Muneyoshi
+	mother=12390515 # Ii Shigeko
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1364.1.1={
 		birth=yes
 	}
@@ -6962,7 +8963,7 @@
 	dynasty=10000420 # Yamato
 	father=10041077 # Yamato Go-Murakami
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1355.1.1={
 		birth=yes
 	}
@@ -6975,7 +8976,7 @@
 	dynasty=10000420 # Yamato
 	father=10041077 # Yamato Go-Murakami
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1360.1.1={
 		birth=yes
 	}
@@ -6988,7 +8989,7 @@
 	dynasty=10000420 # Yamato
 	father=10041077 # Yamato Go-Murakami
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1361.1.1={
 		birth=yes
 	}
@@ -7001,7 +9002,7 @@
 	dynasty=10000420 # Yamato
 	father=10041077 # Yamato Go-Murakami
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1362.1.1={
 		birth=yes
 	}
@@ -7014,7 +9015,7 @@
 	dynasty=10000420 # Yamato
 	father=10041077 # Yamato Go-Murakami
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1363.1.1={
 		birth=yes
 	}
@@ -7027,7 +9028,7 @@
 	dynasty=10000420 # Yamato
 	father=10041078 # Yamato Chokei
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1360.1.1={
 		birth=yes
 	}
@@ -7040,7 +9041,7 @@
 	dynasty=10000420 # Yamato
 	father=10041078 # Yamato Chokei
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1374.1.1={
 		birth=yes
 	}
@@ -7053,7 +9054,7 @@
 	dynasty=10000420 # Yamato
 	father=10041078 # Yamato Chokei
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1377.1.1={
 		birth=yes
 	}
@@ -7066,7 +9067,7 @@
 	dynasty=10000420 # Yamato
 	father=10041078 # Yamato Chokei
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1380.1.1={
 		birth=yes
 	}
@@ -7079,7 +9080,7 @@
 	dynasty=10000420 # Yamato
 	father=10041079 # Yamato Go-Kameyama
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1370.1.1={
 		birth=yes
 	}
@@ -7092,7 +9093,7 @@
 	dynasty=10000420 # Yamato
 	father=10041935 # Yamato Tsuneatsu
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1400.1.1={
 		birth=yes
 	}
@@ -7105,7 +9106,7 @@
 	dynasty=10000420 # Yamato
 	father=10041936 # Yamato Seisho
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1419.1.1={
 		birth=yes
 	}
@@ -7118,12 +9119,21 @@
 	dynasty=10000420 # Yamato
 	father=10041936 # Yamato Seisho
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1438.1.1={
 		birth=yes
 	}
 	1453.1.1={
-		employer=10041806 # Ninna-ji: Jokaku
+		effect = {
+			set_employer = character:10040008
+			return_to_court = yes
+		}
+	}
+	1479.11.1 = {
+		effect = {
+			set_employer = character:10040009
+			return_to_court = yes
+		}
 	}
 	1480.1.1={
 		death=yes
@@ -7134,7 +9144,7 @@
 	dynasty=10000420 # Yamato
 	father=10041920 # Yamato Korenari
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1380.1.1={
 		birth=yes
 	}
@@ -7147,7 +9157,7 @@
 	dynasty=10000420 # Yamato
 	father=10041940 # Yamato Tokiaki
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1411.1.1={
 		birth=yes
 	}
@@ -7160,7 +9170,7 @@
 	dynasty=10000420 # Yamato
 	father=10041940 # Yamato Tokiaki
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1429.1.1={
 		birth=yes
 	}
@@ -7173,7 +9183,7 @@
 	dynasty=10000420 # Yamato
 	father=10041941 # Yamato Konzosu
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1430.1.1 ={
 		birth=yes
 	}
@@ -7186,11 +9196,225 @@
 	dynasty=10000420 # Yamato
 	father=10041941 # Yamato Konzosu
 	religion="shinto"
-	culture=yamato
+	culture=yamato #"imperial_family"
 	1440.1.1={
 		birth=yes
 	}
 	1457.12.18={
+		death=yes
+	}
+}
+10041945={
+	name=character_name_10041945 # Yoshihito
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1588.5.29={
+		birth=yes
+	}
+	1648.3.15={
+		death=yes
+	}
+}
+10041946={
+	name=character_name_10041946 # Shoko
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1590.1.1={
+		birth=yes
+	}
+	1595.1.25={
+		death=yes
+	}
+}
+10041947={
+	name=character_name_10041947 # Yukikatsu
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1591.4.7={
+		birth=yes
+	}
+	1610.1.14={
+		death=yes
+	}
+}
+10041948={
+	name=character_name_10041948 # Kiyoko
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1592.6.3={
+		birth=yes
+	}
+	1675.1.4={
+		death=yes
+	}
+}
+10041949={
+	name=character_name_10041949 # Bunko
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1595.1.1={
+		birth=yes
+	}
+	1644.9.19={
+		death=yes
+	}
+}
+10041950={
+	name=character_name_10041950 # Sonei
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1598.6.8={
+		birth=yes
+	}
+	1611.1.1={
+		death=yes
+	}
+}
+10041951={
+	name=character_name_10041951 # Sonsho
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1602.11.21={
+		birth=yes
+	}
+	1651.5.11={
+		death=yes
+	}
+}
+10041952={
+	name=character_name_10041952 # Gyozen
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1602.1.1={
+		birth=yes
+	}
+	1661.10.15={
+		death=yes
+	}
+}
+10041953={
+	name=character_name_10041953 # Yoshihito
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1603.4.29={
+		birth=yes
+	}
+	1638.7.14={
+		death=yes
+	}
+}
+10041954={
+	name=character_name_10041954 # Ryojun
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1604.4.28={
+		birth=yes
+	}
+	1669.8.27={
+		death=yes
+	}
+}
+10041955={
+	name=character_name_10041955 # Sadako
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1606.9.1={
+		birth=yes
+	}
+	1675.8.8={
+		death=yes
+	}
+}
+10041956={
+	name=character_name_10041956 # Sonkaku
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1608.3.1={
+		birth=yes
+	}
+	1661.8.20={
+		death=yes
+	}
+}
+10041957={
+	name=character_name_10041957 # Eisu
+	female=yes
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1609.6.3={
+		birth=yes
+	}
+	1690.8.24={
+		death=yes
+	}
+}
+10041958={
+	name=character_name_10041958 # Doko
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1612.4.8={
+		birth=yes
+	}
+	1679.7.25={
+		death=yes
+	}
+}
+10041959={
+	name=character_name_10041959 # Doshu
+	dynasty=10000420 # Yamato
+	father=10041098 # Go-Yozei Emperor
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1613.3.7={
+		birth=yes
+	}
+	1635.1.16={
+		death=yes
+	}
+}
+10041960={
+	name=character_name_10041960 # Sadakiyo
+	dynasty=10000420 # Yamato
+	father=10041770 # Fushimimiya Kunifusa
+	religion="shinto"
+	culture=yamato #"imperial_family"
+	1596.1.1={
+		birth=yes
+	}
+	1654.8.16={
 		death=yes
 	}
 }
