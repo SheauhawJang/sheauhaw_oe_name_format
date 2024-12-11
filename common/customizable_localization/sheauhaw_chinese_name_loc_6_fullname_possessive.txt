@@ -321,7 +321,7 @@ OE_GetFullNamePossessiveNoTooltip_SpouseFallback = {
 		localization_key = Loc_OE_GetFullNamePossessiveNoTooltip_Diarch
 		trigger = {
 			using_oe_uiname_landed_any_trigger = yes
-			using_oe_uiname_landed_steppe_trigger = no
+			#using_oe_uiname_landed_steppe_trigger = no
 			OR = {
 				AND = {
 					exists = liege
@@ -351,7 +351,7 @@ OE_GetFullNamePossessiveNoTooltip_SpouseFallback = {
 		localization_key = Loc_OE_GetFullNamePossessiveNoTooltip_Council
 		trigger = {
 			using_oe_uiname_landed_any_trigger = yes
-			using_oe_uiname_landed_steppe_trigger = no
+			#using_oe_uiname_landed_steppe_trigger = no
 			is_councillor = yes
 		}
 	}
