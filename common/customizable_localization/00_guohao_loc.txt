@@ -3,10 +3,24 @@
 
 	#历史皇族直接绑定国号
 	text = {
+		localization_key = QIN
+		trigger = {
+			dynasty = dynasty:qinguo_ying_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
 		localization_key = HAN
 		trigger = {
 			dynasty = dynasty:peiguo_han_dyn
 			NOT = { house = house:house_pengcheng_suiyu_liu }
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = XIN
+		trigger = {
+			house = house:house_weijun_wang
 			NOT = { house = { has_house_modifier = cust_dynasty } }
 		}
 	}
@@ -132,6 +146,118 @@
 			dynasty = dynasty:shangdang_shi_dyn
 			NOT = { house = { has_house_modifier = cust_dynasty } }
 		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_yan#慕容燕
+		trigger = {
+			dynasty = dynasty:changli_murong_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_qin#苻秦
+		trigger = {
+			dynasty = dynasty:linwei_fu_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_qi#高齐
+		trigger = {
+			dynasty = dynasty:bohai_gao_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_wei#拓跋元魏
+		trigger = {
+			dynasty = dynasty:1029300
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_zhou#宇文周
+		trigger = {
+			dynasty = dynasty:henan_yuwen_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_wu#孙吴
+		trigger = {
+			dynasty = dynasty:lean_sun_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = cn_jin#完颜金
+		trigger = {
+			dynasty = dynasty:1051112
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = cn_yuan#孛儿只斤大元
+		trigger = {
+			dynasty = dynasty:11100
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_shu#前蜀王
+		trigger = {
+			dynasty = dynasty:1000048184
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_shu#后蜀孟
+		trigger = {
+			dynasty = dynasty:longgang_meng_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_wu#杨吴
+		trigger = {
+			dynasty = dynasty:1000048933
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = HAN#南汉
+		trigger = {
+			dynasty = dynasty:1000048895
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_e_min#闽
+		trigger = {
+			dynasty = dynasty:1000048906
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+	text = {
+		localization_key = Loc_GetUIguohao_k_qi#黄巢齐
+		trigger = {
+			dynasty = dynasty:bohai_gao_dyn
+			NOT = { house = { has_house_modifier = cust_dynasty } }
+		}
+	}
+
+	#新建皇族
+	text = {
+		trigger = {
+			house = { has_house_modifier = cust_dynasty }
+			OR = {
+				is_local_player = yes
+				house.any_house_member = {
+					is_local_player = yes
+				}
+			}
+		}
+		localization_key = Loc_GetUIguohao_default
 	}
 
 	#家族修正绑定国号
@@ -410,6 +536,14 @@
 	text = {
 		trigger = {
 			house = {
+				has_house_modifier = e_liang
+			}
+		}
+		localization_key = LIANG
+	}
+	text = {
+		trigger = {
+			house = {
 				has_house_modifier = e_qiang
 			}
 		}
@@ -471,58 +605,66 @@
 		}
 		localization_key = Loc_GetUIguohao_cn_xie
 	}
+	text = {
+		trigger = {
+			house = {
+				has_house_modifier = e_ming
+			}
+		}
+		localization_key = Loc_GetUIguohao_e_ming
+	}
 
 	#文化绑定国号
 	text = {
-		trigger = {	culture = { has_name_list = name_list_khitan } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_liao } }
 		localization_key = cn_liao
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_jurchen } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_jin } }
 		localization_key = cn_jin
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_mongol } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_yuan } }
 		localization_key = cn_yuan
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_balhae } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_liao } }
 		localization_key = cn_liao
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_heishui } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_qing } }
 		localization_key = cn_qing
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_tangut } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_xia } }
 		localization_key = cn_xia
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_bai } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_dalli } }
 		localization_key = cn_dalli
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_wuman } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_cuan } }
 		localization_key = cn_cuan
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_min } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_yin } }
 		localization_key = cn_yin
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_mon } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_jiuli } }
 		localization_key = cn_jiuli
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_jiaozhi } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_yue } }
 		localization_key = cn_yue
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_yi } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = cn_jiuli } }
 		localization_key = cn_jiuli
 	}
 	text = {
-		trigger = {	culture = { has_name_list = name_list_goguryeo } royal_members_trigger = no }
+		trigger = {	house = { has_house_modifier = e_shang } }
 		localization_key = e_shang
 	}
 
@@ -864,11 +1006,6 @@
 		localization_key = Loc_GetUIguohao_cn_xie
 	}
 
-	#新建皇族
-	text = {
-		trigger = {	house = { has_house_modifier = cust_dynasty } }
-		localization_key = Loc_GetUIguohao_default
-	}
 
 
 

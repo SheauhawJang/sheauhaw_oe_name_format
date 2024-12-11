@@ -1,6 +1,9 @@
-using_oe_uiname_landed_trigger = {
+﻿using_oe_uiname_landed_trigger = {
 	OR = {
-		culture = { has_cultural_pillar = heritage_chinese }
+		AND = {
+			culture = { has_cultural_pillar = heritage_chinese }
+			NOT = { can_be_parent_of = character:1800859 }
+		}
 
 		culture = { has_cultural_pillar = heritage_goryeo }
 		culture = { has_name_list = name_list_khitan }
@@ -41,38 +44,20 @@ using_oe_uiname_landed_house_trigger = {
 }
 
 using_oe_uiname_landed_nanman_trigger = {
-	OR = {
-		culture = {
-			has_name_list = name_list_wuman
-		}
-		culture = {
-			has_name_list = name_list_qiang
-		}
-	}
+	culture = { has_name_list = name_list_wuman }
+	culture = { has_name_list = name_list_qiang }
 	exists = father
 	using_oe_uiname_landed_tenno_family_trigger = no
 }
 
 using_oe_uiname_landed_steppe_trigger = {
 	OR = {
-		culture = {
-			has_name_list = name_list_karluk
-		}
-		culture = {
-			has_name_list = name_list_cuman
-		}
-		culture = {
-			has_name_list = name_list_avar
-		}
-		culture = {
-			has_name_list = name_list_kimek
-		}
-		culture = {
-			has_name_list = name_list_khazar
-		}
-		culture = {
-			has_name_list = name_list_bolghar
-		}
+		culture = { has_name_list = name_list_karluk }
+		culture = { has_name_list = name_list_cuman }
+		culture = { has_name_list = name_list_avar }	
+		culture = { has_name_list = name_list_kimek }
+		culture = { has_name_list = name_list_khazar }
+		culture = { has_name_list = name_list_bolghar }	
 	}
 	exists = primary_title
 	using_oe_uiname_landed_tenno_family_trigger = no
@@ -176,6 +161,7 @@ using_oe_uiname_religious_trigger = {
 		}
 		primary_title = title:d_incho
 		primary_title = title:d_sekke
+		primary_title = title:d_shogunate
 	}
 	using_oe_uiname_landed_any_trigger = yes
 }
@@ -214,15 +200,6 @@ using_oe_uiname_landed_religious_trigger = {
 		has_trait = sheauhaw_dead_religious_head_trait
 	}
 	using_oe_uiname_landed_any_trigger = yes
-}
-
-using_oe_uiname_shinno = {
-	OR = {
-		father = { has_trait = sheauhaw_tenno_name_trait }
-		father.father = { has_trait = sheauhaw_tenno_name_trait }
-	#	father.father.father = { has_trait = sheauhaw_tenno_name_trait }
-	#	father.father.father.father = { has_trait = sheauhaw_tenno_name_trait }
-	}
 }
 
 using_oe_uiname_self = {

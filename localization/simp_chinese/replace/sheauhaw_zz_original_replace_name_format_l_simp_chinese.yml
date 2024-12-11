@@ -1,11 +1,12 @@
 ﻿l_simp_chinese:
  VASSAL_CONTRACT_VASSAL_TITLE:0 "修改契约：\n#high [VassalContract.GetVassal.Custom('Sheauhaw_GetName_VassalContract')]\n[VassalContract.GetVassal.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]的统治者#!"
 
-  
+ CHARACTER_TITLED_FIRST_NAME: "$TIER$$NAME$"
  TITLE_CLAN_TIERED_NAME: "$NAME$$TIER|U$"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME: "$NAME$$TIER|U$#F （$BASE_NAME$$TIER|U$）#!"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$NAME$$TIER|U$#F （$BASE_NAME$）#!"
 
+ HOUSE_CADET_BRANCH_NAME_FORMAT: "$TITLE$"
 
  single_heir_succession_law:5 "长嗣继承制"
  single_heir_succession_law_youngest:5 "幼嗣继承制"

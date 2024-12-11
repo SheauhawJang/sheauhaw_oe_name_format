@@ -1,5 +1,4 @@
 ﻿l_simp_chinese:
- nick_the_sessho:0 "摄政"
  Loc_GetUIguohao_none:0 "[GetTitleByKey('e_celestia').GetNameNoTierNoTooltip]"
  taoism_religious_head_title:0 "天师"
 
@@ -8,10 +7,4 @@
   trait_fujiwara_clan_character_desc:0 "[ROOT.GetCharacter.Custom('OE_GetFirstNameNoTooltip_AsName')]自称是藤原氏的一员。[ROOT.GetCharacter.GetSheHe|U]将在公开场合被称为『藤原·[ROOT.GetCharacter.GetFirstNameNoTooltip]』。"
   trait_tachibana_clan_character_desc:0 "[ROOT.GetCharacter.Custom('OE_GetFirstNameNoTooltip_AsName')]自称是橘氏的一员。[ROOT.GetCharacter.GetSheHe|U]将在公开场合被称为『橘·[ROOT.GetCharacter.GetFirstNameNoTooltip]』。"
   
-
- dynasty_name_10000674:0 "橘"
-
   Loc_GetUIguohao_default:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-
-
-HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$TITLE$"
