@@ -82,7 +82,7 @@ types CourtPositionItems
 					}
 					text_single = {
 						name = "ai_score"
-						visible = "[InDebugMode]"
+						visible = "[AIWatchWindowsEnabled]"
 						text = "[CourtPosition.GetAICandidateScore]"
 						default_format = "#D"
 						align = nobaseline
@@ -373,19 +373,17 @@ types CourtPositionItems
 	# Expects the following datacontexts:
 	#	EmployedPositionItem - The EmployedPositionItem that caches information
 	#		regarding this Court Position.
-	#	SelectedEmptyCourtPosition - The datacontext of the empty selection,
-	#		so we can clear selection if we have a empty court position
-	#		selected and click to replace a hired position.
 	#
 	type widget_hired_court_position_item = widget_court_position_entry_base
 	{
 		blockoverride "cp_root"
 		{
-			datacontext = "[EmployedPositionItem.GetPosition]"
-			datacontext = "[CourtPosition.GetEmployee]"
+			datacontext = "[CourtPositionListItem.GetObject]"
+			datacontext = "[CourtPositionItem.GetPosition]"
 			datacontext = "[CourtPosition.GetPositionType]"
+			datacontext = "[CourtPosition.GetEmployee]"
 
-			size = "[Select_CVector2f( DataModelHasItems( CourtPositionType.GetTasks ), '(CVector2f)537,270', '(CVector2f)537,210!' )]"
+			size = { 537 270 }
 
 			background = {
 				using = Background_Area_Light
@@ -405,7 +403,7 @@ types CourtPositionItems
 		{
 			button_round = {
 				onclick = "[CourtPosition.OpenReplaceWindow]"
-				onclick = "[SelectedEmptyCourtPosition.Clear]"
+				onclick = "[CourtPositionsWindow.ClearSelectedPositionId]"
 				tooltip = "COURT_POSITION_REPLACE"
 				using = tooltip_ne
 
@@ -414,7 +412,7 @@ types CourtPositionItems
 				button_change = {
 					parentanchor = center
 					alwaystransparent = yes
-					size = { 20 20 }
+					size = { 22 22 }
 				}
 			}
 
@@ -428,7 +426,7 @@ types CourtPositionItems
 				button_cancel = {
 					parentanchor = center
 					alwaystransparent = yes
-					size = { 20 20 }
+					size = { 24 24 }
 				}
 			}
 		}
@@ -443,8 +441,7 @@ types CourtPositionItems
 		{
 			margin_bottom = 4
 
-			portrait_head_small = {
-			}
+			portrait_head_small = {}
 		}
 
 		blockoverride "cp_ai_score"
@@ -455,8 +452,8 @@ types CourtPositionItems
 		blockoverride "cp_effects"
 		{
 			text = "[CourtPosition.GetEmployerBonuses]"
-			minimumsize = { 440 50 }
-			maximumsize = { 440 150 }
+			minimumsize = { 435 0 }
+			maximumsize = { 435 150 }
 			autoresize = yes
 		}
 
@@ -467,8 +464,8 @@ types CourtPositionItems
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 				margin = { 8 4 }
-				minimumsize = { 440 50 }
-				maximumsize = { 440 150 }
+				minimumsize = { 435 0 }
+				maximumsize = { 435 100 }
 				autoresize = yes
 
 				align = top|left|nobaseline
@@ -481,7 +478,6 @@ types CourtPositionItems
 		{
 			vbox = {
 				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
 				margin = { 14 6 }
 
 				background = {
@@ -514,6 +510,7 @@ types CourtPositionItems
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
+					
 					court_position_aptitude_text = {
 						name = "aptitude"
 					}
@@ -548,7 +545,6 @@ types CourtPositionItems
 
 
 					hbox = {
-						datacontext = "[EmployedPositionItem.GetPosition]"
 						layoutpolicy_vertical = expanding
 						layoutpolicy_horizontal = expanding
 
@@ -587,7 +583,9 @@ types CourtPositionItems
 									max_width = 140
 								}
 							}
+							
 							expand = {}
+							
 							vbox = {
 
 								max_width = 20
@@ -647,22 +645,26 @@ types CourtPositionItems
 								}
 
 							}
+							
 							expand = {}
 						}
+						
 						expand = {}
+						
 						vbox = {
 							expand = {}
 
 							court_position_task_buttons_hbox = {
-								datamodel = "[EmployedPositionItem.GetTasks]"
-								datacontext = "[EmployedPositionItem.GetPosition]"
-								datacontext = "[EmployedPositionItem.GetPosition.GetPositionType]"
+								datamodel = "[CourtPositionItem.GetTasks]"
+								datacontext = "[CourtPositionItem.GetPosition]"
+								datacontext = "[CourtPositionItem.GetPositionType]"
 							}
 
 							expand = {layoutpolicy_vertical = expanding}
 
 						}
 					}
+					
 					expand = {}
 				}
 
@@ -827,15 +829,18 @@ types CourtPositionItems
 	# Empty court position card that is part of a list.
 	type widget_empty_court_position_item = widget_court_position_entry_base
 	{
+		visible = "[Not( CourtPositionListItem.GetObject.IsEmployedPosition )]"
+
 		blockoverride "cp_root"
 		{
-			datacontext = "[EmptyCourtPosition.GetType]"
-			datacontext = "[EmptyCourtPosition.GetCourtOwner]"
+			datacontext = "[CourtPositionListItem.GetObject]"
+			datacontext = "[CourtPositionItem.GetPositionType]"
+			datacontext = "[CourtPositionItem.GetCourtOwner]"
 
-			size = "[Select_CVector2f( DataModelHasItems( CourtPositionType.GetTasks ), '(CVector2f)537,200', '(CVector2f)537,200' )]"
+			size = { 537 220 }
 
 			background = {
-				visible = "[And(Not( SelectedEmptyCourtPosition.SameAs( PdxGuiWidget.GetIndexInDataModel ) ), EmptyCourtPosition.CanHirePosition)]"
+				visible = "[And( Not( CourtPositionsWindow.IsSelectedPosition( CourtPositionItem.GetListId ) ), CourtPositionItem.CanHirePosition )]"
 				using = Background_Area_Dark
 				using = Mask_Rough_Edges
 				alpha = 0.5
@@ -843,14 +848,14 @@ types CourtPositionItems
 			}
 
 			background = {
-				visible = "[Not(EmptyCourtPosition.CanHirePosition)]"
+				visible = "[Not( CourtPositionItem.CanHirePosition )]"
 				using = Background_Frame
 				alpha = 0.5
 				margin_right = -3
 			}
 
 			background = {
-				visible = "[SelectedEmptyCourtPosition.SameAs( PdxGuiWidget.GetIndexInDataModel )]"
+				visible = "[CourtPositionsWindow.IsSelectedPosition( CourtPositionItem.GetListId )]"
 				texture = "gfx/interface/colors/white.dds"
 				spriteType = Corneredtiled
 				using = Color_Blue
@@ -880,7 +885,6 @@ types CourtPositionItems
 			margin_bottom = 10
 
 			widget_empty_list_court_position_portrait = {
-				datacontext = "[EmptyCourtPosition]"
 				tooltip = "COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ADD_TT"
 				using = tooltip_ws
 			}
@@ -888,14 +892,14 @@ types CourtPositionItems
 
 		blockoverride "cp_ai_score"
 		{
-			text = "[EmptyCourtPosition.GetAiCandidateScore]"
+			text = "[CourtPositionItem.GetAiCandidateScore]"
 		}
 
 		blockoverride "cp_effects"
 		{
 			text = "[CourtPositionType.GetEmployerModifierDescription]"
-			minimumsize = { 440 50 }
-			maximumsize = { 440 150 }
+			minimumsize = { 435 0 }
+			maximumsize = { 435 150 }
 			autoresize = yes
 		}
 
@@ -908,8 +912,8 @@ types CourtPositionItems
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 				margin = { 8 4 }
-				minimumsize = { 440 50 }
-				maximumsize = { 440 150 }
+				minimumsize = { 435 0 }
+				maximumsize = { 435 70 }
 				autoresize = yes
 
 				align = top|left|nobaseline
@@ -957,7 +961,7 @@ types CourtPositionItems
 						expand = {}
 
 						hbox = {
-							datamodel = "[CourtPositionType.GetTasks]"
+							datamodel = "[CourtPositionItem.GetTasks]"
 							layoutpolicy_vertical = expanding
 							spacing = 8
 
@@ -1055,8 +1059,8 @@ types CourtPositionItems
 		blockoverride "cp_effects"
 		{
 			text = "[CourtPosition.GetEmployeeBonuses]"
-			minimumsize = { 440 50 }
-			maximumsize = { 440 180 }
+			minimumsize = { 435 50 }
+			maximumsize = { 435 180 }
 			autoresize = yes
 		}
 
@@ -1067,8 +1071,8 @@ types CourtPositionItems
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 				margin = { 8 4 }
-				minimumsize = { 440 50 }
-				maximumsize = { 440 150 }
+				minimumsize = { 435 50 }
+				maximumsize = { 435 150 }
 				autoresize = yes
 
 				align = top|left|nobaseline
@@ -1178,7 +1182,7 @@ types CourtPositionItems
 					#### DEBUG AI SCORE ####
 					text_single = {
 						name = "ai_score"
-						visible = "[InDebugMode]"
+						visible = "[AIWatchWindowsEnabled]"
 						block "cp_ai_score"
 						{
 							text = ""
@@ -1340,6 +1344,7 @@ types CourtPositionItems
 					hbox = {
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
+						
 						vbox = {
 							layoutpolicy_horizontal = expanding
 							layoutpolicy_vertical = expanding
@@ -1476,8 +1481,6 @@ types CourtPositionItems
 	# Expects the following datacontexts:
 	#	EmptyCourtPosition - List item that caches the various properties of
 	#		this court position.
-	#	SelectedEmptyCourtPosition - Datacontext to track which item is
-	#		selected.
 	#
 	type widget_empty_list_court_position_portrait = widget {
 		size = { 85 90 }
@@ -1507,12 +1510,12 @@ types CourtPositionItems
 		button = {
 			name = "position_portrait_tutorial_uses_this"
 			size = { 100% 100% }
-			enabled = "[And(EmptyCourtPosition.CanHirePosition, EmptyCourtPosition.HasValidCourtiers )]"
+			enabled = "[And( CourtPositionItem.CanHirePosition, CourtPositionItem.HasValidCourtiers )]"
 
 			block "portrait_button_onclick"
 			{
-				onclick = "[EmptyCourtPosition.OpenAppointWindow]"
-				onclick = "[SelectedEmptyCourtPosition.SetIndex( PdxGuiWidget.GetIndexInDataModel )]"
+				onclick = "[CourtPositionItem.OpenAppointWindow]"
+				onclick = "[CourtPositionsWindow.SetSelectedPositionId( CourtPositionItem.GetListId )]"
 			}
 
 			state = {
@@ -1540,14 +1543,14 @@ types CourtPositionItems
 			}
 
 			button_plus = {
-				visible = "[And(EmptyCourtPosition.CanHirePosition, EmptyCourtPosition.HasValidCourtiers )]"
+				visible = "[And(CourtPositionItem.CanHirePosition, CourtPositionItem.HasValidCourtiers )]"
 				parentanchor = center
 				position = { 0 0 }
 
 				block "portrait_button_onclick"
 				{
-					onclick = "[EmptyCourtPosition.OpenAppointWindow]"
-					onclick = "[SelectedEmptyCourtPosition.SetIndex( PdxGuiWidget.GetIndexInDataModel )]"
+					onclick = "[CourtPositionItem.OpenAppointWindow]"
+					onclick = "[CourtPositionsWindow.SetSelectedPositionId( CourtPositionItem.GetListId )]"
 				}
 			}
 
@@ -1761,7 +1764,7 @@ types CourtPositionItems
 				gfxtype = togglepushbuttongfx
 				shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
 				block "button_icon" {
-					texture = "gfx/interface/icons/court_position_task_types/_default.dds"
+					texture = "gfx/interface/icons/court_position_task_types/_no_task.dds"
 				}
 				alwaystransparent = yes
 				size = { 38 38 }
