@@ -63,7 +63,7 @@
 
   Loc_OE_GetFullNamePossessiveNoTooltip_default:0 "[ROOT.Char.GetFullNamePossessiveNoTooltip]"
   Loc_OE_GetFullNamePossessiveNoTooltip_otherlandeddefult:0 "[ROOT.Char.GetFullNamePossessiveNoTooltip]"
-  Loc_china_GetFullNamePossessiveNoTooltip_MH:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')][ROOT.Char.Custom('GetUImiaohao')][ROOT.Char.Custom('Sheauhaw_GetMHGuohaoTier')]，[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
+  Loc_china_GetFullNamePossessiveNoTooltip_MH:0 "[ROOT.Char.Custom('GetUIGuohao')][ROOT.Char.Custom('GetUImiaohao')][ROOT.Char.Custom('GetUIchinaTitle')]，[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
 
   Loc_OE_GetFullNamePossessiveNoTooltipRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNamePossessiveNoTooltip')]"
   Loc_OE_GetFullNamePossessiveOrMyNoTooltipRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNamePossessiveOrMyNoTooltip')]"

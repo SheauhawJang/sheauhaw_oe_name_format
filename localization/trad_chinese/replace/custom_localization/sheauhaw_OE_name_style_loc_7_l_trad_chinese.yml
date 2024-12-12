@@ -39,7 +39,7 @@
 	Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_firstname_tenno:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat')]#M [ROOT.Char.GetFirstNamePossessiveNoTooltip]#!"
 	Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_default:0 "[ROOT.Char.GetFullNameNicknamedPossessiveNoTooltip]"
 	Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_otherlandeddefult:0 "[ROOT.Char.GetFullNameNicknamedPossessiveNoTooltip]"
-	Loc_china_GetFullNameNicknamedPossessiveNoTooltip_MH:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')][ROOT.Char.Custom('GetUImiaohao')][ROOT.Char.GetNickname][ROOT.Char.Custom('Sheauhaw_GetMHGuohaoTier')]，[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
+	Loc_china_GetFullNameNicknamedPossessiveNoTooltip_MH:0 "[ROOT.Char.Custom('GetUIGuohao')][ROOT.Char.Custom('GetUImiaohao')][ROOT.Char.GetNickname][ROOT.Char.Custom('GetUIchinaTitle')]，[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
 	Loc_OE_GetFullNameNicknamedPossessiveNoTooltipRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNameNicknamedPossessiveNoTooltip')]"
 	Loc_OE_GetFullNameNicknamedPossessiveOrMyNoTooltipRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNameNicknamedPossessiveOrMyNoTooltip')]"
 	Loc_OE_GetFullNameNicknamedPossessiveRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNameNicknamedPossessive')]"
