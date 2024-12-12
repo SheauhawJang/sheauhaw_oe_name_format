@@ -65,7 +65,7 @@ sheauhaw_religious.0002 = {
 }
 
 
-sheauhaw_religious.0002 = {
+sheauhaw_religious.0003 = {
 	hidden = yes
 
 	immediate = {
