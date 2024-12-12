@@ -63,3 +63,20 @@ sheauhaw_religious.0002 = {
 		}
 	}
 }
+
+
+sheauhaw_religious.0002 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				root = scope:house.house_founder
+				culture = { has_cultural_pillar = heritage_chinese }
+			}
+			scope:house = {
+				set_house_name_from_dynasty = root.dynasty
+			}
+		}
+	}
+}

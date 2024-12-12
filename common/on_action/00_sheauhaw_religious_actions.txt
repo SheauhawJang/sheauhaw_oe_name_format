@@ -11,3 +11,9 @@ on_death = {
 		sheauhaw_religious.0002
 	}
 }
+
+on_became_house_head = {
+	events = {
+		sheauhaw_religious.0003
+	}
+}

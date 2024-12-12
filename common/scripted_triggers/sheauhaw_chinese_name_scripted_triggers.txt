@@ -1,10 +1,5 @@
 ﻿using_oe_uiname_landed_trigger = {
 	OR = {
-		AND = {
-			culture = { has_cultural_pillar = heritage_chinese }
-			NOT = { can_be_parent_of = character:1800859 }
-		}
-
 		culture = { has_cultural_pillar = heritage_goryeo }
 		culture = { has_name_list = name_list_khitan }
 		culture = { has_name_list = name_list_jurchen }
@@ -28,7 +23,10 @@
 
 using_oe_uiname_landed_house_trigger = {
 	OR = {
-		#culture = { has_cultural_pillar = heritage_chinese }
+		AND = {
+			culture = { has_cultural_pillar = heritage_chinese }
+			NOT = { can_be_parent_of = character:1800859 }
+		}
 		culture = { has_cultural_pillar = heritage_yamato }
 		culture = { has_cultural_pillar = heritage_hunic }
 		culture = { has_cultural_pillar = heritage_qiangic }
