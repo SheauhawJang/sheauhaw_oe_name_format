@@ -154,11 +154,14 @@ using_oe_uiname_shanghuang_trigger = {
 
 using_oe_uiname_religious_trigger = {
 	exists = primary_title
+	exists = faith.religious_head_title
+	primary_title = faith.religious_head_title
+	using_oe_uiname_landed_any_trigger = yes
+}
+
+using_oe_uiname_notitlename_trigger = {
+	exists = primary_title
 	OR = {
-		AND = {
-			exists = faith.religious_head_title
-			primary_title = faith.religious_head_title
-		}
 		primary_title = title:d_incho
 		primary_title = title:d_sekke
 		primary_title = title:d_shogunate
@@ -221,6 +224,14 @@ using_oe_uiname_landed_religious_trigger = {
 		#primary_title = faith.religious_head_title
 		#}
 		has_trait = sheauhaw_dead_religious_head_trait
+	}
+	using_oe_uiname_landed_any_trigger = yes
+}
+
+using_oe_uiname_noble_family_trigger = {
+	exists = primary_title
+	primary_title = {
+		is_oe_noble_family_title = yes #家主
 	}
 	using_oe_uiname_landed_any_trigger = yes
 }

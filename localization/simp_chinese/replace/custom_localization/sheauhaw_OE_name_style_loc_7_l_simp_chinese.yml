@@ -13,6 +13,7 @@
   Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_DaijoTenno:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')]上皇[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_Suffix')]"
   Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_HooTenno:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')]法皇[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_Suffix')]"
 
+  Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_Noble:0 "[ROOT.Char.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]家主，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
   Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_Religious:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetReligiousHeadTitleTier')][ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
   Loc_OE_GetFullNameNicknamedPossessiveNoTooltip_LandedReligious:0 "[ROOT.Char.GetFaith.GetReligiousHeadTitle.GetNameNoTierNoTooltip][ROOT.Char.GetFaith.ReligiousHeadName]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
 

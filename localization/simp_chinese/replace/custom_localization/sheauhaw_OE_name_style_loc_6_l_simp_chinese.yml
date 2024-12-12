@@ -24,6 +24,7 @@
   Loc_OE_GetFullNamePossessiveNoTooltip_DaijoTenno:0 "上皇[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_Suffix')]"
   Loc_OE_GetFullNamePossessiveNoTooltip_HooTenno:0 "法皇[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_Suffix')]"
 
+  Loc_OE_GetFullNamePossessiveNoTooltip_Noble:0 "[ROOT.Char.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]家主，[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
   Loc_OE_GetFullNamePossessiveNoTooltip_Religious:0 "[ROOT.Char.Custom('Sheauhaw_GetReligiousHeadTitleTier')][ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
   Loc_OE_GetFullNamePossessiveNoTooltip_LandedReligious:0 "[ROOT.Char.GetFaith.GetReligiousHeadTitle.GetNameNoTierNoTooltip][ROOT.Char.GetFaith.ReligiousHeadName]，[ROOT.Char.Custom('Sheauhaw_GetFullNamePossessiveNoTooltip_SuffixRegnal')]"
 

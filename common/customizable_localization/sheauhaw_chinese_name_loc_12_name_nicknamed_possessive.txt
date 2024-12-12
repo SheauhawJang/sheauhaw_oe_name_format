@@ -230,6 +230,15 @@ OE_GetNameNicknamedPossessiveNoTooltip_SpouseBranch = {
 		}
 	}
 	text = {
+		localization_key = Loc_OE_GetNameNicknamedPossessiveNoTooltip_ReligiousSpouse
+		trigger = {
+			exists = primary_spouse
+			primary_spouse = {
+				using_oe_uiname_notitlename_trigger = yes
+			}
+		}
+	}
+	text = {
 		localization_key = Loc_OE_GetNameNicknamedPossessiveNoTooltip_Landed_Spouse
 		fallback = yes
 	}
@@ -243,6 +252,18 @@ OE_GetNameNicknamedPossessiveNoTooltip_SpouseFallback = {
 		trigger = {
 			using_oe_uiname_landed_steppe_trigger = yes	
 			using_oe_uiname_self = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedPossessiveNoTooltip_Noble
+		trigger = {
+			using_oe_uiname_noble_family_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedPossessiveNoTooltip_Religious
+		trigger = {
+			using_oe_uiname_notitlename_trigger = yes
 		}
 	}
 	text = {
