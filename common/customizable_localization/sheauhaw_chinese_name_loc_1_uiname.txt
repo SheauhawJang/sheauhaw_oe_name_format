@@ -1,4 +1,4 @@
-Sheauhaw_GetNicknameSpaced = {
+﻿Sheauhaw_GetNicknameSpaced = {
 	type = character 
 	text = {
 		localization_key = Loc_Sheauhaw_NicknameSpaced
@@ -35,7 +35,10 @@ Sheauhaw_GetPrimaryTitle_CheckCelestia = {
 		trigger = {
 			is_alive = no
 			exists = primary_title
-			primary_title = title:e_celestia
+			OR = {
+				primary_title = title:e_celestia
+				primary_title = title:e_cathay
+			}
 		}
 	}
 	text = {
