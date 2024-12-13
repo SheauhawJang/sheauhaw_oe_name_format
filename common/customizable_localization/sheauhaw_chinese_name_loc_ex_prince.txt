@@ -28,12 +28,13 @@ Sheauhaw_GetPrincePrincess = {
 Sheauhaw_GetPrincePrincess_FatherChecker = {
 	type = character
 
-	# Priority 41
+	# priority = 41
 	text = {
 		localization_key = prince_muslim_male_dravidian_group
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -49,7 +50,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_muslim_female_dravidian_group
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -61,12 +63,13 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		}
 	}
 
-	# Priority 40
+	# priority = 40
 	text = {
 		localization_key = prince_male_roman
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -79,7 +82,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_female_roman
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -92,7 +96,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_male_iberian_group
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -105,7 +110,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_female_iberian_group
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -118,7 +124,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_male_iranian_group
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -130,7 +137,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_female_iranian_group
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -142,7 +150,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_male_dravidian_group
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -157,7 +166,8 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_female_dravidian_group
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -167,31 +177,39 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 			}
 		}
 	}
-	
-	# Priority 39
+
+	# priority = 39
 	text = {
-		localization_key = prince_han_heir
+		localization_key = crown_prince_han
 		trigger = {
 			is_female = no
-			exists = father.primary_title.holder.top_liege
-			father.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				OR = {
 					has_government = celestial_government
+					has_government = imperial_government
 					has_government = legion_government
-					has_government = bureau_government
+					has_government = ulus_government
 				}
 			}
-			father = {
-				is_alive = yes
-				exists = primary_heir
-				primary_heir = root
+			is_primary_heir_of = father
+		}
+	}
+
+	text = {
+		localization_key = crown_princess_han
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
 			}
+			is_primary_heir_of = father
 		}
 	}
 
@@ -199,47 +217,37 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		localization_key = prince_han
 		trigger = {
 			is_female = no
-			exists = father.primary_title.holder.top_liege
-			father.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				OR = {
 					has_government = celestial_government
+					has_government = imperial_government
 					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-		}
-	}
-	
-	text = {
-		localization_key = princess_han
-		trigger = {
-			is_female = yes
-			exists = father.primary_title.holder.top_liege
-			father.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
+					has_government = ulus_government
 				}
 			}
 		}
 	}
 
-	# Priority 36
 	text = {
-		localization_key = prince_altaic_group_R
+		localization_key = princess_han
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+		}
+	}
+
+	# priority = 36
+	text = {
+		localization_key = prince_altaic_group
 		trigger = {
 			is_female = no
 			exists = father.primary_title.holder.top_liege
@@ -263,9 +271,9 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 			}
 		}
 	}
-
+	
 	text = {
-		localization_key = princess_altaic_group_R
+		localization_key = princess_altaic_group
 		trigger = {
 			is_female = yes
 			exists = father.primary_title.holder.top_liege
@@ -290,7 +298,7 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 		}
 	}
 	
-	# Priority 35
+	# priority = 35
 	text = {
 		localization_key = prince
 		trigger = {
@@ -309,12 +317,13 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 Sheauhaw_GetPrincePrincess_MotherChecker = {
 	type = character
 
-	# Priority 41
+	# priority = 41
 	text = {
 		localization_key = prince_muslim_male_dravidian_group
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -330,7 +339,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_muslim_female_dravidian_group
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -342,12 +352,13 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		}
 	}
 
-	# Priority 40
+	# priority = 40
 	text = {
 		localization_key = prince_male_roman
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -360,7 +371,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_female_roman
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -373,7 +385,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_male_iberian_group
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -386,7 +399,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_female_iberian_group
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -399,7 +413,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_male_iranian_group
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -411,7 +426,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_female_iranian_group
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -423,7 +439,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_male_dravidian_group
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -438,7 +455,8 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		localization_key = prince_female_dravidian_group
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -448,78 +466,77 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 			}
 		}
 	}
-	
-	# Priority 39
+
+	# priority = 39
 	text = {
-		localization_key = prince_han_heir
+		localization_key = crown_prince_han
 		trigger = {
 			is_female = no
-			exists = mother.primary_title.holder.top_liege
-			mother.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				OR = {
 					has_government = celestial_government
+					has_government = imperial_government
 					has_government = legion_government
-					has_government = bureau_government
+					has_government = ulus_government
 				}
 			}
-			mother = {
-				is_alive = yes
-				exists = primary_heir
-				primary_heir = root
-			}
+			is_primary_heir_of = mother
 		}
 	}
+
+	text = {
+		localization_key = crown_princess_han
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+			is_primary_heir_of = mother
+		}
+	}
+
 	text = {
 		localization_key = prince_han
 		trigger = {
 			is_female = no
-			exists = mother.primary_title.holder.top_liege
-			mother.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				OR = {
 					has_government = celestial_government
+					has_government = imperial_government
 					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-		}
-	}
-	
-	text = {
-		localization_key = princess_han
-		trigger = {
-			is_female = yes
-			exists = mother.primary_title.holder.top_liege
-			mother.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
+					has_government = ulus_government
 				}
 			}
 		}
 	}
 
-	# Priority 36
 	text = {
-		localization_key = prince_altaic_group_R
+		localization_key = princess_han
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+		}
+	}
+
+	# priority = 36
+	text = {
+		localization_key = prince_altaic_group
 		trigger = {
 			is_female = no
 			exists = mother.primary_title.holder.top_liege
@@ -543,9 +560,9 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 			}
 		}
 	}
-
+	
 	text = {
-		localization_key = princess_altaic_group_R
+		localization_key = princess_altaic_group
 		trigger = {
 			is_female = yes
 			exists = mother.primary_title.holder.top_liege
@@ -570,7 +587,7 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 		}
 	}
 	
-	# Priority 35
+	# priority = 35
 	text = {
 		localization_key = prince
 		trigger = {
@@ -615,12 +632,80 @@ Sheauhaw_GetPrincePrincess_Empire = {
 Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 	type = character
 
-	# Priority 41
+	# priority = 46
+	text = {
+		localization_key = crown_prince_empire_han
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+			is_primary_heir_of = father
+		}
+	}
+
+	text = {
+		localization_key = crown_princess_empire_han
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+			is_primary_heir_of = father
+		}
+	}
+
+	text = {
+		localization_key = prince_empire_han
+		trigger = {
+			is_female = no
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = princess_empire_han
+		trigger = {
+			is_female = yes
+			exists = father.primary_title.holder.top_liege
+			father.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+		}
+	}
+
+	# priority = 41
 	text = {
 		localization_key = prince_muslim_male_dravidian_group_empire
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -636,7 +721,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_muslim_female_dravidian_group_empire
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -648,12 +734,13 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		}
 	}
 
-	# Priority 40
+	# priority = 40
 	text = {
 		localization_key = prince_male_roman_empire
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -666,7 +753,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_female_roman_empire
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -679,7 +767,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_male_iberian_group_empire
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -692,7 +781,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_female_iberian_group_empire
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -705,7 +795,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_male_iranian_group_empire
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -717,7 +808,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_female_iranian_group_empire
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -729,7 +821,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_male_dravidian_group_empire
 		trigger = {
 			is_female = no
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -744,7 +837,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 		localization_key = prince_female_dravidian_group_empire
 		trigger = {
 			is_female = yes
-			father = {
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -754,76 +848,8 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 			}
 		}
 	}
-	
-	# Priority 39
-	text = {
-		localization_key = prince_empire_han_heir
-		trigger = {
-			is_female = no
-			exists = father.primary_title.holder.top_liege
-			father.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-			father = {
-				is_alive = yes
-				exists = primary_heir
-				primary_heir = root
-			}
-		}
-	}
-	text = {
-		localization_key = prince_empire_han
-		trigger = {
-			is_female = no
-			exists = father.primary_title.holder.top_liege
-			father.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-		}
-	}
-	
-	text = {
-		localization_key = princess_empire_han
-		trigger = {
-			is_female = yes
-			exists = father.primary_title.holder.top_liege
-			father.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-		}
-	}
-	
-	# Priority 35
+
+	# priority = 35
 	text = {
 		localization_key = prince_empire
 		trigger = {
@@ -842,12 +868,84 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 	type = character
 
-	# Priority 41
+	# priority = 46
+	text = {
+		localization_key = crown_prince_empire_han
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+			is_primary_heir_of = mother
+		}
+	}
+
+	text = {
+		localization_key = crown_princess_empire_han
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+			is_primary_heir_of = mother
+		}
+	}
+	
+	
+	# Priority 35
+
+	# Priority 35
+	text = {
+		localization_key = prince_empire_han
+		trigger = {
+			is_female = no
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = princess_empire_han
+		trigger = {
+			is_female = yes
+			exists = mother.primary_title.holder.top_liege
+			mother.primary_title.holder.top_liege = {
+				OR = {
+					has_government = celestial_government
+					has_government = imperial_government
+					has_government = legion_government
+					has_government = ulus_government
+				}
+			}
+		}
+	}
+
+	# priority = 41
 	text = {
 		localization_key = prince_muslim_male_dravidian_group_empire
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -863,7 +961,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_muslim_female_dravidian_group_empire
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -875,12 +974,13 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		}
 	}
 
-	# Priority 40
+	# priority = 40
 	text = {
 		localization_key = prince_male_roman_empire
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -893,7 +993,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_female_roman_empire
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_name_list = name_list_roman
 				}
@@ -906,7 +1007,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_male_iberian_group_empire
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -919,7 +1021,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_female_iberian_group_empire
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iberian
 				}
@@ -932,7 +1035,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_male_iranian_group_empire
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -944,7 +1048,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_female_iranian_group_empire
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					has_cultural_pillar = heritage_iranian
 				}
@@ -956,7 +1061,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_male_dravidian_group_empire
 		trigger = {
 			is_female = no
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -971,7 +1077,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 		localization_key = prince_female_dravidian_group_empire
 		trigger = {
 			is_female = yes
-			mother = {
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
 				culture = {
 					OR = {
 						has_cultural_pillar = heritage_dravidian
@@ -981,76 +1088,8 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 			}
 		}
 	}
-	
-	# Priority 39
-	text = {
-		localization_key = prince_empire_han_heir
-		trigger = {
-			is_female = no
-			exists = mother.primary_title.holder.top_liege
-			mother.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-			mother = {
-				is_alive = yes
-				exists = primary_heir
-				primary_heir = root
-			}
-		}
-	}
-	text = {
-		localization_key = prince_empire_han
-		trigger = {
-			is_female = no
-			exists = mother.primary_title.holder.top_liege
-			mother.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-		}
-	}
-	
-	text = {
-		localization_key = princess_empire_han
-		trigger = {
-			is_female = yes
-			exists = mother.primary_title.holder.top_liege
-			mother.primary_title.holder.top_liege = {
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_chinese
-						has_cultural_pillar = heritage_goryeo
-					}
-				}
-				OR = {
-					has_government = celestial_government
-					has_government = legion_government
-					has_government = bureau_government
-				}
-			}
-		}
-	}
-	
-	# Priority 35
+
+	# priority = 35
 	text = {
 		localization_key = prince_empire
 		trigger = {

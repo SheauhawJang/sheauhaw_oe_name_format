@@ -1,4 +1,4 @@
-﻿using_oe_uiname_landed_trigger = {
+using_oe_uiname_landed_trigger = {
 	OR = {
 		culture = { has_cultural_pillar = heritage_goryeo }
 		culture = { has_name_list = name_list_khitan }
@@ -196,6 +196,14 @@ using_oe_uiname_landed_religious_trigger = {
 			exists = faith.religious_head
 			this = faith.religious_head
 			NAND = {
+				exists = primary_title
+				exists = faith.religious_head_title
+				primary_title = faith.religious_head_title
+			}
+		}
+		has_trait = sheauhaw_dead_religious_head_trait
+	}
+			NAND = {
 				exists = faith.religious_head_title
 				OR = {
 					AND = {
@@ -212,16 +220,15 @@ using_oe_uiname_landed_religious_trigger = {
 			}
 			NAND = {
 				exists = primary_title
-				exists = faith.religious_head_title
-				primary_title = faith.religious_head_title
+		primary_title.tier = tier_empire
+		exists = primary_title.holder
+		primary_title.holder = {
+			OR = {
+				has_government = celestial_government
+				has_government = imperial_government
+				has_government = legion_government
 			}
 		}
-		#AND = {
-		#exists = primary_title
-		#exists = faith.religious_head_title
-		#primary_title = faith.religious_head_title
-		#}
-		has_trait = sheauhaw_dead_religious_head_trait
 	}
 	using_oe_uiname_landed_any_trigger = yes
 }
