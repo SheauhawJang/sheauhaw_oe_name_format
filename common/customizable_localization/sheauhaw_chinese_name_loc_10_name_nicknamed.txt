@@ -4,7 +4,21 @@
 	text = {
 		localization_key = Loc_china_GetNameNicknamedNoTooltip_MH
 		trigger = {
-			using_oe_uiname_mh_trigger = yes
+			has_shihao_fix_trigger = yes
+			NOT = { has_shihao_titled_trigger = yes }
+		}
+	}	
+	text = {
+		localization_key = Loc_china_GetNameNicknamedNoTooltip_MH_King
+		trigger = {
+			has_miaohao_trigger = yes
+			has_shihao_titled_trigger = yes
+		}
+	}	
+	text = {
+		localization_key = Loc_china_GetNameNicknamedNoTooltip_MH_Only
+		trigger = {
+			has_miaohao_trigger = yes
 		}
 	}	
 	# Tenno
@@ -43,7 +57,10 @@
 	text = {
 		localization_key = Loc_OE_GetNameNicknamedNoTooltip_DaijoTenno
 		trigger = {
-			has_trait = joko
+			OR = {
+				has_trait = joko
+				has_title = title:d_incho
+			}
 			using_oe_uiname_landed_any_trigger = yes
 		}
 	}
@@ -193,6 +210,54 @@ OE_GetNameNicknamedNoTooltip_MothersFallback = {
 				primary_spouse.primary_title.tier <= tier_duchy
 			}
 			using_oe_uiname_landed_any_trigger = yes
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Prince_Duke
+		trigger = {
+			exists = father
+			father = {
+				exists = primary_title
+				primary_title.tier = tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier < tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier < tier_duchy
+			}
+			using_oe_uiname_landed_any_trigger = yes
+			exists = father.primary_title.holder
+			father.primary_title.holder = {
+				has_government = legion_government
+			}
+		}
+	}
+	text = {
+		localization_key = Loc_OE_GetNameNicknamedNoTooltip_Prince_Duchess
+		trigger = {
+			exists = mother
+			mother = {
+				exists = primary_title
+				primary_title.tier = tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_title }
+				primary_title.tier < tier_duchy
+			}
+			OR = {
+				NOT = { exists = primary_spouse }
+				NOT = { exists = primary_spouse.primary_title }
+				primary_spouse.primary_title.tier < tier_duchy
+			}
+			using_oe_uiname_landed_any_trigger = yes
+			exists = mother.primary_title.holder
+			mother.primary_title.holder = {
+				has_government = legion_government
+			}
 		}
 	}
 	text = {

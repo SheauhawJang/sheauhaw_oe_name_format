@@ -1,4 +1,4 @@
-﻿namespace = sheauhaw_religious
+namespace = sheauhaw_religious
 
 sheauhaw_religious.0001 = {
 	hidden = yes
@@ -34,21 +34,6 @@ sheauhaw_religious.0002 = {
 			limit = {
 				exists = faith.religious_head
 				this = faith.religious_head
-				NAND = {
-					exists = faith.religious_head_title
-					OR = {
-						AND = {
-							faith.religious_head_title = title:d_sunni
-							is_female = no
-						}
-						AND = {
-							faith.religious_head_title = title:d_shiite
-							is_female = no
-						}
-						faith.religious_head_title = title:d_gosho
-						faith.religious_head_title = title:k_orthodox
-					}
-				}
 				NAND = {
 					exists = primary_title
 					exists = faith.religious_head_title

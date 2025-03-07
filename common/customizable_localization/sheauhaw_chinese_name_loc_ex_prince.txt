@@ -192,6 +192,9 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 					has_government = ulus_government
 				}
 			}
+			father = {
+				is_alive = yes
+			}
 			is_primary_heir_of = father
 		}
 	}
@@ -208,6 +211,9 @@ Sheauhaw_GetPrincePrincess_FatherChecker = {
 					has_government = legion_government
 					has_government = ulus_government
 				}
+			}
+			father = {
+				is_alive = yes
 			}
 			is_primary_heir_of = father
 		}
@@ -481,6 +487,9 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 					has_government = ulus_government
 				}
 			}
+			mother = {
+				is_alive = yes
+			}
 			is_primary_heir_of = mother
 		}
 	}
@@ -497,6 +506,9 @@ Sheauhaw_GetPrincePrincess_MotherChecker = {
 					has_government = legion_government
 					has_government = ulus_government
 				}
+			}
+			mother = {
+				is_alive = yes
 			}
 			is_primary_heir_of = mother
 		}
@@ -646,6 +658,9 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 					has_government = ulus_government
 				}
 			}
+			father = {
+				is_alive = yes
+			}
 			is_primary_heir_of = father
 		}
 	}
@@ -662,6 +677,9 @@ Sheauhaw_GetPrincePrincess_Empire_FatherChecker = {
 					has_government = legion_government
 					has_government = ulus_government
 				}
+			}
+			father = {
+				is_alive = yes
 			}
 			is_primary_heir_of = father
 		}
@@ -882,6 +900,9 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 					has_government = ulus_government
 				}
 			}
+			mother = {
+				is_alive = yes
+			}
 			is_primary_heir_of = mother
 		}
 	}
@@ -898,6 +919,9 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 					has_government = legion_government
 					has_government = ulus_government
 				}
+			}
+			mother = {
+				is_alive = yes
 			}
 			is_primary_heir_of = mother
 		}
@@ -1099,6 +1123,36 @@ Sheauhaw_GetPrincePrincess_Empire_MotherChecker = {
 
 	text = {
 		localization_key = princess_empire
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+Sheauhaw_GetPrincePrincess_Duchy = {
+	text = {
+		localization_key = legion_prince_han
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localization_key = legion_princess_han
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+Sheauhaw_GetEmperorEmpress = {
+	text = {
+		localization_key = emperor
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localization_key = emperor_female
 		trigger = {
 			is_female = yes
 		}

@@ -1,5 +1,4 @@
 ﻿sheauhaw_dead_religious_head_trait = {
-
 	shown_in_ruler_designer = no
 	desc = {
 		first_valid = {
@@ -15,7 +14,6 @@
 }
 
 sheauhaw_tenno_name_trait = {
-
 	shown_in_ruler_designer = no
 	desc = {
 		first_valid = {
@@ -28,4 +26,10 @@ sheauhaw_tenno_name_trait = {
 			desc = trait_sheauhaw_tenno_name_trait_character_desc
 		}
 	}
+}
+
+sheauhaw_shihao_trait = {
+	icon = trait_miaohao.dds			
+	shown_in_ruler_designer = no
+	desc = tianzi
 }

@@ -30,11 +30,10 @@
 
   Loc_Sheauhaw_GetMHGuohao_Unknown:0 "[ROOT.Char.Custom('GetUIGuohao')]"
   Loc_Sheauhaw_GetMHGuohao_default:0 "[ROOT.Char.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]"
-  Loc_Sheauhaw_GetMHGuohaoTier_Unknown_Emperor:0 "皇帝"
-  Loc_Sheauhaw_GetMHGuohaoTier_Unknown_King:0 "王"
-  Loc_Sheauhaw_GetMHGuohaoTier_Unknown:0 ""
-  Loc_Sheauhaw_GetMHGuohaoTier_default:0 "[ROOT.Char.Custom('Sheauhaw_GetReligiousHeadTitleTier')]"
-
+  Loc_Sheauhaw_GetMHGuohaoTier_King:0 "王"
+  Loc_Sheauhaw_GetMHGuohaoTier_Duke:0 "公"
+  Loc_Sheauhaw_GetMHGuohaoTier_default:0 "[ROOT.Char.Custom('Sheauhaw_GetEmperorEmpress')]"
+  
   Loc_OE_GetFullNameFake:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip][ROOT.Char.GetTitleTierName]，[ROOT.Char.GetFirstNameNoTooltipRegnal]"
 
   Loc_OE_TennoGetUINameNotMeNoTooltip:0 "[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')]#V [ROOT.Char.GetFirstNameNoTooltip]#!天皇"
@@ -61,6 +60,8 @@
   Loc_OE_GetUINameNotMeNoTooltip_Prince_Emperess:0 "[ROOT.Char.GetMother.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V [ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Empire')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_Suffix')]"
   Loc_OE_GetUINameNotMeNoTooltip_Prince_King:0 "[ROOT.Char.GetFather.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V [ROOT.Char.Custom('Sheauhaw_GetPrincePrincess')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_Suffix')]"
   Loc_OE_GetUINameNotMeNoTooltip_Prince_Queen:0 "[ROOT.Char.GetMother.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V [ROOT.Char.Custom('Sheauhaw_GetPrincePrincess')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_Suffix')]"
+  Loc_OE_GetUINameNotMeNoTooltip_Prince_Duke:0 "[ROOT.Char.GetFather.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V [ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Duchy')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_Suffix')]"
+  Loc_OE_GetUINameNotMeNoTooltip_Prince_Duchess:0 "[ROOT.Char.GetMother.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V [ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Duchy')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_Suffix')]"
 
   Loc_OE_GetUINameNotMeNoTooltip_Landed:0 "[ROOT.Char.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V [ROOT.Char.Custom('Sheauhaw_GetReligiousHeadTitleTier')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_SuffixRegnal')]"
   Loc_OE_GetUINameNotMeNoTooltip_Empress:0 "[ROOT.Char.GetPrimarySpouse.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]#V 皇后#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_Suffix')]"
@@ -84,4 +85,6 @@
 
   Loc_OE_GetUINameNotMeNoTooltip_default:0 "[ROOT.Char.GetUINameNotMeNoTooltip]"
   Loc_OE_GetUINameNotMeNoTooltip_otherlandeddefult:0 "[ROOT.Char.GetUINameNotMeNoTooltip]"
-  Loc_china_GetUINameNotMeNoTooltip_MH:0 "[ROOT.Char.Custom('GetUIGuohao')]#V [ROOT.Char.Custom('GetUImiaohao')]#![ROOT.Char.GetNickname]#V [ROOT.Char.Custom('GetUIchinaTitle')]#!，[ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_SuffixRegnal')]"
+  Loc_china_GetUINameNotMeNoTooltip_MH:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')]#V [Select_CString(EqualTo_string(ROOT.Char.Custom('GetUImiaohao'),ROOT.Char.Custom('Sheauhaw_GetMHGuohaoTier')),Localize('SCOPE_EMPTY'),ROOT.Char.Custom('GetUImiaohao'))]#![ROOT.Char.GetNickname]#V [ROOT.Char.Custom('Sheauhaw_GetMHGuohaoTier')]#!，[ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_SuffixRegnal')]"
+  Loc_china_GetUINameNotMeNoTooltip_MH_King:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')]#V [ROOT.Char.Custom('GetUImiaohao')]#!#V [ROOT.Char.GetNickname]#!，[ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_SuffixRegnal')]"
+  Loc_china_GetUINameNotMeNoTooltip_MH_Only:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')]#V [ROOT.Char.Custom('GetUImiaohao')]#!，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetUINameNotMeNoTooltip_SuffixRegnal')]"

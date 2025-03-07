@@ -3,10 +3,9 @@
 	text = {
 		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_MH
 		trigger = {
-			using_oe_uiname_mh_trigger = yes
 			has_miaohao_trigger = yes
 		}
-	}	
+	}
 	text = {
 		localization_key = Loc_OE_GetShortUINameNotMeNoTooltip_In
 		trigger = {

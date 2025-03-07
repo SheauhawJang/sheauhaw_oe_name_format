@@ -1,11 +1,10 @@
-﻿
-on_title_gain = {
+﻿on_title_gain = {
 	events = {
 		sheauhaw_religious.0001
 		#sheauhaw_religious.0004
 	}
 }
- 
+
 on_death = {
 	events = {
 		sheauhaw_religious.0002
@@ -15,5 +14,108 @@ on_death = {
 on_became_house_head = {
 	events = {
 		sheauhaw_religious.0003
+	}
+}
+
+on_game_start = {
+	on_actions = {
+		oe_name_trait_action
+	}
+}
+
+oe_name_trait_action = {
+	effect = {
+		title:d_gosho = {
+			every_past_holder = {
+				even_if_dead = yes
+				add_trait = sheauhaw_tenno_name_trait
+			}
+		}
+		title:d_incho = {
+			every_past_holder = {
+				even_if_dead = yes
+				add_trait = joko
+			}
+		}
+		title:e_celestia = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_cathay = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_tang = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_han = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_shu = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_wu = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_min = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
+		title:e_huang_qi = {
+			every_past_holder = {
+				even_if_dead = yes
+				limit = {
+					has_any_nickname = yes
+					has_shihao_trigger = no
+				}
+				add_trait = sheauhaw_shihao_trait
+			}
+		}
 	}
 }

@@ -29,6 +29,8 @@
   Loc_OE_GetNameNicknamedNoTooltip_Prince_Emperess:0 "[ROOT.Char.GetMother.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')][ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Empire')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
   Loc_OE_GetNameNicknamedNoTooltip_Prince_King:0 "[ROOT.Char.GetFather.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')][ROOT.Char.Custom('Sheauhaw_GetPrincePrincess')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
   Loc_OE_GetNameNicknamedNoTooltip_Prince_Queen:0 "[ROOT.Char.GetMother.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')][ROOT.Char.Custom('Sheauhaw_GetPrincePrincess')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
+  Loc_OE_GetNameNicknamedNoTooltip_Prince_Duke:0 "[ROOT.Char.GetFather.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')][ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Duchy')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
+  Loc_OE_GetNameNicknamedNoTooltip_Prince_Duchess:0 "[ROOT.Char.GetMother.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')][ROOT.Char.Custom('Sheauhaw_GetPrincePrincess_Duchy')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
 
   Loc_OE_GetNameNicknamedNoTooltip_Landed:0 "[ROOT.Char.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')][ROOT.Char.Custom('Sheauhaw_GetReligiousHeadTitleTier')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
   Loc_OE_GetNameNicknamedNoTooltip_Empress:0 "[ROOT.Char.GetPrimarySpouse.Custom('Sheauhaw_GetPrimaryTitle_CheckCelestia')]皇后，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpacedNoFormat_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
@@ -52,7 +54,9 @@
 
   Loc_OE_GetNameNicknamedNoTooltip_default:0 "[ROOT.Char.GetNameNicknamedNoTooltip]"
   Loc_OE_GetNameNicknamedNoTooltip_otherlandeddefult:0 "[ROOT.Char.GetNameNicknamedNoTooltip]"
-  Loc_china_GetNameNicknamedNoTooltip_MH:0 "[ROOT.Char.Custom('GetUIGuohao')][ROOT.Char.Custom('GetUImiaohao')][ROOT.Char.GetNickname][ROOT.Char.Custom('GetUIchinaTitle')]，[ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
+  Loc_china_GetNameNicknamedNoTooltip_MH:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')][Select_CString(EqualTo_string(ROOT.Char.Custom('GetUImiaohao'),ROOT.Char.Custom('Sheauhaw_GetMHGuohaoTier')),Localize('SCOPE_EMPTY'),ROOT.Char.Custom('GetUImiaohao'))][ROOT.Char.GetNickname][ROOT.Char.Custom('Sheauhaw_GetMHGuohaoTier')]，[ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
+  Loc_china_GetNameNicknamedNoTooltip_MH_King:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')][ROOT.Char.Custom('GetUImiaohao')][ROOT.Char.GetNickname]，[ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
+  Loc_china_GetNameNicknamedNoTooltip_MH_Only:0 "[ROOT.Char.Custom('Sheauhaw_GetMHGuohao')][ROOT.Char.Custom('GetUImiaohao')]，[ROOT.Char.Custom('Sheauhaw_GetNicknameSpaced_JudgeHouse')][ROOT.Char.Custom('Sheauhaw_GetFullNameNoTooltip_Suffix')]"
 
   Loc_OE_GetNameNicknamedNoTooltipRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNameNicknamedNoTooltip')]"
   Loc_OE_GetNameNicknamedOrMeNoTooltipRegnal_default:0 "[ROOT.Char.Custom('OE_GetFullNameNicknamedOrMeNoTooltip')]"

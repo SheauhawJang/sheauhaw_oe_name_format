@@ -1,4 +1,4 @@
-using_oe_uiname_landed_trigger = {
+﻿using_oe_uiname_landed_trigger = {
 	OR = {
 		culture = { has_cultural_pillar = heritage_goryeo }
 		culture = { has_name_list = name_list_khitan }
@@ -85,10 +85,79 @@ using_oe_uiname_landed_any_trigger = {
 	}
 }
 
-using_oe_uiname_mh_trigger = {
+has_shihao_titled_trigger = {
+	OR = {
+		has_nickname = shihao_yang_king
+		has_nickname = shihao_hui_king
+		has_nickname = shihao_ai_king
+		has_nickname = shihao_jian_king
+		has_nickname = shihao_dao_king
+		has_nickname = shihao_si_king
+		has_nickname = shihao_ming_king
+		has_nickname = shihao_kai_king
+		has_nickname = shihao_cheng_king
+		has_nickname = shihao_ci_king
+		has_nickname = shihao_ding_king
+		has_nickname = shihao_wu_king
+		has_nickname = shihao_mingwu_king
+		has_nickname = shihao_lie_king
+		has_nickname = shihao_wen_king
+		has_nickname = shihao_jing_king
+		has_nickname = nick_taizu
+		has_nickname = nick_chengzu
+		has_nickname = nick_chunzu
+		has_nickname = hongnonghuaiwang
+		has_nickname = anlesigong
+		has_nickname = shaolingligong
+		has_nickname = haixigong
+		has_nickname = huaiyinwang
+		has_nickname = jiananwang
+		has_nickname = chenshubao
+		has_nickname = bawang2
+		has_nickname = bawang3
+		has_nickname = bawang4
+		has_nickname = bawang5
+		has_nickname = bawang6
+		has_nickname = bawang7
+		has_nickname = bawang8
+		has_nickname = sunce
+		has_nickname = liaodongxianggong
+		has_nickname = yueliwang
+		has_nickname = daiwang
+		has_nickname = gaoyin
+		has_nickname = wuchoutianzi
+		has_nickname = wenguogong
+		has_nickname = xiangyingong
+		has_nickname = wangyan
+		has_nickname = mengchang
+		has_nickname = fuyihou
+		has_nickname = nanhanhouzhu
+		has_nickname = sunliang
+		has_nickname = sunhao
+		has_nickname = weiminghou
+		has_nickname = yuanyitaizi
+		has_nickname = xiaoyanyan
+		has_nickname = dewang
+		has_nickname = liangwuzhaowang
+		has_nickname = xilianghouzhu
+		has_nickname = shengping
+		has_nickname = pingyang
+		has_nickname = taipinggongzhu
+		has_nickname = yanglihua
+		has_nickname = huangchao
+		has_nickname = dazhongzai
+		has_nickname = lanlingwang
+		has_nickname = chendaotan
+		has_nickname = yuzhoudajiangjun
+		has_nickname = wudaotianwang
+		has_nickname = guzhiyiai
+	}
+}
+
+has_shihao_fix_trigger = {
 	OR = {
 		has_shihao_trigger = yes
-		has_miaohao_trigger = yes
+		has_trait = sheauhaw_shihao_trait
 	}
 }
 
@@ -106,7 +175,10 @@ using_oe_uiname_tenno_yamato_trigger = {
 
 using_oe_uiname_daijo_tenno_yamato_trigger = {
 	using_oe_uiname_landed_tenno_family_trigger = yes
-	has_trait = joko
+	OR = {
+		has_trait = joko
+		has_title = title:d_incho
+	}
 	OR = {
 		is_alive = yes
 		AND = {
@@ -203,23 +275,28 @@ using_oe_uiname_landed_religious_trigger = {
 		}
 		has_trait = sheauhaw_dead_religious_head_trait
 	}
-			NAND = {
-				exists = faith.religious_head_title
+	NAND = { # higher flavorization
+		exists = primary_title.holder
+		OR = {
+			AND = {
+				primary_title.holder = {
+					OR = {
+						has_title = title:d_sunni
+						has_title = title:d_shiite
+					}
+				} 
+				is_female = no
+			}
+			primary_title.holder = {
 				OR = {
-					AND = {
-						faith.religious_head_title = title:d_sunni
-						is_female = no
-					}
-					AND = {
-						faith.religious_head_title = title:d_shiite
-						is_female = no
-					}
-					faith.religious_head_title = title:d_gosho
-					faith.religious_head_title = title:k_orthodox
+					has_title = title:d_sunni
+					has_title = title:d_shiite
 				}
 			}
-			NAND = {
-				exists = primary_title
+		}
+	}
+	NAND = { # higher flavorization
+		exists = primary_title
 		primary_title.tier = tier_empire
 		exists = primary_title.holder
 		primary_title.holder = {

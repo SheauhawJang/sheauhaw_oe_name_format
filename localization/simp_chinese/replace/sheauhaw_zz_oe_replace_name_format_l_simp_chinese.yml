@@ -8,3 +8,15 @@
   trait_tachibana_clan_character_desc:0 "[ROOT.GetCharacter.Custom('OE_GetFirstNameNoTooltip_AsName')]自称是橘氏的一员。[ROOT.GetCharacter.GetSheHe|U]将在公开场合被称为『橘·[ROOT.GetCharacter.GetFirstNameNoTooltip]』。"
   
   Loc_GetUIguohao_default:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+
+  
+  shihao_ruizong_yuan:0 "也可那颜·仁圣景襄"
+  shihao_taizong_yuan:0 "木亦坚汗·英文"
+  shihao_shizu_yuan:0 "薛禅汗·圣德神功文武"
+  shihao_chengzong_yuan:0 "完泽笃汗·钦明广孝"
+  shihao_wuzong_yuan:0 "曲律汗·仁惠宣孝"
+  shihao_renzong_yuan:0 "普颜笃汗·圣文钦孝"
+  shihao_yingzong_yuan:0 "格坚汗·睿圣文孝"
+  shihao_wenzong_yuan:0 "札牙笃汗·圣明元孝"
+  shihao_mingzong_yuan:0 "忽都笃汗·翼献景孝"
+  shihao_huizong_yuan:0 "乌哈笃汗·顺"
