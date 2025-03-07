@@ -199,18 +199,6 @@
 							alwaystransparent = yes
 						}
 					}
-					#对领主修改契约按钮
-					button_round = {
-
-						enabled = "[Character.IsPlayerInteractionValid('liege_modify_vassal_contract_interaction')]"
-						tooltip = "[Character.GetPlayerInteractionTooltip('liege_modify_vassal_contract_interaction')]"
-						onclick = "[Character.OpenPlayerInteraction('liege_modify_vassal_contract_interaction')]"
-
-						button_add_laws = {
-							parentanchor = center
-							alwaystransparent = yes
-						}
-					}
 
 					button_round = {
 
@@ -293,7 +281,7 @@
 				onclick = "[CloseGameView( 'admin_vassal_detail_view' )]"
 			}
 		}
-		#军区信息 
+
 		vbox = {
 			name = "themes"
 			visible = "[PdxGuiTabs.IsTabSet( 'themes' )]"
@@ -518,7 +506,7 @@ types GovernmentAdministrationThemes
 				alpha = 0.5
 			}
 		}
-		#军区按钮
+
 		button = {
 			size = { 100% 100% }
 			using = Placeholder_Inactive_Button
@@ -676,7 +664,7 @@ types GovernmentAdministrationThemes
 			name = _mouse_hierarchy_leave
 			on_start = "[PdxGuiWidget.FindChild('theme_glow').TriggerAnimation('disappear')]"
 		}
-		#行政军区按钮
+
 		button = {
 			name = "open_detail_button"
 			visible = "[And(Not( GetVariableSystem.Exists( 'admin_vassal_details_refresh' ) ), IsAdministrativeRuler(Title.GetHolder))]"
@@ -684,8 +672,8 @@ types GovernmentAdministrationThemes
 
 			onclick = "[ToggleAdminVassalDetailView( Title.Self )]"
 			down = "[IsAdminVassalDetailViewShown( Title.Self )]"
-
 		}
+
 		button = {
 			name = "refresh_detail_button"
 			visible = "[And(GetVariableSystem.Exists( 'admin_vassal_details_refresh' ),IsAdministrativeRuler(Title.GetHolder))]"
@@ -700,13 +688,13 @@ types GovernmentAdministrationThemes
 				on_finish = "[ToggleAdminVassalDetailView( Title.Self )]"
 			}
 		}
-		#非行政制 不可互动
+
 		button = {
 			visible = "[Or( Not(Title.GetHolder.IsValid),  And( And( Not( IsAdministrativeRuler( Title.GetHolder )), Not(Title.GetHolder.IsPlayerInteractionValid('demand_admin_interaction'))), Title.GetHolder.GetLiege.IsPlayer  ) ) ]"
 			size = { 100% 100% }
 			onclick = "[DefaultOnCoatOfArmsClick(Title.GetID)]"
 		}
-		#非行政制 要求变为行政制
+
 		button = {
 			name = "demand_admin_interaction_button"
 			datacontext = "[Title.GetHolder]"
@@ -990,8 +978,10 @@ types GovernmentAdministrationThemes
 							text = ADMIN_WINDOW_THEME_ADMINISTRATION_TYPE_TEXT_ICON
 							max_width = 90
 						}
+
 						text_single = {
 							fontsize = 12
+							fontsize_min = 11
 							visible = "[Title.GetHolder.IsPlayerInteractionShown('give_vassal_directive_interaction')]"
 							text = "[Title.GetHolder.Custom('vassal_directive_icon')]"
 							tooltip = "[Title.GetHolder.Custom('vassal_directive_text')]"

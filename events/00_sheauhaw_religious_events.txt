@@ -1,4 +1,4 @@
-namespace = sheauhaw_religious
+﻿namespace = sheauhaw_religious
 
 sheauhaw_religious.0001 = {
 	hidden = yes
